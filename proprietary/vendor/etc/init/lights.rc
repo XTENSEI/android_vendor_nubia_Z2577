@@ -1,0 +1,16 @@
+service vendor.sprd.hardware.lights-service  /vendor/bin/hw/vendor.sprd.hardware.lights-service
+    class hal
+    user system
+    group system
+    shutdown critical
+
+#add for breath led aw led
+on brd-post-fs
+    chmod 0660 /sys/class/leds/aw_led/groupcolor
+    chown system system /sys/class/leds/aw_led/groupcolor
+    chmod 0660 /sys/class/leds/aw_led/breathcolor
+    chown system system /sys/class/leds/aw_led/breathcolor
+    chmod 0660 /sys/class/leds/aw_led/dancecolor
+    chown system system /sys/class/leds/aw_led/dancecolor
+    chmod 0660 /sys/class/leds/aw_led/effect_mode
+    chown system system /sys/class/leds/aw_led/effect_mode

@@ -1,0 +1,12 @@
+on boot
+    class_start zte_thermal
+
+on charger
+    class_start zte_thermal
+
+service zte_thermal /vendor/bin/zte_thermal_daemon
+    class zte_thermal
+    user root
+    group root system
+
+

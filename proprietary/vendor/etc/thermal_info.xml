@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThermalInfo>
+    <language-area name="zh-rCN">
+        <item type="high_level_title">警告</item>
+        <item type="high_level_confirm">确定</item>
+        <item type="high_level_2_msg">设备温度过高，开启高温保护。数据、热点、Wi-Fi、GPS、相机资源将受到限制。</item>
+        <item type="high_level_3_msg">设备温度过高，开启高温保护，建议暂停使用。数据、热点、Wi-Fi、GPS、应用前后台运行将受到限制。</item>
+    </language-area>
+    <language-area name="zh-rTW-HK">
+        <item type="high_level_title">注意</item>
+        <item type="high_level_confirm">确定</item>
+        <item type="high_level_2_msg">裝置溫度過高，已啟用保護。行動數據、熱點、Wi-Fi、GPS 和相機的使用將受到限制。</item>
+        <item type="high_level_3_msg">裝置溫度過高，已啟用保護。建議暫時停止使用裝置。行動數據、熱點、Wi-Fi、GPS 和應用程式的使用將受到限制。</item>
+    </language-area>
+    <language-area name="zh">
+        <item type="high_level_title">警告</item>
+        <item type="high_level_confirm">确定</item>
+        <item type="high_level_2_msg">设备温度过高，开启高温保护。数据、热点、Wi-Fi、GPS、相机资源将受到限制。</item>
+        <item type="high_level_3_msg">设备温度过高，开启高温保护，建议暂停使用。数据、热点、Wi-Fi、GPS、应用前后台运行将受到限制。</item>
+    </language-area>
+    <language-area name="vi">
+        <item type="high_level_title">Chú ý</item>
+        <item type="high_level_confirm">OK</item>
+        <item type="high_level_2_msg">Nhiệt độ thiết bị quá cao và tính năng bảo vệ được kích hoạt. Việc sử dụng dữ liệu di động, điểm truy cập, Wi-Fi, GPS và Camera sẽ bị hạn chế.</item>
+        <item type="high_level_3_msg">Nhiệt độ thiết bị quá cao và tính năng bảo vệ được kích hoạt. Bạn nên dừng sử dụng thiết bị của mình ngay bây giờ. Việc sử dụng dữ liệu di động, điểm truy cập, Wi-Fi, GPS và các ứng dụng sẽ bị hạn chế.</item>
+    </language-area>
+    <language-area name="tr">
+        <item type="high_level_title">Dikkat et</item>
+        <item type="high_level_confirm">Tamam</item>
+        <item type="high_level_2_msg">Cihaz sıcaklığı çok yüksek ve koruma etkinleştirildi. Mobil veri, sıcak nokta, Wi-Fi, GPS ve kamera kullanımı kısıtlı olacak.</item>
+        <item type="high_level_3_msg">Cihaz sıcaklığı çok yüksek ve koruma etkin. Cihazınızı kullanmayı o an için bırakmanız önerilir. Mobil veri, etkin görüntüleme noktası, Wi-Fi, GPS ve uygulamaların kullanımı kısıtlanacaktır.</item>
+    </language-area>
+    <language-area name="th">
+        <item type="high_level_title">ความใส่ใจ</item>
+        <item type="high_level_confirm">ตกลง</item>
+        <item type="high_level_2_msg">อุณหภูมิของอุปกรณ์สูงเกินไปและมีการเปิดใช้งานระบบป้องกัน การใช้ข้อมูลมือถือ, ฮอตสปอต, Wi-Fi, GPS และกล้องถ่ายรูปจะถูกจํากัด".</item>
+        <item type="high_level_3_msg">อุณหภูมิของอุปกรณ์สูงเกินไปและมีการเปิดใช้งานระบบป้องกัน ขอแนะนําให้หยุดใช้อุปกรณ์ของคุณชั่วคราว การใช้ข้อมูลมือถือ, ฮอตสปอต, Wi-Fi, GPS และแอปจะถูกจํากัด</item>
+    </language-area>
+    <language-area name="pl">
+        <item type="high_level_title">Ostrzeżenie</item>
+        <item type="high_level_confirm">OK</item>
+        <item type="high_level_2_msg">Temperatura urządzenia jest zbyt wysoka i zabezpieczenie jest włączone. Korzystanie z danych mobilnych, hotspotu, Wi-Fi, GPS i aparatu będzie ograniczone.</item>
+        <item type="high_level_3_msg">Temperatura urządzenia jest zbyt wysoka i zabezpieczenie jest włączone. Zaleca się chwilowe zaprzestanie korzystania z urządzenia. Korzystanie z danych mobilnych, hotspotów, Wi-Fi, GPS i aplikacji będzie ograniczone.</item>
+    </language-area>
+    <language-area name="ko">
+        <item type="high_level_title">주의</item>
+        <item type="high_level_confirm">그래</item>
+        <item type="high_level_2_msg">장치 온도가 너무 높아 보호가 설정되었습니다.모바일 데이터, 핫스팟, Wi-Fi, GPS 및 카메라 사용이 제한됩니다.</item>
+        <item type="high_level_3_msg">장치 온도가 너무 높아 보호가 설정되었습니다.장치 사용을 일시적으로 중지하는 것이 좋습니다.모바일 데이터, 핫스팟, Wi-Fi, GPS 및 어플리케이션 사용이 제한됩니다.</item>
+    </language-area>
+    <language-area name="ja">
+        <item type="high_level_title">注意</item>
+        <item type="high_level_confirm">確定</item>
+        <item type="high_level_2_msg">デバイスの温度が高すぎて、保護が有効になっています。モバイルデータ、ホットスポット、Wi-Fi、GPSおよびカメラの使用は制限されます。</item>
+        <item type="high_level_3_msg">デバイスの温度が高すぎて、保護が有効になっています。デバイスの使用はしばらくの間停止することをお勧めします。モバイルデータ、ホットスポット、Wi-Fi、GPSおよびアプリの使用は制限されます。</item>
+    </language-area>
+    <language-area name="it">
+        <item type="high_level_title">Attenzione</item>
+        <item type="high_level_confirm">OK</item>
+        <item type="high_level_2_msg">La temperatura del dispositivo è troppo alta e la protezione è stata attivata. Luso di dati mobili, hotspot, Wi-Fi, GPS e fotocamera sarà limitato.</item>
+        <item type="high_level_3_msg">La temperatura del dispositivo è troppo alta e la protezione è stata attivata. Si consiglia di interrompere temporaneamente l utilizzo del dispositivo. Luso di dati mobili, hotspot, Wi-Fi, GPS e app sarà limitato.</item>
+    </language-area>
+    <language-area name="hu">
+        <item type="high_level_title">Figyelem</item>
+        <item type="high_level_confirm">OK</item>
+        <item type="high_level_2_msg">A készülék hőmérséklete túl magas, ezért a biztonsági védelem bekapcsolt. A mobilinternet, a hotspot, a WiFi, GPS és bizonyos alkalmazások nem használhatóak.</item>
+        <item type="high_level_3_msg">Az eszköz hőmérséklete túl magas, és a védelem engedélyezve van. Javasoljuk, hogy hagyja abba az eszköz használatát. A mobiladatok, hotspot, Wi-Fi, GPS és alkalmazások használata korlátozott lesz.</item>
+    </language-area>
+    <language-area name="fr-rCA">
+        <item type="high_level_title">Attention</item>
+        <item type="high_level_confirm">Bien</item>
+        <item type="high_level_2_msg">La température de appareil est trop élevée et la protection est activée. Lutilisation des données mobiles, des points accès, du Wi-Fi, du GPS et de la caméra sera restreinte.</item>
+        <item type="high_level_3_msg">La température de appareil est trop élevée et la protection est activée. On recommande de cesser utiliser votre appareil pour le moment. Lutilisation des données mobiles, des points accès, du Wi-Fi, du GPS et des applications sera restreinte.</item>
+    </language-area>
+    <language-area name="fr">
+        <item type="high_level_title">Avertissement</item>
+        <item type="high_level_confirm">OK</item>
+        <item type="high_level_2_msg">La température de appareil est trop élevée et la protection est activée. Lutilisation des données mobiles, des points accès, du Wi-Fi, du GPS et de appareil photo sera limitée.</item>
+        <item type="high_level_3_msg">La température de appareil est trop élevée et la protection est activée. Il est conseillé d’arrêter d’utiliser votre appareil pour le moment. Lutilisation des données mobiles, des points accès, du Wi-Fi, du GPS et des applications sera limitée.</item>
+    </language-area>
+    <language-area name="es-rUS">
+        <item type="high_level_title">Atención</item>
+        <item type="high_level_confirm">Aceptar</item>
+        <item type="high_level_2_msg">La temperatura del dispositivo es demasiado alta y la protección está activada. El uso de datos móviles, punto de acceso, Wi-Fi, GPS y cámara estarán restringidos.</item>
+        <item type="high_level_3_msg">La temperatura del dispositivo es demasiado alta y la protección está activada. Se recomienda dejar de utilizar el dispositivo por el momento. El uso de datos móviles, punto de acceso, Wi-Fi, GPS y aplicaciones estarán restringidos.</item>
+    </language-area>
+    <language-area name="es">
+        <item type="high_level_title">Atención</item>
+        <item type="high_level_confirm">Aceptar</item>
+        <item type="high_level_2_msg">La temperatura del dispositivo es demasiado alta y la protección está activada. El uso de datos móviles, punto de acceso, Wi-Fi, GPS y cámara estará restringido.</item>
+        <item type="high_level_3_msg">La temperatura del dispositivo es demasiado alta y la protección está activada. Se recomienda dejar de usar el dispositivo por el momento. Se restringirá el uso de datos móviles, puntos de acceso, Wi-Fi, GPS y aplicaciones.</item>
+    </language-area>
+    <language-area name="de">
+        <item type="high_level_title">Achtung</item>
+        <item type="high_level_confirm">OK</item>
+        <item type="high_level_2_msg">Die Gerätetemperatur ist zu hoch und der Schutz wurde aktiviert. Die Nutzung von mobilen Daten, Hotspots, WLAN, GPS und Kamera wird eingeschränkt.</item>
+        <item type="high_level_3_msg">Die Gerätetemperatur ist zu hoch und der Schutz wurde aktiviert. Es wird empfohlen, Ihr Gerät für den Moment nicht mehr zu verwenden. Die Nutzung von mobilen Daten, Hotspots, WLAN, GPS und Apps wird eingeschränkt.</item>
+    </language-area>
+    <language-area name="cs">
+        <item type="high_level_title">Pozor</item>
+        <item type="high_level_confirm">OK</item>
+        <item type="high_level_2_msg">Teplota zařízení je příliš vysoká a ochrana je povolena. Používání mobilních dat, hotspotu, Wi-Fi, GPS a kamery bude omezeno.</item>
+        <item type="high_level_3_msg">Teplota zařízení je příliš vysoká a ochrana je povolena. Doporučuje se na chvíli přestat zařízení používat. Používání mobilních dat, hotspotu, Wi-Fi, GPS a aplikací bude omezeno.</item>
+    </language-area>
+    <language-area name="bs">
+        <item type="high_level_title">Pažnja</item>
+        <item type="high_level_confirm">U redu</item>
+        <item type="high_level_2_msg">Temperatura uređaja je previsoka i zaštita je omogućena. Upotreba mobilnih podataka, pristupne tačke, Wi-Fi, GPS-a i kamere bit će ograničena.</item>
+        <item type="high_level_3_msg">Temperatura uređaja je previsoka i zaštita je omogućena. Savjetuje se da privremeno prestanete koristiti svoj uređaj. Upotreba mobilnih podataka, pristupne tačke, Wi-Fi, GPS-a i aplikacija bit će ograničena.</item>
+    </language-area>
+    <language-area name="b+sr+Latn">
+        <item type="high_level_title">Pažnja</item>
+        <item type="high_level_confirm">U redu</item>
+        <item type="high_level_2_msg">Temperatura uređaja je suviše visoka i uključena je zaštita. Upotreba mobilne mreže, WiFi-ja, GPS-a i Kamere biće ograničena.</item>
+        <item type="high_level_3_msg">Temperatura uređaja je previsoka i zaštita je omogućena. Savetujemo da na trenutak prestanete da koristite uređaj. Korišćenje mobilnih podataka, pristupnih tačaka, Wi-Fi veze, GPS-a i aplikacija će biti ograničeno.</item>
+    </language-area>
+    <language-area name="ar">
+        <item type="high_level_title">تنبيه</item>
+        <item type="high_level_confirm">حسنًا</item>
+        <item type="high_level_2_msg">درجة حرارة الجهاز مرتفعة للغاية وتم تمكين الحماية. سيتم تقييد استخدام بيانات الجوال، ونقطة الاتصال، وشبكة Wi-Fi، ونظام GPS، والكاميرا.</item>
+        <item type="high_level_3_msg">درجة حرارة الجهاز مرتفعة للغاية وتم تمكين الحماية. يوصى بالتوقف عن استخدام جهازك الآن. سيتم تقييد استخدام بيانات الجوال، ونقطة الاتصال، وشبكة Wi-Fi، ونظام GPS، والتطبيقات.</item>
+    </language-area>
+    <language-area name="kk-rKZ">
+        <item type="high_level_title">Назар аударыңыз</item>
+        <item type="high_level_confirm">Жарайды</item>
+        <item type="high_level_2_msg">Құрылғының температурасы өте жоғары, және қорғаныс қосылған. Деректердің ұялы таратылуы, қолжетімділік нүктелері, Wi-Fi, GPS және камера қызметі шектелетін болады.</item>
+        <item type="high_level_3_msg">Құрылғының температурасы өте жоғары, және қорғаныс қосылған. Сіздің құрылғыңызды пайдалануды белгілі бір уақытқа тоқтата тұру ұсынылады. Деректердің ұялы таратылуы, қолжетімділік нүктелері, Wi-Fi, GPS және камера қызметі шектелетін болады.</item>
+    </language-area>
+    <language-area name="ru">
+        <item type="high_level_title">Attention</item>
+        <item type="high_level_confirm">ОК</item>
+        <item type="high_level_2_msg">Температура устройства слишком высока, и включена защита. Использование мобильной передачи данных, точки доступа, Wi-Fi, GPS и камеры будет ограничено.</item>
+        <item type="high_level_3_msg">Температура устройства слишком высока, и включена защита. Рекомендуется на какое-то время прекратить использование вашего устройства. Использование мобильной передачи данных, точки доступа, Wi-Fi, GPS и приложений будет ограничено.</item>
+    </language-area>
+    <language-area name="sl">
+        <item type="high_level_title">Pozor</item>
+        <item type="high_level_confirm">V redu</item>
+        <item type="high_level_2_msg">Temperatura naprave je previsoka in zaščita je omogočena. Uporaba mobilnih podatkov, dostopne točke, Wi-Fi, GPS in kamere bo omejena.</item>
+        <item type="high_level_3_msg">Temperatura naprave je previsoka in zaščita je omogočena. Priporočljivo je, da za zdaj prenehate uporabljati napravo. Uporaba mobilnih podatkov, dostopne točke, Wi-Fi, GPS in aplikacij bo omejena.</item>
+    </language-area>
+    <language-area name="uk">
+        <item type="high_level_title">Увага</item>
+        <item type="high_level_confirm">ОК</item>
+        <item type="high_level_2_msg">Температура пристрою зависока, захист увімкнений. Буде обмежено використання мобільних даних, точки доступу, Wi-Fi, GPS та камери.</item>
+        <item type="high_level_3_msg">Температура пристрою зависока, захист увімкнений. Рекомендується припинити використання пристрою на даний момент. Буде обмежено використання мобільних даних, точки доступу, Wi-Fi, GPS та програм.</item>
+    </language-area>
+    <language-area name="ur-rPK">
+        <item type="high_level_title">توجہ دیں</item>
+        <item type="high_level_confirm">ٹھیک ہے</item>
+        <item type="high_level_2_msg">آلہ کا درجہ حرارت بہت زیادہ ہے اور تحفظ فعال ہے۔ موبائل ڈیٹا، ہاٹ اسپاٹ، وائی فائی، جی پی ایس اور کیمرہ کے استعمال پر پابندی ہوگی۔</item>
+        <item type="high_level_3_msg">آلہ کا درجہ حرارت بہت زیادہ ہے اور تحفظ فعال ہے۔ مشورہ دیا جاتا ہے کہ اس وقت اپنے آلے کا استعمال بند کر دیں۔ موبائل ڈیٹا، ہاٹ اسپاٹ، وائی فائی، جی پی ایس اور ایپس کے استعمال پر پابندی ہوگی۔</item>
+    </language-area>
+    <language-area name="en">
+        <item type="high_level_title">Attention</item>
+        <item type="high_level_confirm">OK</item>
+        <item type="high_level_2_msg">Device temperature is too high and the protection is enabled. The use of mobile data, hotspot, Wi-Fi, GPS and Camera will be restricted.</item>
+        <item type="high_level_3_msg">Device temperature is too high and the protection is enabled. It's advised to stop using your device for the moment. The use of mobile data, hotspot, Wi-Fi, GPS and apps will be restricted.</item>
+    </language-area>
+</ThermalInfo>

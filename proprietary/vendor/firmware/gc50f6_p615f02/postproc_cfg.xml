@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+SPDX-FileCopyrightText: 2022-2023 Unisoc (Shanghai) Technologies Co., Ltd
+SPDX-License-Identifier: LicenseRef-Unisoc-General-1.0
+
+Copyright 2022-2023 Unisoc (Shanghai) Technologies Co., Ltd.
+Licensed under the Unisoc General Software License, version 1.0 (the License);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+https://www.unisoc.com/en_us/license/UNISOC_GENERAL_LICENSE_V1.0-EN_US
+Software distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OF ANY KIND, either express or implied.
+See the Unisoc General Software License, version 1.0 for more details.
+-->
+<postproc_cfg> 
+  <sensor_name>gc50f6_p615f02</sensor_name>  
+  <versionid>0x000C0019</versionid>  
+  <scenario_num>31</scenario_num>  
+  <scenario alia="com"> 
+    <id>0x0000000000000000</id>  
+    <postprocfile_num>11</postprocfile_num>  
+    <postprocfile name="TRG_MFNR6.2_LITE_29988.xml"> 
+      <param>com</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_MFNR6_LITE_29957.xml"> 
+      <param>com</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_HDR5.2_29978.xml"> 
+      <param>com</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_CHDR_29982.xml"> 
+      <param>com</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_YNR2_29954.xml"> 
+      <param>com</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_CNR4_29972.xml"> 
+      <param>com</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_BEAUTY12_29973.xml"> 
+      <param>com</param> 
+    </postprocfile>  
+    <postprocfile name="dpf_70001.xml"> 
+      <param>com</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_SD_MFNR2.0_29960.xml"> 
+      <param>com</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_SD_USD2.2_29959.xml"> 
+      <param>com</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_SD_LOWLIGHT_29979.xml"> 
+      <param>com</param> 
+    </postprocfile> 
+  </scenario>  
+  <scenario alia="prv0"> 
+    <id>0x0000010000000000</id>  
+    <postprocfile_num>0</postprocfile_num> 
+  </scenario>  
+  <scenario alia="cap0"> 
+    <id>0x0000050000000000</id>  
+    <postprocfile_num>3</postprocfile_num>  
+    <postprocfile name="TRG_MFNR6_LITE_29957.xml"> 
+      <param>cap0</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_YNR2_29954.xml"> 
+      <param>cap0</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_CNR4_29972.xml"> 
+      <param>cap0</param> 
+    </postprocfile> 
+  </scenario>  
+  <scenario alia="video0_sm60"> 
+    <id>0x0000090600000000</id>  
+    <postprocfile_num>0</postprocfile_num> 
+  </scenario>  
+  <scenario alia="video2"> 
+    <id>0x00000b0000000000</id>  
+    <postprocfile_num>0</postprocfile_num> 
+  </scenario>  
+  <scenario alia="prv0_hdr"> 
+    <id>0x0000010001000000</id>  
+    <postprocfile_num>0</postprocfile_num> 
+  </scenario>  
+  <scenario alia="cap0_hdr"> 
+    <id>0x0000050001000000</id>  
+    <postprocfile_num>2</postprocfile_num>  
+    <postprocfile name="TRG_YNR2_29954.xml"> 
+      <param>cap0_hdr</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_CNR4_29972.xml"> 
+      <param>cap0_hdr</param> 
+    </postprocfile> 
+  </scenario>  
+  <scenario alia="cap0_professional"> 
+    <id>0x0000050500000000</id>  
+    <postprocfile_num>2</postprocfile_num>  
+    <postprocfile name="TRG_YNR2_29954.xml"> 
+      <param>cap0_professional</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_CNR4_29972.xml"> 
+      <param>cap0_professional</param> 
+    </postprocfile> 
+  </scenario>  
+  <scenario alia="prv0_professional"> 
+    <id>0x0000010500000000</id>  
+    <postprocfile_num>0</postprocfile_num> 
+  </scenario>  
+  <scenario alia="cap0_night"> 
+    <id>0x0000050100000000</id>  
+    <postprocfile_num>2</postprocfile_num>  
+    <postprocfile name="TRG_CNR4_29972.xml"> 
+      <param>cap0_night</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_YNR2_29954.xml"> 
+      <param>cap0_night</param> 
+    </postprocfile> 
+  </scenario>  
+  <scenario alia="cap0_face"> 
+    <id>0x0000050000010000</id>  
+    <postprocfile_num>3</postprocfile_num>  
+    <postprocfile name="TRG_MFNR6_LITE_29957.xml"> 
+      <param>cap0_face</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_YNR2_29954.xml"> 
+      <param>cap0_face</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_CNR4_29972.xml"> 
+      <param>cap0_face</param> 
+    </postprocfile> 
+  </scenario>  
+  <scenario alia="prv0_face"> 
+    <id>0x0000010000010000</id>  
+    <postprocfile_num>0</postprocfile_num> 
+  </scenario>  
+  <scenario alia="cap0_hdr_face"> 
+    <id>0x0000050001010000</id>  
+    <postprocfile_num>2</postprocfile_num>  
+    <postprocfile name="TRG_YNR2_29954.xml"> 
+      <param>cap0_hdr_face</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_CNR4_29972.xml"> 
+      <param>cap0_hdr_face</param> 
+    </postprocfile> 
+  </scenario>  
+  <scenario alia="prv0_panorama"> 
+    <id>0x0000010400000000</id>  
+    <postprocfile_num>0</postprocfile_num> 
+  </scenario>  
+  <scenario alia="cap0_panorama"> 
+    <id>0x0000050400000000</id>  
+    <postprocfile_num>0</postprocfile_num> 
+  </scenario>  
+  <scenario alia="prv0_hdr_face"> 
+    <id>0x0000010001010000</id>  
+    <postprocfile_num>0</postprocfile_num> 
+  </scenario>  
+  <scenario alia="prv0_zoom"> 
+    <id>0x0000010000000001</id>  
+    <postprocfile_num>0</postprocfile_num> 
+  </scenario>  
+  <scenario alia="cap0_zoom"> 
+    <id>0x0000050000000001</id>  
+    <postprocfile_num>2</postprocfile_num>  
+    <postprocfile name="TRG_YNR2_29954.xml"> 
+      <param>cap0_zoom</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_CNR4_29972.xml"> 
+      <param>cap0_zoom</param> 
+    </postprocfile> 
+  </scenario>  
+  <scenario alia="prv0_zoom2x"> 
+    <id>0x0000010000000002</id>  
+    <postprocfile_num>0</postprocfile_num> 
+  </scenario>  
+  <scenario alia="cap0_zoom2x"> 
+    <id>0x0000050000000002</id>  
+    <postprocfile_num>2</postprocfile_num>  
+    <postprocfile name="TRG_YNR2_29954.xml"> 
+      <param>cap0_zoom2x</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_CNR4_29972.xml"> 
+      <param>cap0_zoom2x</param> 
+    </postprocfile> 
+  </scenario>  
+  <scenario alia="cap0_zoom4x"> 
+    <id>0x0000050000000003</id>  
+    <postprocfile_num>2</postprocfile_num>  
+    <postprocfile name="TRG_CNR4_29972.xml"> 
+      <param>cap0_zoom</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_YNR2_29954.xml"> 
+      <param>cap0_zoom</param> 
+    </postprocfile> 
+  </scenario>  
+  <scenario alia="prv0_zoom4x"> 
+    <id>0x0000010000000003</id>  
+    <postprocfile_num>0</postprocfile_num> 
+  </scenario>  
+  <scenario alia="cap0_flash">
+    <id>0x0000050002000000</id>
+    <postprocfile_num>2</postprocfile_num>
+    <postprocfile name="TRG_CNR4_29972.xml">
+      <param>cap0_flash</param>
+    </postprocfile>
+    <postprocfile name="TRG_YNR2_29954.xml">
+      <param>cap0_flash</param>
+    </postprocfile>
+  </scenario>
+  <scenario alia="prv0_ultra"> 
+    <id>0x0000010d00000000</id>  
+    <postprocfile_num>0</postprocfile_num> 
+  </scenario>  
+  <scenario alia="cap0_ultra"> 
+    <id>0x0000050d00000000</id>  
+    <postprocfile_num>2</postprocfile_num>  
+    <postprocfile name="TRG_CNR4_29972.xml"> 
+      <param>cap0</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_YNR2_29954.xml"> 
+      <param>cap0</param> 
+    </postprocfile> 
+  </scenario>  
+  <scenario alia="cap0_zoom10x"> 
+    <id>0x0000050000000006</id>  
+    <postprocfile_num>2</postprocfile_num>  
+    <postprocfile name="TRG_CNR4_29972.xml"> 
+      <param>cap0_zoom10x</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_YNR2_29954.xml"> 
+      <param>cap0_zoom10x</param> 
+    </postprocfile> 
+  </scenario>  
+  <scenario alia="cap0_portrait"> 
+    <id>0x0000050300000000</id>  
+    <postprocfile_num>2</postprocfile_num>  
+    <postprocfile name="TRG_CNR4_29972.xml"> 
+      <param>cap0_portrait</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_YNR2_29954.xml"> 
+      <param>cap0_portrait</param> 
+    </postprocfile> 
+  </scenario>  
+  <scenario alia="prv0_night"> 
+    <id>0x0000010100000000</id>  
+    <postprocfile_num>0</postprocfile_num> 
+  </scenario>  
+  <scenario alia="prv0_flash"> 
+    <id>0x0000010002000000</id>  
+    <postprocfile_num>0</postprocfile_num> 
+  </scenario>  
+  <scenario alia="cap0_chdr"> 
+    <id>0x0000050005000000</id>  
+    <postprocfile_num>2</postprocfile_num>  
+    <postprocfile name="TRG_CNR4_29972.xml"> 
+      <param>cap0_chdr</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_YNR2_29954.xml"> 
+      <param>cap0_chdr</param> 
+    </postprocfile> 
+  </scenario>  
+  <scenario alia="cap0_lls"> 
+    <id>0x0000050007000000</id>  
+    <postprocfile_num>2</postprocfile_num>  
+    <postprocfile name="TRG_CNR4_29972.xml"> 
+      <param>cap0_lls</param> 
+    </postprocfile>  
+    <postprocfile name="TRG_YNR2_29954.xml"> 
+      <param>cap0_lls</param> 
+    </postprocfile> 
+  </scenario> 
+</postproc_cfg>

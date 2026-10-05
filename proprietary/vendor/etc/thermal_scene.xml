@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThermalScene>
+    <scene name="video-call" type="activity">
+        <item>com.tencent.mm.plugin.voip.ui.VideoActivity</item>
+    </scene>
+    <scene name="video-short" type="activity">
+        <item>com.tencent.mm.plugin.finder.ui.FinderHomeAffinityUI</item>
+        <item>com.tencent.qqlive.ona.activity.VideoDetailActivity</item>
+        <item>com.google.android.apps.youtube.app.watchwhile.WatchWhileActivity</item>
+        <item>com.ss.android.ugc.aweme.main.MainActivity</item>
+        <item>com.ss.android.ugc.aweme.live.LivePlayActivity</item>
+        <item>com.ss.android.ugc.aweme.detail.ui.DetailActivity</item>
+        <item>com.ss.android.ugc.aweme.live.LiveBroadcastActivity</item>
+        <item>org.iqiyi.video.activity.PlayerActivity</item>
+    </scene>
+    <scene name="camera" type="package">
+        <item>com.android.camera2</item>
+    </scene>
+    <scene name="perf" type="package">
+        <item>com.antutu.ABenchMark</item>
+        <item>com.andromeda.androbench</item>
+        <item>com.andromeda.androbench2</item>
+        <item>com.andromeda.androbench3</item>
+        <item>com.ludashi.benchmark</item>
+        <item>eu.chainfire.cfbench</item>
+        <item>com.quicinc.vellamo</item>
+        <item>com.greenecomputing.linpack</item>
+        <item>com.qihoo360.mobilesafe.opti</item>
+        <item>com.eembc.coremark</item>
+        <item>se.nena.nenamark1</item>
+        <item>se.nena.nenamark2</item>
+        <item>se.nena.nenamark3</item>
+        <item>com.aurorasoftworks.quadrant.ui.standard</item>
+        <item>com.glbenchmark.glbenchmark27</item>
+        <item>com.primatelabs.geekbench</item>
+        <item>com.antutu.benchmark.full</item>
+        <item>com.futuremark.dmandroid.application</item>
+        <item>com.rightware.Basemark</item>
+        <item>com.mobilexprt3</item>
+        <item>android.mediastress.cts</item>
+        <item>com.google.android.media.gts</item>
+        <item>com.google.android.exoplayer.gts</item>
+    </scene>
+    <scene name="video-living" type="activity">
+        <item>com.ss.android.ugc.aweme.live.LiveBroadcastActivity</item>
+    </scene>
+    <scene name="pv" type="package">
+        <item>com.zte.zftdoctor</item>
+    </scene>
+    <scene name="game" type="package">
+        <item>com.tencent.tmgp.sgame</item>
+    </scene>
+    <scene name="default" type="empty">
+    </scene>
+    <scene name="screen-off" type="empty">
+    </scene>
+    <scene name="game_powersaving" type="empty">
+    </scene>
+    <scene name="game_perf" type="empty">
+    </scene>
+    <scene name="game_balance" type="empty">
+    </scene>
+</ThermalScene>

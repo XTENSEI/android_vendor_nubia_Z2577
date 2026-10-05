@@ -1,0 +1,485 @@
+# Copyright (C) 2012 ZTE by RUIJIAGUI
+#
+# IMPORTANT: Do not create world writable files or directories.
+# This is a common source of Android security bugs.
+#
+
+# ZTE Audio Start
+import /vendor/etc/init/hw/init.audio.aw883xx.rc
+import /vendor/etc/init/hw/init.audio.tas2563.rc
+import /vendor/etc/init/hw/init.audio.tfa98xx.rc
+import /vendor/etc/init/hw/init.audio.dts.rc
+import /vendor/etc/init/hw/init.audio.singersound.rc
+# ZTE Audio End
+import /vendor/etc/init/hw/init.vendor.ioschduler_bfq.rc
+
+# ZTE Backup Partition
+import /vendor/etc/init/hw/init.vendor.fs_backup.rc
+import /vendor/etc/init/hw/init.vendor.fs_backup_star.rc
+# ZTE Thirdparty Cloudpc
+import /vendor/etc/init/hw/init.vendor.fs_cloudpc.rc
+
+on init
+    mkdir /mnt/vendor/persist 0771 system root
+
+import /vendor/etc/init/hw/init.nfc.pn553.rc
+import /vendor/etc/init/hw/init.nfc.sn100.rc
+import /vendor/etc/init/hw/init.nfc.st54j.rc
+import /vendor/etc/init/hw/init.nfc.thn31.rc
+import /vendor/etc/init/hw/init.gps.hdbd8040.rc
+
+on brd-post-fs
+    #add for after-sale-requirement
+    mkdir /mnt/vendor/persist/zstats 0775 system system
+    chown system system /mnt/vendor/persist/zstats/capacity.dat
+    chown system system /mnt/vendor/persist/zstats/charging.dat
+    chown system system /mnt/vendor/persist/zstats/cycle.dat
+    chmod 0664 /mnt/vendor/persist/zstats/capacity.dat
+    chmod 0664 /mnt/vendor/persist/zstats/charging.dat
+    chmod 0664 /mnt/vendor/persist/zstats/cycle.dat
+
+on boot
+    #zte add for usb otg disable_host_mode
+    chown system system /sys/module/dwc3_sprd/parameters/disable_host_mode
+    chown system system /sys/module/dwc3_sprd/parameters/is_host_mode
+    chown system system /sys/devices/platform/soc/soc:ipa-apb/25100000.usb3/swap_role
+    #zte add for hub power
+    chown system system /sys/devices/platform/soc/25100000.usb3/control_hub_cam_power
+    chown system system /sys/devices/platform/soc/25100000.usb3/swap_role
+
+    chown system system /sys/module/zte_misc/parameters/screen_on
+    chown system system /proc/driver/lcd_aod_bl
+    chmod 0664 /proc/driver/lcd_aod_bl
+    chown system system /proc/driver/lcd_hdr
+    chmod 0664 /proc/driver/lcd_hdr
+    chown system system /proc/driver/lcd_ap_hdr
+    chmod 0664 /proc/driver/lcd_ap_hdr
+    chown system system /proc/driver/lcd_fgp
+    chmod 0666 /proc/driver/lcd_fgp
+    trigger brd-post-fs
+    class_start brd_normal
+    class_start zte_thermal
+    #zte add for foursemi audio file point RW
+    chmod 0666 /sys/kernel/extpa/fsm_init
+    chmod 0666 /sys/kernel/extpa/fsm_scene
+
+    chown system system /sys/class/backlight/sprd_backlight/custom_brightness
+
+    chown root system /sys/class/zte_power_supply/zte_battery/battery_charging_enabled
+    chmod 0664 /sys/class/zte_power_supply/zte_battery/battery_charging_enabled
+
+    chown root system /sys/class/zte_power_supply/zte_battery/charging_enabled
+    chmod 0664 /sys/class/zte_power_supply/zte_battery/charging_enabled
+
+    #zte add for aw haptic
+    chmod 0664 /sys/class/leds/haptic_vibrator/activate
+    chmod 0664 /sys/class/leds/haptic_vibrator/activate_mode
+    chmod 0664 /sys/class/leds/haptic_vibrator/brightness
+    chmod 0664 /sys/class/leds/haptic_vibrator/cali
+    chmod 0664 /sys/class/leds/haptic_vibrator/duration
+    chmod 0664 /sys/class/leds/haptic_vibrator/f0
+    chmod 0664 /sys/class/leds/haptic_vibrator/f0_save
+    chmod 0664 /sys/class/leds/haptic_vibrator/index
+    chmod 0664 /sys/class/leds/haptic_vibrator/loop
+    chmod 0664 /sys/class/leds/haptic_vibrator/rtp
+    chmod 0664 /sys/class/leds/haptic_vibrator/seq
+    chmod 0664 /sys/class/leds/haptic_vibrator/state
+
+    chown system system /sys/class/leds/haptic_vibrator/activate
+    chown system system /sys/class/leds/haptic_vibrator/activate_mode
+    chown system system /sys/class/leds/haptic_vibrator/brightness
+    chown system system /sys/class/leds/haptic_vibrator/cali
+    chown system system /sys/class/leds/haptic_vibrator/duration
+    chown system system /sys/class/leds/haptic_vibrator/f0
+    chown system system /sys/class/leds/haptic_vibrator/f0_save
+    chown system system /sys/class/leds/haptic_vibrator/index
+    chown system system /sys/class/leds/haptic_vibrator/loop
+    chown system system /sys/class/leds/haptic_vibrator/rtp
+    chown system system /sys/class/leds/haptic_vibrator/seq
+    chown system system /sys/class/leds/haptic_vibrator/state
+    chown system system /sys/class/leds/haptic_vibrator/trigger
+
+    #zte add for s1 gpios
+    chmod 0664 /sys/devices/platform/zte_sone_gpios/usbswitch_status
+    chmod 0664 /sys/devices/platform/zte_sone_gpios/pwn_status
+    chmod 0664 /sys/devices/platform/zte_sone_gpios/reset_status
+    chmod 0664 /sys/devices/platform/zte_sone_gpios/upwn_status
+    chmod 0664 /sys/devices/platform/zte_sone_gpios/gpio61_status
+    chmod 0664 /sys/devices/platform/zte_sone_gpios/gpio44_status
+    chmod 0664 /sys/devices/platform/zte_sone_gpios/pciescan_status
+
+    chown system system /sys/devices/platform/zte_sone_gpios/usbswitch_status
+    chown system system /sys/devices/platform/zte_sone_gpios/pwn_status
+    chown system system /sys/devices/platform/zte_sone_gpios/reset_status
+    chown system system /sys/devices/platform/zte_sone_gpios/upwn_status
+    chown system system /sys/devices/platform/zte_sone_gpios/gpio61_status
+    chown system system /sys/devices/platform/zte_sone_gpios/gpio44_status
+    chown system system /sys/devices/platform/zte_sone_gpios/pciescan_status
+
+on late-init
+    write /sys/module/zte_misc/parameters/screen_on 1
+on charger
+    mkdir /mnt/vendor/persist
+    wait /dev/block/by-name/ztepersist
+    mount ext4 /dev/block/by-name/ztepersist /mnt/vendor/persist/ noatime nosuid nodev nomblk_io_submit noauto_da_alloc
+
+    #mount cache
+    wait /dev/block/by-name/cache
+    mount ext4 /dev/block/by-name/cache /cache noatime nosuid nodev barrier=1
+
+    trigger brd-post-fs
+    start getoffchargerlog
+    class_start brd_charger
+    class_start zte_thermal
+    # disable vowifi service
+    stop srmi_proxyd
+
+on post-fs
+    restorecon_recursive /mnt/vendor/persist
+
+on post-fs-data
+    #mkdir /data/vendor/hd_agps
+    #chmod 0777 /data/vendor/hd_agps
+
+#add for emode reset flag
+on property:sys.emode.reset.flag=1
+    write /mnt/vendor/csr_start.txt 1
+    chmod 0666 /mnt/vendor/csr_start.txt
+
+# add for emode leds test
+on property:sys.led_green.brightness=1
+    write /sys/class/leds/green/brightness 255
+on property:sys.led_green.brightness=0
+    write /sys/class/leds/green/brightness 0
+
+on property:sys.led_red.brightness=1
+    write /sys/class/leds/red/brightness 255
+on property:sys.led_red.brightness=0
+    write /sys/class/leds/red/brightness 0
+
+on property:sys.led_blue.brightness=1
+    write /sys/class/leds/blue/brightness 255
+on property:sys.led_blue.brightness=0
+    write /sys/class/leds/blue/brightness 0
+
+#add for emode keyboard lights test
+on property:sys.emode.pc.lights_test=1
+    write /sys/class/misc/zsk-input/zsk_muteled_value 1
+    write /sys/class/leds/sc27xx:blue/brightness 255
+    write /sys/class/leds/sc27xx:red/brightness 0
+    write /sys/class/leds/sc27xx:green/brightness 255
+on property:sys.emode.pc.lights_test=2
+    write /sys/class/misc/zsk-input/zsk_muteled_value 0
+    write /sys/class/leds/sc27xx:blue/brightness 0
+    write /sys/class/leds/sc27xx:red/brightness 255
+    write /sys/class/leds/sc27xx:green/brightness 0
+on property:sys.emode.pc.lights_test=0
+    write /sys/class/misc/zsk-input/zsk_muteled_value 0
+    write /sys/class/leds/sc27xx:blue/brightness 0
+    write /sys/class/leds/sc27xx:red/brightness 0
+    write /sys/class/leds/sc27xx:green/brightness 0
+
+#add for emode num light test
+on property:sys.led_green_sprd.brightness=1
+    write /sys/class/leds/sc27xx:green/brightness 255
+on property:sys.led_green_sprd.brightness=0
+    write /sys/class/leds/sc27xx:green/brightness 0
+
+on property:sys.led_red_sprd.brightness=1
+    write /sys/class/leds/sc27xx:red/brightness 255
+on property:sys.led_red_sprd.brightness=0
+    write /sys/class/leds/sc27xx:red/brightness 0
+
+on property:sys.led_blue_sprd.brightness=1
+    write /sys/class/leds/sc27xx:blue/brightness 255
+on property:sys.led_blue_sprd.brightness=0
+    write /sys/class/leds/sc27xx:blue/brightness 0
+
+on property:sys.emode.shipmode_zte=1
+    write /sys/module/zte_misc/parameters/shipmode_zte 0
+
+on property:sys.emode.usb_host_switch=1
+    write /sys/devices/platform/soc/25100000.usb3/swap_role "host"
+
+on property:sys.emode.usb_host_switch=0
+    write /sys/devices/platform/soc/25100000.usb3/swap_role "peripheral"
+    setprop sys.usb.config charging,adb
+
+on property:vendor.sys.zstats.clear_cycle_count=1
+    write /sys/class/power_supply/battery/cycle_count 0
+
+#add for emode uwb test
+service uwb_start /system/bin/tinymix aw87xxx_profile_switch_0 Music
+    class main
+    user system
+    group root shell system
+    seclabel u:r:su:s0
+    oneshot
+    disabled
+
+service uwb_mode_mcu /system/bin/tinymix "PA Input Switch" MCU
+    class main
+    user system
+    group root shell system
+    seclabel u:r:su:s0
+    oneshot
+    disabled
+
+service uwb_stop /system/bin/tinymix aw87xxx_profile_switch_0 Off
+    class main
+    user system
+    group root shell system
+    seclabel u:r:su:s0
+    oneshot
+    disabled
+
+service uwb_mode_pmic /system/bin/tinymix "PA Input Switch" PMIC
+    class main
+    user system
+    group root shell system
+    seclabel u:r:su:s0
+    oneshot
+    disabled
+
+on property:sys.emode.uwbtest=1
+    start uwb_start
+    start uwb_mode_mcu
+
+on property:sys.emode.uwbtest=0
+    start uwb_stop
+    start uwb_mode_pmic
+
+# add for emode screenfingerprint test
+on property:sys.lcd_screen.brightness.goodixtp=1
+    write /sys/class/backlight/sprd_backlight/brightness 240
+on property:sys.lcd_screen.brightness.goodixtp=0
+    write /sys/class/backlight/sprd_backlight/brightness 0
+on property:sys.lcd_screen.brightness.goodixtp=2
+    write /sys/class/backlight/sprd_backlight/brightness 255
+on property:sys.lcd_screen.brightness.goodixtp=3
+    write /sys/class/backlight/sprd_backlight/brightness 100
+on property:sys.demochargingpolicy.protect=1
+    write /sys/module/zte_misc/parameters/demo_charging_policy 1
+on property:sys.demochargingpolicy.protect=0
+    write /sys/module/zte_misc/parameters/demo_charging_policy 0
+
+on property:persist.sys.keeppower.anyway=1
+    setprop persist.sys.overtemp.enable 0
+    write /sys/module/zte_misc/parameters/demo_charging_policy 1
+    write /sys/module/zte_misc/parameters/thermal_control_en 0
+on property:persist.sys.keeppower.anyway=0
+    setprop persist.sys.overtemp.enable 1
+    write /sys/module/zte_misc/parameters/demo_charging_policy 0
+    write /sys/module/zte_misc/parameters/thermal_control_en 1
+
+on property:persist.sys.demochargingpolicy.protect=1
+    write /sys/module/zte_misc/parameters/demo_charging_policy 1
+on property:persist.sys.demochargingpolicy.protect=0
+    write /sys/module/zte_misc/parameters/demo_charging_policy 0
+
+on property:persist.sys.chargingpolicy.protect=1
+    write /sys/module/zte_misc/parameters/policy_enable 1
+on property:persist.sys.chargingpolicy.protect=0
+    write /sys/module/zte_misc/parameters/policy_enable 0
+
+service brd_normal /vendor/bin/battery_record_daemon normal
+    class brd_normal
+    user system
+    group system root
+service brd_charger /vendor/bin/battery_record_daemon charger
+    class brd_charger
+    user system
+    group system root
+
+service zte_thermal /vendor/bin/zte_thermal_daemon
+    class zte_thermal
+    user root
+    group root system
+
+service getoffchargerlog /system/bin/getoffchargerlogtofile
+    class core
+    user root
+    group root cache system
+    disabled
+    oneshot
+
+# add for tp module
+on property:persist.vendor.sys.fingerlockflag=1
+   write /proc/touchscreen/finger_lock_flag 1
+on property:persist.vendor.sys.tp_palm_mode=1
+  write /proc/touchscreen/tp_palm_mode 1
+on property:persist.vendor.sys.tp_palm_mode=0
+  write /proc/touchscreen/tp_palm_mode 0
+
+# add for gps hdbd mode
+on property:persist.sys.gps.hdbd.mode=bdonly
+    setprop persist.vendor.gps.hdbd.mode bdonly
+
+on property:persist.sys.gps.hdbd.mode=normal
+    setprop persist.vendor.gps.hdbd.mode normal
+
+on property:ro.vendor.feature.pv_version=true && property:ro.vendor.feature.pv_version_at=true
+   setprop sys.usb.ffs.ready 1
+   setprop sys.usb.config mu300,adb
+   setprop persist.vendor.sys.modem.diag ,vser
+
+on property:ro.vendor.feature.pv_version=true && property:ro.bootmode=normal
+   setprop sys.usb.config charging,adb
+
+
+service start_rkptool /vendor/bin/start_rkptool.sh
+    class main
+    user system
+    group root shell system
+    oneshot
+    disabled
+
+on property:ro.runtime.start_rkptool=1
+    start start_rkptool
+
+on property:ro.runtime.start_rkptool=0
+    rm /mnt/vendor/csr.json
+
+service start_wifi_rgb_led /vendor/bin/start_wifi_rgb_led.sh
+    class main
+    user system
+    group root shell system
+    oneshot
+    disabled
+
+service start_breath_led /vendor/bin/start_breath_led.sh
+    class main
+    user system
+    group root shell system
+    oneshot
+    disabled
+
+on boot && property:ro.vendor.feature.zte_feature_pc_light=true
+    wait /sys/devices/platform/poweron_with_lidon/poweron_with_lidon_en
+    chmod 664 /sys/devices/platform/poweron_with_lidon/poweron_with_lidon_en
+    chown root system /sys/devices/platform/poweron_with_lidon/poweron_with_lidon_en
+
+on early-init
+    start start_wifi_rgb_led
+
+on property:sys.boot_completed=1
+    stop start_wifi_rgb_led
+    #start ally_agps
+
+#init beilu uart for P720S17
+service init_sprd_uart2 /vendor/bin/init_sprd_uart2.sh
+    class main
+    user root
+    group root shell system
+    oneshot
+    disabled
+
+on init && property:ro.vendor.support_sprd_uart2=true
+    start init_sprd_uart2
+    write /sys/devices/system/cpu/cpu0/cpuidle/state2/disable 1
+
+on init && property:ro.vendor.feature.zte_feature_platform_breath_light=true
+    start start_breath_led
+
+# support boot breath and rgb led show
+service sprd_boot_breath_rgb_led /vendor/bin/sprd_boot_breath_rgb_led.sh
+    class main
+    user system
+    group root shell system
+    oneshot
+    disabled
+
+on late-init && property:ro.vendor.feature.zte_boot_breath_rgb_led_show=true && property:ro.bootmode=normal
+    wait /sys/class/leds/aw_led/mini_led_boot_step
+    wait /sys/class/leds/sc27xx:red/brightness
+    wait /sys/class/leds/sc27xx:red/trigger
+    chown root system /sys/class/leds/sc27xx:red/brightness
+    chmod 0664 /sys/class/leds/sc27xx:red/brightness
+    chown root system /sys/class/leds/sc27xx:red/trigger
+    chmod 0664 /sys/class/leds/sc27xx:red/trigger
+    chown root system /sys/class/leds/sc27xx:green/brightness
+    chmod 0664 /sys/class/leds/sc27xx:green/brightness
+    chown root system /sys/class/leds/sc27xx:green/trigger
+    chmod 0664 /sys/class/leds/sc27xx:green/trigger
+    chown root system /sys/class/leds/sc27xx:blue/brightness
+    chmod 0664 /sys/class/leds/sc27xx:blue/brightness
+    chown root system /sys/class/leds/sc27xx:blue/trigger
+    chmod 0664 /sys/class/leds/sc27xx:blue/trigger
+    chown system system /sys/class/leds/aw_led/mini_led_boot_step
+    chmod 0664 /sys/class/leds/aw_led/mini_led_boot_step
+    start sprd_boot_breath_rgb_led
+
+on property:sys.sysctl.extra_free_kbytes=* && property:ro.vendor.cali_pciescan=true
+    wait /sys/devices/platform/zte_sone_gpios/pciescan_status
+    write /sys/devices/platform/zte_sone_gpios/pciescan_status 1
+    wait /sys/devices/virtual/tty/ttyPCI0/serial_state
+    wait /sys/devices/virtual/tty/ttyPCI1/serial_state
+    wait /sys/devices/virtual/tty/ttyPCI2/serial_state
+    wait /sys/devices/virtual/tty/ttyPCI3/serial_state
+    wait /dev/ttyPCI0
+    wait /dev/ttyPCI1
+    wait /dev/ttyPCI2
+    wait /dev/ttyPCI3
+    chown root radio /sys/devices/virtual/tty/ttyPCI0/serial_state
+    chown root radio /sys/devices/virtual/tty/ttyPCI1/serial_state
+    chown root radio /sys/devices/virtual/tty/ttyPCI2/serial_state
+    chown root radio /sys/devices/virtual/tty/ttyPCI3/serial_state
+    chown root radio /dev/ttyPCI0
+    chown root radio /dev/ttyPCI1
+    chown root radio /dev/ttyPCI2
+    chown root radio /dev/ttyPCI3
+    chmod 0664 /sys/devices/virtual/tty/ttyPCI0/serial_state
+    chmod 0664 /sys/devices/virtual/tty/ttyPCI1/serial_state
+    chmod 0664 /sys/devices/virtual/tty/ttyPCI2/serial_state
+    chmod 0664 /sys/devices/virtual/tty/ttyPCI3/serial_state
+    chmod 0664 /dev/ttyPCI0
+    chmod 0664 /dev/ttyPCI1
+    chmod 0664 /dev/ttyPCI2
+    chmod 0664 /dev/ttyPCI3
+
+on property:sys.boot_completed=1 && property:ro.vendor.cali_pciescan=true
+    wait /sys/devices/platform/zte_sone_gpios/pciescan_status
+    write /sys/devices/platform/zte_sone_gpios/pciescan_status 1
+    wait /sys/devices/virtual/tty/ttyPCI0/serial_state
+    wait /sys/devices/virtual/tty/ttyPCI1/serial_state
+    wait /sys/devices/virtual/tty/ttyPCI2/serial_state
+    wait /sys/devices/virtual/tty/ttyPCI3/serial_state
+    wait /dev/ttyPCI0
+    wait /dev/ttyPCI1
+    wait /dev/ttyPCI2
+    wait /dev/ttyPCI3
+    chown root radio /sys/devices/virtual/tty/ttyPCI0/serial_state
+    chown root radio /sys/devices/virtual/tty/ttyPCI1/serial_state
+    chown root radio /sys/devices/virtual/tty/ttyPCI2/serial_state
+    chown root radio /sys/devices/virtual/tty/ttyPCI3/serial_state
+    chown root radio /dev/ttyPCI0
+    chown root radio /dev/ttyPCI1
+    chown root radio /dev/ttyPCI2
+    chown root radio /dev/ttyPCI3
+    chmod 0664 /sys/devices/virtual/tty/ttyPCI0/serial_state
+    chmod 0664 /sys/devices/virtual/tty/ttyPCI1/serial_state
+    chmod 0664 /sys/devices/virtual/tty/ttyPCI2/serial_state
+    chmod 0664 /sys/devices/virtual/tty/ttyPCI3/serial_state
+    chmod 0664 /dev/ttyPCI0
+    chmod 0664 /dev/ttyPCI1
+    chmod 0664 /dev/ttyPCI2
+    chmod 0664 /dev/ttyPCI3
+
+service cali_pciescan /vendor/bin/cali_pciescan.sh
+    class main
+    user root
+    group root shell system
+    oneshot
+    disabled
+
+on property:ro.bootmode=cali && property:ro.vendor.cali_pciescan=true
+    wait /sys/devices/platform/zte_sone_gpios/pciescan_status
+    chmod 0664 /sys/devices/platform/zte_sone_gpios/pciescan_status
+    chown system system /sys/devices/platform/zte_sone_gpios/pciescan_status
+    start cali_pciescan
+
+service ally_agps /vendor/bin/ally_agps_daemon
+    disabled
+    user root
+	oneshot
+    group root shell system

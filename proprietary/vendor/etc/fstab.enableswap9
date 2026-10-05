@@ -1,0 +1,2 @@
+/dev/block/zram0 none swap defaults zramsize=62%,zram_backingdev_size=9000000000B
+

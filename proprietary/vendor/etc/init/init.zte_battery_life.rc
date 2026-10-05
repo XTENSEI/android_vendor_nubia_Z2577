@@ -1,0 +1,10 @@
+
+on charger
+    class_start zte_battery_life
+
+service zte_battery_life /vendor/bin/zte_battery_life
+    class zte_battery_life
+    user root
+    group root system
+    oneshot
+

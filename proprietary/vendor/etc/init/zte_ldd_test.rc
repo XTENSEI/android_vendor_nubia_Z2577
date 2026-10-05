@@ -1,0 +1,11 @@
+#
+# zte ldd test
+#
+service zte_ldd_test /vendor/bin/zte_ldd_test
+    user root
+    group system media
+    oneshot
+    disabled
+
+on property:sys.boot_completed=1 && property:ro.vendor.feature.pv_version=true
+    start zte_ldd_test
