@@ -1,0 +1,47 @@
+#
+#zte performance stable power config
+#
+
+# zte zram write-back config
+on property:persist.zte.mindsync.zram.wb_enabled=false
+    setprop persist.vendor.mindsync.zram.wb_enabled false
+
+on property:persist.zte.mindsync.zram.wb_enabled=true
+    setprop persist.vendor.mindsync.zram.wb_enabled true
+
+on property:sys.boot_completed=1 && property:persist.vendor.mindsync.zram.wb_enabled=false && property:sys.mindsync.zram.init=""
+    swapon_all /vendor/etc/fstab.enableswap
+    setprop sys.mindsync.zram.init 1
+
+on property:sys.boot_completed=1 && property:persist.vendor.mindsync.zram.wb_enabled=true && property:sys.mindsync.zram.init=""
+    swapon_all /vendor/etc/fstab.enableswap${persist.zte.mindsync.zram.wb_size}
+    swapon_all /vendor/etc/fstab.enableswap
+    chown root system /sys/block/zram0/writeback_limit
+    chmod 0664 /sys/block/zram0/writeback_limit
+    chown root system /sys/block/zram0/writeback_limit_enable
+    chmod 0664 /sys/block/zram0/writeback_limit_enable
+    setprop sys.mindsync.zram.init 1
+
+on early-init && property:ro.boot.ddrsize.range="[3072,4096)" && property:ro.board.platform="ums9620"
+    setprop persist.sys.app_compact_threshold 10240,20480,51200,emmc
+
+on early-init && property:ro.boot.ddrsize.range="[5120,6144)" && property:ro.board.platform="ums9620"
+    setprop persist.sys.app_compact_threshold 10240,20480,76800,emmc
+
+on early-init && property:ro.boot.ddrsize.range="[3072,4096)"
+   setprop dalvik.vm.heapgrowthlimit 256m
+
+on early-init && property:ro.boot.ddrsize.range="[4096,5120)"
+   setprop dalvik.vm.heapgrowthlimit 256m
+   setprop dalvik.vm.heapminfree 2m
+
+on early-init && property:ro.boot.ddrsize.range="[5120,6144)"
+   setprop dalvik.vm.heapgrowthlimit 256m
+   setprop dalvik.vm.heapminfree 2m
+
+on property:sys.zte.input.boost.ctrl=0 && property:ro.board.platform="ums9620"
+   write /proc/sys/unisched/input_boost_enable 0
+   write /dev/cpuset/foreground/cpus 0-5
+on property:sys.zte.input.boost.ctrl=1 && property:ro.board.platform="ums9620"
+   write /proc/sys/unisched/input_boost_enable 1
+   write /dev/cpuset/foreground/cpus 0-6

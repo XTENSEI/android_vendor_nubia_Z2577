@@ -1,0 +1,8 @@
+
+on property:vendor.all.modules.ready=1
+    #silead fingerprint
+    chmod 664 /dev/silead_fp
+    chown system system /dev/silead_fp
+
+on post-fs-data
+    mkdir /data/vendor/silead 0770 system system

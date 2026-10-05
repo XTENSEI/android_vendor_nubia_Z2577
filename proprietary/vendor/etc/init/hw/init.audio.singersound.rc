@@ -1,0 +1,13 @@
+on post-fs-data
+    mkdir /data/vendor/audio
+    mkdir /data/vendor/audio/sounroom
+    chmod 0771 /data/vendor/audio/sounroom
+    chown media audio /data/vendor/audio/sounroom
+    chmod 0440 /data/vendor/audio/sounroom/sr_user.cfg
+    copy /data/vendor/audio/sounroom/sr_user.cfg /data/vendor/audio/sounroom/tmp.cfg
+    copy /vendor/etc/sounroom/sr_user.cfg /data/vendor/audio/sounroom/sr_user.cfg
+    copy /data/vendor/audio/sounroom/tmp.cfg /data/vendor/audio/sounroom/sr_user.cfg
+    rm /data/vendor/audio/sounroom/tmp.cfg
+    chmod 0660 /data/vendor/audio/sounroom/sr_user.cfg
+    chown media audio /data/vendor/audio/sounroom/sr_user.cfg
+

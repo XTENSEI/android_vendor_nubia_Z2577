@@ -1,0 +1,20 @@
+on early-boot
+    chmod 0664  /dev/sqc_chg_node
+    chmod 0664  /dev/sqc_pd_node
+    chmod 0664  /dev/sqc_bc1d2_node
+
+on charger
+    class_start sqc_daemon
+
+on boot
+    class_start sqc_daemon
+
+on cali
+    class_start sqc_daemon
+
+service sqc_daemon /vendor/bin/sqc_daemon
+    class sqc_daemon
+    user root
+    group root system
+
+

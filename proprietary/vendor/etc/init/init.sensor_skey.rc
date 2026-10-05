@@ -1,0 +1,13 @@
+on property:vendor.all.modules.ready=1
+    chown system system /sys/class/leds/skey0/mode_operation
+    chown system system /sys/class/leds/skey0/sensy_config
+    chown system system /sys/class/leds/skey0/aot_cali
+    chown system system /sys/class/leds/skey1/mode_operation
+    chown system system /sys/class/leds/skey1/sensy_config
+    chown system system /sys/class/leds/skey1/aot_cali
+    chmod 660 /sys/class/leds/skey0/mode_operation
+    chmod 660 /sys/class/leds/skey0/sensy_config
+    chmod 660 /sys/class/leds/skey0/aot_cali
+    chmod 666 /sys/class/leds/skey1/mode_operation
+    chmod 660 /sys/class/leds/skey1/sensy_config
+    chmod 660 /sys/class/leds/skey1/aot_cali
