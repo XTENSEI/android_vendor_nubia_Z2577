@@ -4098,7 +4098,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/firmware/silead.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/silead.elf \
     vendor/nubia/Z2577/proprietary/vendor/firmware/skinseg_L6.tempcache_64:$(TARGET_COPY_OUT_VENDOR)/firmware/skinseg_L6.tempcache_64 \
     vendor/nubia/Z2577/proprietary/vendor/firmware/triggerlist.xml:$(TARGET_COPY_OUT_VENDOR)/firmware/triggerlist.xml \
-    vendor/nubia/Z2577/proprietary/vendor/firmware/ztekeys_ta.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ztekeys_ta.elf
+    vendor/nubia/Z2577/proprietary/vendor/firmware/ztekeys_ta.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ztekeys_ta.elf \
+    vendor/nubia/Z2577/proprietary/vendor/lib/libboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/libboost.so
 
 PRODUCT_PACKAGES += \
     7816-3-T1 \
@@ -4123,18 +4124,13 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@7.0 \
     android.hardware.audio@7.1-util \
     android.hardware.audio@7.1 \
-    android.hardware.biometrics.common-V2-ndk \
-    android.hardware.biometrics.fingerprint-V2-ndk \
     android.hardware.bluetooth.audio-impl \
     android.hardware.bluetooth.audio@2.0 \
     android.hardware.bluetooth.audio@2.1 \
-    android.hardware.bluetooth@1.0 \
-    android.hardware.bluetooth@1.1 \
     android.hardware.boot@1.0 \
     android.hardware.boot@1.1 \
     android.hardware.boot@1.2 \
     android.hardware.broadcastradio@1.0 \
-    android.hardware.broadcastradio@2.0 \
     android.hardware.camera.common@1.0 \
     android.hardware.camera.device@1.0 \
     android.hardware.camera.device@3.2 \
@@ -4142,21 +4138,9 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.4 \
     android.hardware.camera.device@3.5 \
     android.hardware.camera.device@3.6 \
-    android.hardware.camera.device@3.7 \
-    android.hardware.camera.metadata@3.2 \
-    android.hardware.camera.metadata@3.3 \
-    android.hardware.camera.metadata@3.4 \
-    android.hardware.camera.metadata@3.5 \
-    android.hardware.camera.metadata@3.6 \
     android.hardware.camera.provider@2.4-external-sprd \
     android.hardware.camera.provider@2.4-legacy-sprd \
     android.hardware.camera.provider@2.4 \
-    android.hardware.camera.provider@2.5-legacy-sprd \
-    android.hardware.camera.provider@2.5 \
-    android.hardware.camera.provider@2.6-legacy-sprd \
-    android.hardware.camera.provider@2.6 \
-    android.hardware.camera.provider@2.7-legacy-sprd \
-    android.hardware.camera.provider@2.7 \
     android.hardware.cas.native@1.0 \
     android.hardware.cas@1.0 \
     android.hardware.drm@1.0 \
@@ -4164,21 +4148,8 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.2 \
     android.hardware.drm@1.3 \
     android.hardware.drm@1.4 \
-    android.hardware.gatekeeper@1.0 \
     android.hardware.graphics.allocator-V1-ndk \
     android.hardware.graphics.common-V3-ndk \
-    android.hardware.graphics.composer@2.1-resources \
-    android.hardware.graphics.composer@2.1 \
-    android.hardware.graphics.composer@2.2-resources \
-    android.hardware.graphics.composer@2.2 \
-    android.hardware.graphics.composer@2.3 \
-    android.hardware.graphics.composer@2.4 \
-    android.hardware.neuralnetworks-V1-ndk \
-    android.hardware.neuralnetworks-V4-ndk \
-    android.hardware.neuralnetworks@1.0 \
-    android.hardware.neuralnetworks@1.1 \
-    android.hardware.neuralnetworks@1.2 \
-    android.hardware.neuralnetworks@1.3 \
     android.hardware.nfc@1.0 \
     android.hardware.nfc@1.1 \
     android.hardware.nfc@1.2 \
@@ -4187,7 +4158,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.1 \
     android.hardware.radio@1.2 \
     android.hardware.secure_element@1.0 \
-    android.hardware.security.keymint-V1-ndk \
     android.hardware.sensors@1.0 \
     android.hardware.sensors@2.0-ScopedWakelock \
     android.hardware.sensors@2.0 \
@@ -4195,18 +4165,8 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.X-sprd_subhal \
     android.hardware.thermal@1.0 \
     android.hardware.thermal@2.0 \
-    android.hardware.wifi@1.0 \
-    android.hardware.wifi@1.1 \
-    android.hardware.wifi@1.2 \
-    android.hardware.wifi@1.3 \
-    android.hardware.wifi@1.4 \
-    android.hardware.wifi@1.5 \
-    android.hardware.wifi@1.6 \
     android.hidl.allocator@1.0 \
     android.media.audio.common.types-V1-cpp \
-    android.system.keystore2-V1-ndk \
-    android.system.wifi.keystore@1.0 \
-    arm.graphics-V1-ndk \
     arm.graphics-V1-ndk_platform \
     arm.graphics-V2-ndk \
     arm.graphics-V2-ndk_platform \
@@ -4217,19 +4177,12 @@ PRODUCT_PACKAGES += \
     btaudio_offload_if \
     camera.device@1.0-impl \
     camera.device@3.2-impl-sprd \
-    camera.device@3.2-impl \
     camera.device@3.3-impl-sprd \
-    camera.device@3.3-impl \
     camera.device@3.4-external-impl-sprd \
     camera.device@3.4-impl-sprd \
-    camera.device@3.4-impl \
     camera.device@3.5-external-impl-sprd \
     camera.device@3.5-impl-sprd \
-    camera.device@3.5-impl \
     camera.device@3.6-external-impl-sprd \
-    camera.device@3.6-impl-sprd \
-    camera.device@3.7-impl-sprd \
-    cplog_common \
     libGLES_mali \
     framework-permission-aidl-cpp \
     android.hardware.audio.effect@7.0-impl \
@@ -4293,16 +4246,13 @@ PRODUCT_PACKAGES += \
     libWhite_point_shift \
     libXMPCore \
     libXMPFiles \
-    lib_android_keymaster_keymint_utils \
     lib_camera_frc \
     lib_crypto \
     lib_hdr_tm \
     lib_hsv_rgb_conv \
-    libaacvibrator \
     libadaptive_shutter \
     libadaptive_shutter_cc \
     libalsautils \
-    libapp-framework \
     libarcsoft_facialrestoration_unisoc \
     libarcsoft_high_dynamic_range_unisoc \
     libarcsoft_low_light_shot_unisoc \
@@ -4312,7 +4262,6 @@ PRODUCT_PACKAGES += \
     libaudiofoundation \
     libavcodec-59 \
     libavutil-57 \
-    libbinderdebug \
     libbluetooth_audio_session \
     libbluetooth_audio_session_aidl \
     libbokeh_depth \
@@ -4360,9 +4309,6 @@ PRODUCT_PACKAGES += \
     libcodec2_unisoc_imaadpcm \
     libcodec2_unisoc_store \
     libcodec2_vndk \
-    libcplog \
-    libcppbor_external \
-    libcppcose_rkp \
     libcppdrv_r6p0 \
     libdav1d \
     libdehaze_nvx \
@@ -4372,7 +4318,6 @@ PRODUCT_PACKAGES += \
     libeffectsconfig \
     libeic_trusty \
     libeng_tok \
-    libengbt \
     libengpc_adapt \
     libengpcctl \
     libeyeanalyze_for_fb2_2 \
@@ -4391,10 +4336,8 @@ PRODUCT_PACKAGES += \
     libhidparser_sensor \
     libhwbinder \
     libhwc2on1adapter \
-    libhwc2onfbadapter \
     libidispatch \
     libidispatchsm \
-    libimageClassify \
     libimpl-ril \
     libinfo \
     libinterface \
@@ -4403,22 +4346,14 @@ PRODUCT_PACKAGES += \
     libiwnpi \
     libjpeg_hw_sprd \
     libjpegenc_sw_sprd \
-    libkernelbootcp.trusty \
     libkey \
-    libkeymaster_messages \
-    libkeymaster_portable \
-    libkeymint \
-    libkeystore-engine-wifi-hidl \
-    libkeystore-wifi-hidl \
     liblcsagent \
     liblcscp \
     liblcsmgt \
     liblightportrait \
     liblightweightpipeline \
-    libliom \
     liblte \
     liblwpAdapter \
-    liblwpSimulationAdapter \
     liblwpcommon \
     liblwphwnodes \
     liblwpparser \
@@ -4461,7 +4396,6 @@ PRODUCT_PACKAGES += \
     libomx_vpxdec_hw_sprd \
     libomx_vpxdec_sw_sprd \
     libomx_vpxenc_hw_sprd \
-    libopenshort \
     libpipelinelog \
     libportrait_scene_cap \
     libportrait_scene_prev \
@@ -4469,7 +4403,6 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1 \
     libprotobuf-cpp-lite-3.9.1 \
     libpss_isp2.7 \
-    libpuresoftkeymasterdevice \
     libril-lite \
     libril-private \
     librilcore \
@@ -4487,7 +4420,6 @@ PRODUCT_PACKAGES += \
     libsky_seg_toning_320 \
     libsky_toning_realize \
     libsl_fp_impl \
-    libsoft_attestation_cert \
     libsprdNorb \
     libsprd_ai_mfnr \
     libsprd_aidepth_bokeh \
@@ -4555,7 +4487,6 @@ PRODUCT_PACKAGES += \
     libsprdxdr_1_2 \
     libsprdynr2cnr4 \
     libss-base \
-    libss-plugin \
     libss-sprd \
     libstagefright_bufferpool@2.0.1 \
     libstagefright_hdcp \
@@ -4566,22 +4497,18 @@ PRODUCT_PACKAGES += \
     libteec \
     libteecPlatform \
     libteeproduction \
-    libtensorflowlite_aiengine \
     libtensorflowlite_c \
     libtensorflowlite_gpu_jni \
     libtensorflowlite_jni \
-    libtextclassifier_hash \
     libtinyalsa \
     libtinycompress \
     libtinycompress_unisoc \
     libtinyxml \
     libtms_log_record \
-    libtpdlibrary \
     libtrusty \
     libtrustyHalHelper \
     libufsprotect \
     libumnn \
-    libuniai \
     libunievent \
     libunnengine \
     libutilsparser \
@@ -4600,7 +4527,6 @@ PRODUCT_PACKAGES += \
     libxml2bin \
     libxtm1.5 \
     libxtm2.5 \
-    libylog \
     libyuv420_scaler \
     libztekeys_ca_vendor \
     libzteprodkeyauth \
@@ -4616,11 +4542,9 @@ PRODUCT_PACKAGES += \
     libcamVMRPP \
     libclearkeycasplugin \
     libdrmclearkeyplugin \
-    nfc_nci.thn31nfc.tms \
     PQTune.unisoc \
     autotestsim \
     autotesttcard \
-    autotestwifi \
     libSensorsMMI \
     libTPrawdata \
     libap_opt \
@@ -4662,7 +4586,6 @@ PRODUCT_PACKAGES += \
     libzteatcmd \
     libztephoneatcmd \
     oemlock_ca \
-    power.sprd \
     sensors.dynamic_sensor_subhal \
     shared-file-region-aidl-cpp \
     libaudiopreprocessing \
@@ -4680,24 +4603,17 @@ PRODUCT_PACKAGES += \
     tms-cos-dl-common \
     tms-cos-dl-ree \
     tms-utils \
-    vendor.aac.hardware.richtap.vibrator-V1-ndk \
     vendor.sprd.algoservice@1.0 \
     vendor.sprd.hardware.boot@1.2 \
     vendor.sprd.hardware.connmgr@1.0 \
     vendor.sprd.hardware.cplog_svc-V1-ndk \
-    vendor.sprd.hardware.cplog_svc@1.0 \
     vendor.sprd.hardware.enhance-V1-ndk \
-    vendor.sprd.hardware.gnss-V1-ndk \
-    vendor.sprd.hardware.hdcp-V1-ndk \
     vendor.sprd.hardware.network-V1-ndk \
     vendor.sprd.hardware.thermal@1.0 \
     vendor.sprd.hardware.thermal@2.0 \
-    vendor.sprd.hardware.tool-V1-ndk \
     vendor.sprd.hardware.trusty-V1-ndk \
     vendor.sprd.hardware.trusty@1.0 \
-    vendor.sprd.hardware.unipnp-V1-ndk \
     vendor.tms.tmsnfc_aidl-V1-ndk \
-    vendor.unisoc.hardware.ai_engine-V2-ndk \
     vendor.unisoc.hardware.power-V1-ndk \
     vendor.unisoc.hardware.radio-V1-ndk \
     vendor.unisoc.hardware.radio.data-V1-ndk \
@@ -4708,9 +4624,132 @@ PRODUCT_PACKAGES += \
     vendor.unisoc.hardware.radio.network-V1-ndk \
     vendor.unisoc.hardware.radio.sim-V1-ndk \
     vendor.unisoc.hardware.radio.voice-V1-ndk \
+    vendor.zte.subsys-V1-ndk \
+    android.hardware.cas@1.1 \
+    android.hardware.cas@1.2 \
+    android.hardware.media.c2@1.0 \
+    android.hardware.media.c2@1.1 \
+    libvtswidevine \
+    audio.primary.ums9230 \
+    libavservices_minijail \
+    libcodec2_hidl@1.0 \
+    libcodec2_hidl@1.1 \
+    libcodec2_hidl_plugin \
+    libcodec2_unisoc_av1dec \
+    libcodec2_unisoc_avcdec \
+    libcodec2_unisoc_avcenc \
+    libcodec2_unisoc_h263dec \
+    libcodec2_unisoc_h263enc \
+    libcodec2_unisoc_hevcdec \
+    libcodec2_unisoc_hevcenc \
+    libcodec2_unisoc_jpegdec \
+    libcodec2_unisoc_jpegenc \
+    libcodec2_unisoc_mp3dec \
+    libcodec2_unisoc_mp3dec_L1 \
+    libcodec2_unisoc_mp3dec_L2 \
+    libcodec2_unisoc_mp3enc \
+    libcodec2_unisoc_mpeg4dec \
+    libcodec2_unisoc_mpeg4enc \
+    libcodec2_unisoc_vp8dec \
+    libcodec2_unisoc_vp9dec \
+    libomx_mp3dec_sprd \
+    libunisocaudiodiagnose \
+    libunisocaudiomiscctl \
+    libunisocaudioparam \
+    libunisocisc \
+    libunisocrecordcvs \
+    libunisocrecordnr \
+    libunisocrtp \
+    libunisocuserdump \
+    libvpx \
+    libunisocvoiceprocessing \
+    android.hardware.biometrics.common-V2-ndk \
+    android.hardware.biometrics.fingerprint-V2-ndk \
+    android.hardware.bluetooth@1.0 \
+    android.hardware.bluetooth@1.1 \
+    android.hardware.broadcastradio@2.0 \
+    android.hardware.camera.device@3.7 \
+    android.hardware.camera.metadata@3.2 \
+    android.hardware.camera.metadata@3.3 \
+    android.hardware.camera.metadata@3.4 \
+    android.hardware.camera.metadata@3.5 \
+    android.hardware.camera.metadata@3.6 \
+    android.hardware.camera.provider@2.5-legacy-sprd \
+    android.hardware.camera.provider@2.5 \
+    android.hardware.camera.provider@2.6-legacy-sprd \
+    android.hardware.camera.provider@2.6 \
+    android.hardware.camera.provider@2.7-legacy-sprd \
+    android.hardware.camera.provider@2.7 \
+    android.hardware.gatekeeper@1.0 \
+    android.hardware.graphics.composer@2.1-resources \
+    android.hardware.graphics.composer@2.1 \
+    android.hardware.graphics.composer@2.2-resources \
+    android.hardware.graphics.composer@2.2 \
+    android.hardware.graphics.composer@2.3 \
+    android.hardware.graphics.composer@2.4 \
+    android.hardware.neuralnetworks-V1-ndk \
+    android.hardware.neuralnetworks-V4-ndk \
+    android.hardware.neuralnetworks@1.0 \
+    android.hardware.neuralnetworks@1.1 \
+    android.hardware.neuralnetworks@1.2 \
+    android.hardware.neuralnetworks@1.3 \
+    android.hardware.security.keymint-V1-ndk \
+    android.hardware.wifi@1.0 \
+    android.hardware.wifi@1.1 \
+    android.hardware.wifi@1.2 \
+    android.hardware.wifi@1.3 \
+    android.hardware.wifi@1.4 \
+    android.hardware.wifi@1.5 \
+    android.hardware.wifi@1.6 \
+    android.system.keystore2-V1-ndk \
+    android.system.wifi.keystore@1.0 \
+    arm.graphics-V1-ndk \
+    camera.device@3.2-impl \
+    camera.device@3.3-impl \
+    camera.device@3.4-impl \
+    camera.device@3.5-impl \
+    camera.device@3.6-impl-sprd \
+    camera.device@3.7-impl-sprd \
+    cplog_common \
+    lib_android_keymaster_keymint_utils \
+    libaacvibrator \
+    libapp-framework \
+    libbinderdebug \
+    libcplog \
+    libcppbor_external \
+    libcppcose_rkp \
+    libengbt \
+    libhwc2onfbadapter \
+    libimageClassify \
+    libkernelbootcp.trusty \
+    libkeymaster_messages \
+    libkeymaster_portable \
+    libkeymint \
+    libkeystore-engine-wifi-hidl \
+    libkeystore-wifi-hidl \
+    libliom \
+    liblwpSimulationAdapter \
+    libopenshort \
+    libpuresoftkeymasterdevice \
+    libsoft_attestation_cert \
+    libss-plugin \
+    libtensorflowlite_aiengine \
+    libtextclassifier_hash \
+    libtpdlibrary \
+    libuniai \
+    libylog \
+    nfc_nci.thn31nfc.tms \
+    autotestwifi \
+    power.sprd \
+    vendor.aac.hardware.richtap.vibrator-V1-ndk \
+    vendor.sprd.hardware.cplog_svc@1.0 \
+    vendor.sprd.hardware.gnss-V1-ndk \
+    vendor.sprd.hardware.hdcp-V1-ndk \
+    vendor.sprd.hardware.tool-V1-ndk \
+    vendor.sprd.hardware.unipnp-V1-ndk \
+    vendor.unisoc.hardware.ai_engine-V2-ndk \
     vendor.zte.hardware.fingerprint-V1-ndk \
     vendor.zte.ldd.cmd-V2-ndk \
-    vendor.zte.subsys-V1-ndk \
     sensors.unisoc \
     libSprduniscedec \
     libbt-vendor \
@@ -5103,6 +5142,12 @@ PRODUCT_PACKAGES += \
     vendor_bin_xxd \
     vendor_bin_yes \
     vendor_bin_zcat \
+    vendor_lib_hw_vulkan_ums9230_so \
+    vendor_lib_libGLES_mali_so \
+    vendor_lib_libOpenCL_so \
+    vendor_lib_libOpenCL_so_1 \
+    vendor_lib_libOpenCL_so_1_1 \
+    vendor_lib_libOpenCL_so_1_2 \
     vendor_lib64_hw_vulkan_ums9230_so \
     vendor_lib64_libGLES_mali_so \
     vendor_lib64_libOpenCL_so \
