@@ -1,0 +1,2 @@
+CONTROL_Tag path = /home/zte/workspace/P615F02_NEEA_GEN_W_DAILYBUILD/android/vendor/sprd/modules/libcamera/iss/ISSFrame/ISSFrame.h
+

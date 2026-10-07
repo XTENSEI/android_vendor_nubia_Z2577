@@ -1,0 +1,12 @@
+# device/sprd/vnd_mpool/module/odm/telephony/mfeature/telephony/connectivity/wifionly/wifionly.rc
+# SPDX-FileCopyrightText: 2016-2023 Unisoc (Shanghai) Technologies Co., Ltd
+# SPDX-License-Identifier: LicenseRef-Unisoc-General-1.0
+
+on property:ro.boot.product.hardware.sku=wifionly && property:ro.board.platform=7731e
+setprop ro.vendor.radio.hasmodem "1"
+
+on property:ro.boot.product.hardware.sku=wifionly && property:ro.board.platform=9832e
+setprop ro.vendor.radio.hasmodem "1"
+
+on property:ro.boot.product.hardware.sku=wifionly && property:ro.board.platform=sp9863a
+setprop ro.vendor.radio.hasmodem "1"

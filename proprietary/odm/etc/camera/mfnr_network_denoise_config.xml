@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<mfnr_network_denoise_config>
+    <PhoneConfigParam target_brightness="0.35f" cache_path="/data/vendor/cameraserver/" phone_id="V80Max" use_bgu="1" brighten_factor="1.0f" use_overlap_tile="0" dump_value="0"
+        k1_net="0.0004897055f" k2_net="0.01507620f" s1_net="7.910723e-7f" s2_net="0.002898401f"
+        s3_net="-1.223214f" black_level_net="64" white_level_net="1023" iso_a="2000"
+        model_width="528" model_height="528" tflite_model="tflite_model_denoise_deblur_refine_a0p99_528_half">
+        <CameraConfigParam camera_id="0" factor_rough="8" k1_camera="0.0018439364584258973" k2_camera="0.020049440103116378" s1_camera="5.825843674242424e-06" s2_camera="0.0047617575757575754" s3_camera="0.6045438056818183"
+            black_level_camera="64" white_level_camera="1023" max_analog_iso="3100" num_w="4"
+            num_h="3" threshold_dpc_luma_percent="-1.0f" min_net_ratio="0.9" max_net_ratio="0.95" use_raw_brightness="2" anchor_y="0.3" drc_dark_gain="1.2"></CameraConfigParam>
+        <CameraConfigParam camera_id="5243968" factor_rough="8" k1_camera="0.0018439364584258973" k2_camera="0.020049440103116378" s1_camera="5.825843674242424e-06" s2_camera="0.0047617575757575754" s3_camera="0.6045438056818183"
+            black_level_camera="64" white_level_camera="1023" max_analog_iso="3100" num_w="4"
+            num_h="3" threshold_dpc_luma_percent="-1.0f" min_net_ratio="0.9" max_net_ratio="0.95" use_raw_brightness="2" anchor_y="0.3" drc_dark_gain="1.2"></CameraConfigParam>
+        <CameraConfigParam camera_id="5246816" factor_rough="8" k1_camera="0.002389132675499062" k2_camera="-0.007319187506805491" s1_camera="7.040307110416658e-06" s2_camera="-0.0011967720397607618" s3_camera="0.1650199494481436"
+            black_level_camera="64" white_level_camera="1023" max_analog_iso="3100" num_w="4"
+            num_h="3" threshold_dpc_luma_percent="-1.0f" min_net_ratio="0.92" max_net_ratio="0.95" use_raw_brightness="2" anchor_y="0.3" drc_dark_gain="1.2"></CameraConfigParam>
+    </PhoneConfigParam>
+   <Mode name="hdr">
+        <CameraConfigParam camera_id="0"  target_brightness="0.2f" clahe_strength="1.0f" clahe_strength1="1.0f" ></CameraConfigParam>
+    </Mode>
+</mfnr_network_denoise_config>

@@ -18452,6 +18452,1780 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
+cc_prebuilt_library_shared {
+    name: "sensors.unisoc",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/hw/sensors.unisoc.so",
+            ],
+            shared_libs: [
+                "libvtclib",
+                "libhardware",
+                "liblog",
+                "libcutils",
+                "libutils",
+                "libsensorlistcfg",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/hw/sensors.unisoc.so",
+            ],
+            shared_libs: [
+                "libvtclib",
+                "libhardware",
+                "liblog",
+                "libcutils",
+                "libutils",
+                "libsensorlistcfg",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    relative_install_path: "hw",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libSprduniscedec",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libSprduniscedec.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libm",
+                "libdl",
+                "liblog",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libSprduniscedec.so",
+            ],
+            shared_libs: [
+                "libc",
+                "libm",
+                "libdl",
+                "liblog",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbt-vendor",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libbt-vendor.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libbt-vendor.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcam_otp_parser",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libcam_otp_parser.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libxml2",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libcam_otp_parser.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libxml2",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcampss_ext",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libcampss_ext.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libutils",
+                "libcamcommon",
+                "liblog",
+                "libcamps",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libcampss_ext.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libutils",
+                "libcamcommon",
+                "liblog",
+                "libcamps",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamsensor",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libcamsensor.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libxml2",
+                "liblog",
+                "libcam_otp_parser",
+                "libcampmloader",
+                "liblwpcommon",
+                "libcampm_isp2.7",
+                "libcamps",
+                "liblwptrigger",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libcamsensor.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libxml2",
+                "liblog",
+                "libcam_otp_parser",
+                "libcampmloader",
+                "liblwpcommon",
+                "libcampm_isp2.7",
+                "libcamps",
+                "liblwptrigger",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liblwp3rdnodes",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/liblwp3rdnodes.so",
+            ],
+            shared_libs: [
+                "libpipelinelog",
+                "libxml2",
+                "libcamera_metadata",
+                "libsprdwarp",
+                "libsprdwarpadapter",
+                "libcamsensor",
+                "libsprdcamalgassist",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libcamcommon",
+                "libcamppm",
+                "liblwpcommon",
+                "libcamps",
+                "libui",
+                "libsprddrepro",
+                "libsprd_ps_switcher",
+                "libc++",
+                "libyuv",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/liblwp3rdnodes.so",
+            ],
+            shared_libs: [
+                "libpipelinelog",
+                "libxml2",
+                "libcamera_metadata",
+                "libsprdwarp",
+                "libsprdwarpadapter",
+                "libcamsensor",
+                "libsprdcamalgassist",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libcamcommon",
+                "libcamppm",
+                "liblwpcommon",
+                "libcamps",
+                "libui",
+                "libsprddrepro",
+                "libsprd_ps_switcher",
+                "libc++",
+                "libyuv",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libomx_avcdec_hw_sprd_secure",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libomx_avcdec_hw_sprd_secure.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "liblog",
+                "libcutils",
+                "libvsp_ca",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libomx_avcdec_hw_sprd_secure.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "liblog",
+                "libcutils",
+                "libvsp_ca",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libomx_avcenc_hw_sprd_secure",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libomx_avcenc_hw_sprd_secure.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "liblog",
+                "libcutils",
+                "libvsp_ca",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libomx_avcenc_hw_sprd_secure.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "liblog",
+                "libcutils",
+                "libvsp_ca",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libomx_hevcdec_hw_sprd_secure",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libomx_hevcdec_hw_sprd_secure.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "liblog",
+                "libcutils",
+                "libvsp_ca",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libomx_hevcdec_hw_sprd_secure.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "liblog",
+                "libcutils",
+                "libvsp_ca",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libomx_vp9dec_hw_sprd_secure",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libomx_vp9dec_hw_sprd_secure.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "liblog",
+                "libcutils",
+                "libvsp_ca",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libomx_vp9dec_hw_sprd_secure.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "liblog",
+                "libcutils",
+                "libvsp_ca",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libotp_gc08a3_front_p615f02",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libotp_gc08a3_front_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libcam_otp_parser",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libotp_gc08a3_front_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libcam_otp_parser",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libotp_gc08a3_ly_p615f02",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libotp_gc08a3_ly_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libcam_otp_parser",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libotp_gc08a3_ly_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libcam_otp_parser",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libotp_gc50f6_p615f02",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libotp_gc50f6_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libcam_otp_parser",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libotp_gc50f6_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libcam_otp_parser",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libotp_ov50d40_p615f02",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libotp_ov50d40_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libcam_otp_parser",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libotp_ov50d40_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libcam_otp_parser",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc02m1_hd_p615f02",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libsensor_gc02m1_hd_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libsensor_gc02m1_hd_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc02m1_p615f02",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libsensor_gc02m1_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libsensor_gc02m1_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc08a3_front_p615f02",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libsensor_gc08a3_front_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libsensor_gc08a3_front_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc08a3_ly_p615f02",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libsensor_gc08a3_ly_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libsensor_gc08a3_ly_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsensor_gc50f6_p615f02",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libsensor_gc50f6_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libsensor_gc50f6_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ipg",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libsensor_ipg.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libsensor_ipg.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsensor_ov50d40_p615f02",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libsensor_ov50d40_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libsensor_ov50d40_p615f02.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsensor_virtual_sensor",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libsensor_virtual_sensor.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libcamoem",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "libiss",
+                "liblwpcommon",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libsensor_virtual_sensor.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libcamoem",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "libiss",
+                "liblwpcommon",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libsensorlistcfg",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libsensorlistcfg.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libutils",
+                "libhardware",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libsensorlistcfg.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libutils",
+                "libhardware",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libtuneconnector",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libtuneconnector.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libmemion",
+                "libui",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "liblwpcommon",
+                "libcamera_metadata",
+                "libpipelinelog",
+                "libcamps",
+                "libcamppm",
+                "libcambr_isp2.7",
+                "libcampm_isp2.7",
+                "libiss",
+                "libcamevent",
+                "libunievent",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libtuneconnector.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libmemion",
+                "libui",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "liblwpcommon",
+                "libcamera_metadata",
+                "libpipelinelog",
+                "libcamps",
+                "libcamppm",
+                "libcambr_isp2.7",
+                "libcampm_isp2.7",
+                "libiss",
+                "libcamevent",
+                "libunievent",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvcm_dw9800",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libvcm_dw9800.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libvcm_dw9800.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamcommon",
+                "libutils",
+                "libcamsensor",
+                "liblog",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libvtclib",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libvtclib.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libvtclib.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "autotestfm",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/npidevice/autotestfm.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libutils",
+                "liblog",
+                "libhardware",
+                "libhardware_legacy",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/npidevice/autotestfm.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libutils",
+                "liblog",
+                "libhardware",
+                "libhardware_legacy",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    relative_install_path: "npidevice",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libfm-sprd_eut",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/npidevice/libfm-sprd_eut.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc",
+                "libcutils",
+                "libutils",
+                "libc++",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/npidevice/libfm-sprd_eut.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc",
+                "libcutils",
+                "libutils",
+                "libc++",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    relative_install_path: "npidevice",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libunisoccamcalitest",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/npidevice/libunisoccamcalitest.so",
+            ],
+            shared_libs: [
+                "libcamcommon",
+                "libcutils",
+                "liblog",
+                "libutils",
+                "libvndksupport",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/npidevice/libunisoccamcalitest.so",
+            ],
+            shared_libs: [
+                "libcamcommon",
+                "libcutils",
+                "liblog",
+                "libutils",
+                "libvndksupport",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    relative_install_path: "npidevice",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcodec2_unisoc_avcdec_secure",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libcodec2_unisoc_avcdec_secure.so",
+            ],
+            shared_libs: [
+                "libcodec2_unisoc_common",
+                "libcodec2_unisoc_store",
+                "libbase",
+                "liblog",
+                "libcodec2",
+                "libcodec2_vndk",
+                "libsfplugin_ccodec_utils",
+                "libstagefright_foundation",
+                "libmemion",
+                "libui",
+                "libutils",
+                "libcutils",
+                "libcodec2_unisoc_deintl",
+                "libion",
+                "libdmabufheap",
+                "libvideo_share_memory",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcodec2_unisoc_avcenc_secure",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libcodec2_unisoc_avcenc_secure.so",
+            ],
+            shared_libs: [
+                "libcodec2_unisoc_common",
+                "libcodec2_unisoc_store",
+                "libbase",
+                "liblog",
+                "libcodec2",
+                "libcodec2_vndk",
+                "libsfplugin_ccodec_utils",
+                "libstagefright_foundation",
+                "libmemion",
+                "libui",
+                "libutils",
+                "libcutils",
+                "libion",
+                "libdmabufheap",
+                "libvideo_share_memory",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcodec2_unisoc_hevcdec_secure",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libcodec2_unisoc_hevcdec_secure.so",
+            ],
+            shared_libs: [
+                "libcodec2_unisoc_common",
+                "libcodec2_unisoc_store",
+                "libbase",
+                "liblog",
+                "libcodec2",
+                "libcodec2_vndk",
+                "libsfplugin_ccodec_utils",
+                "libstagefright_foundation",
+                "libmemion",
+                "libui",
+                "libutils",
+                "libcutils",
+                "libion",
+                "libdmabufheap",
+                "libvideo_share_memory",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcodec2_unisoc_vp9dec_secure",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/odm/lib/libcodec2_unisoc_vp9dec_secure.so",
+            ],
+            shared_libs: [
+                "libcodec2_unisoc_common",
+                "libcodec2_unisoc_store",
+                "libbase",
+                "liblog",
+                "libcodec2",
+                "libcodec2_vndk",
+                "libsfplugin_ccodec_utils",
+                "libstagefright_foundation",
+                "libmemion",
+                "libui",
+                "libutils",
+                "libcutils",
+                "libvpx",
+                "libion",
+                "libdmabufheap",
+                "libvideo_share_memory",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmfnr_network",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libmfnr_network.so",
+            ],
+            shared_libs: [
+                "libz",
+                "liblog",
+                "libtensorflowlite_jni",
+                "libtensorflowlite_gpu_jni",
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libtensorflowlite_gpu_jni_odm",
+    stem: "libtensorflowlite_gpu_jni",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libtensorflowlite_gpu_jni.so",
+            ],
+            shared_libs: [
+                "libGLESv3",
+                "libEGL",
+                "libdl",
+                "libm",
+                "liblog",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libtensorflowlite_jni_odm",
+    stem: "libtensorflowlite_jni",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libtensorflowlite_jni.so",
+            ],
+            shared_libs: [
+                "libm",
+                "libdl",
+                "liblog",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libtflite_model_denoise_deblur_refine_a0p99_528_half",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libtflite_model_denoise_deblur_refine_a0p99_528_half.so",
+            ],
+            shared_libs: [
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libtflite_model_denoise_tiny_usm_deblur_refine_a0p99_544_half",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libtflite_model_denoise_tiny_usm_deblur_refine_a0p99_544_half.so",
+            ],
+            shared_libs: [
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libtflite_model_denoise_usm_deblur_refine_a0p99_528_half",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libtflite_model_denoise_usm_deblur_refine_a0p99_528_half.so",
+            ],
+            shared_libs: [
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libtflite_model_denoised_528_528",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libtflite_model_denoised_528_528.so",
+            ],
+            shared_libs: [
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libtflite_model_denoised_528_528_half",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libtflite_model_denoised_528_528_half.so",
+            ],
+            shared_libs: [
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
 dex_import {
     name: "androidx.camera.extensions.impl",
     owner: "nubia",

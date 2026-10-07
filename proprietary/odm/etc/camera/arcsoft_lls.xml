@@ -1,0 +1,411 @@
+<?xml version="1.0" standalone="no"?>
+<arcsoft_lls_config>
+    <sensor name="ov50d40_p615f02">
+        <IsoParam miniso="0" maxiso="199">
+            <CameraConfigParam lIntensity="10" lLightIntensity="0" lSaturation="50" lSharpenIntensity="60" lYReprocIntensity="10" lUVReprocIntensity="30" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="1" Param9="1" Param10="1" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="10" Param23="3"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="200" maxiso="399">
+            <CameraConfigParam lIntensity="30" lLightIntensity="0" lSaturation="50" lSharpenIntensity="80" lYReprocIntensity="30" lUVReprocIntensity="60" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="1" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="4" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="10" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="400" maxiso="599">
+		    <CameraConfigParam lIntensity="40" lLightIntensity="0" lSaturation="50" lSharpenIntensity="10" lYReprocIntensity="40" lUVReprocIntensity="40" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="4" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="10" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="600" maxiso="799">
+		    <CameraConfigParam lIntensity="60" lLightIntensity="0" lSaturation="50" lSharpenIntensity="40" lYReprocIntensity="60" lUVReprocIntensity="60" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="3" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="10" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="800" maxiso="999">
+		    <CameraConfigParam lIntensity="60" lLightIntensity="0" lSaturation="50" lSharpenIntensity="40" lYReprocIntensity="60" lUVReprocIntensity="60" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="3" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="10" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="1000" maxiso="1399">
+		    <CameraConfigParam lIntensity="40" lLightIntensity="0" lSaturation="50" lSharpenIntensity="40" lYReprocIntensity="40" lUVReprocIntensity="60" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="6" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="1400" maxiso="1599">
+		    <CameraConfigParam lIntensity="60" lLightIntensity="0" lSaturation="50" lSharpenIntensity="40" lYReprocIntensity="60" lUVReprocIntensity="60" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="3" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="1600" maxiso="1999">
+		    <CameraConfigParam lIntensity="60" lLightIntensity="0" lSaturation="50" lSharpenIntensity="40" lYReprocIntensity="60" lUVReprocIntensity="60" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="3" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="2000" maxiso="2399">
+		    <CameraConfigParam lIntensity="60" lLightIntensity="0" lSaturation="50" lSharpenIntensity="40" lYReprocIntensity="60" lUVReprocIntensity="80" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="0" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="2400" maxiso="3199">
+		    <CameraConfigParam lIntensity="80" lLightIntensity="0" lSaturation="50" lSharpenIntensity="40" lYReprocIntensity="80" lUVReprocIntensity="100" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="0" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="3200" maxiso="4799">
+		    <CameraConfigParam lIntensity="80" lLightIntensity="0" lSaturation="50" lSharpenIntensity="40" lYReprocIntensity="80" lUVReprocIntensity="100" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="4" Param19="4" Param20="0" 
+			    Param21="2" Param22="4" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="4800" maxiso="6399">
+		    <CameraConfigParam lIntensity="100" lLightIntensity="0" lSaturation="50" lSharpenIntensity="20" lYReprocIntensity="100" lUVReprocIntensity="100" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="3" Param19="3" Param20="0" 
+			    Param21="2" Param22="0" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="6400" maxiso="9599">
+		    <CameraConfigParam lIntensity="80" lLightIntensity="0" lSaturation="50" lSharpenIntensity="70" lYReprocIntensity="80" lUVReprocIntensity="60" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="3" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="4" Param19="4" Param20="0" 
+			    Param21="2" Param22="2" Param23="3"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="9600" maxiso="12799">
+		    <CameraConfigParam lIntensity="50" lLightIntensity="0" lSaturation="50" lSharpenIntensity="60" lYReprocIntensity="60" lUVReprocIntensity="50" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="3" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="4" Param19="4" Param20="0" 
+			    Param21="2" Param22="2" Param23="3"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="12800">
+		    <CameraConfigParam lIntensity="60" lLightIntensity="0" lSaturation="50" lSharpenIntensity="40" lYReprocIntensity="60" lUVReprocIntensity="50" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="4" Param19="4" Param20="0" 
+			    Param21="2" Param22="2" Param23="3"> </CameraConfigParam>
+		</IsoParam>
+	</sensor>
+    <sensor name="gc50f6_p615f02">
+        <IsoParam miniso="0" maxiso="199">
+            <CameraConfigParam lIntensity="10" lLightIntensity="0" lSaturation="50" lSharpenIntensity="60" lYReprocIntensity="10" lUVReprocIntensity="30" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="1" Param9="1" Param10="1" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="10" Param23="3"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="200" maxiso="399">
+            <CameraConfigParam lIntensity="30" lLightIntensity="0" lSaturation="50" lSharpenIntensity="80" lYReprocIntensity="30" lUVReprocIntensity="60" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="1" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="4" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="10" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="400" maxiso="599">
+		    <CameraConfigParam lIntensity="40" lLightIntensity="0" lSaturation="50" lSharpenIntensity="30" lYReprocIntensity="40" lUVReprocIntensity="60" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="3" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="10" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="600" maxiso="799">
+		    <CameraConfigParam lIntensity="60" lLightIntensity="0" lSaturation="50" lSharpenIntensity="40" lYReprocIntensity="60" lUVReprocIntensity="60" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="3" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="10" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="800" maxiso="999">
+		    <CameraConfigParam lIntensity="40" lLightIntensity="0" lSaturation="50" lSharpenIntensity="40" lYReprocIntensity="40" lUVReprocIntensity="60" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="3" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="10" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="1000" maxiso="1399">
+		    <CameraConfigParam lIntensity="40" lLightIntensity="0" lSaturation="50" lSharpenIntensity="40" lYReprocIntensity="40" lUVReprocIntensity="60" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="6" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="1400" maxiso="1599">
+		    <CameraConfigParam lIntensity="60" lLightIntensity="0" lSaturation="50" lSharpenIntensity="40" lYReprocIntensity="60" lUVReprocIntensity="60" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="3" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="1600" maxiso="1999">
+		    <CameraConfigParam lIntensity="60" lLightIntensity="0" lSaturation="50" lSharpenIntensity="40" lYReprocIntensity="60" lUVReprocIntensity="60" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="3" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="2000" maxiso="2399">
+		    <CameraConfigParam lIntensity="60" lLightIntensity="0" lSaturation="50" lSharpenIntensity="40" lYReprocIntensity="60" lUVReprocIntensity="80" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="0" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="2400" maxiso="3199">
+		    <CameraConfigParam lIntensity="80" lLightIntensity="0" lSaturation="50" lSharpenIntensity="40" lYReprocIntensity="80" lUVReprocIntensity="100" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="0" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="3200" maxiso="4799">
+		    <CameraConfigParam lIntensity="80" lLightIntensity="0" lSaturation="50" lSharpenIntensity="40" lYReprocIntensity="80" lUVReprocIntensity="100" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="4" Param19="4" Param20="0" 
+			    Param21="2" Param22="4" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="4800" maxiso="6399">
+		    <CameraConfigParam lIntensity="100" lLightIntensity="0" lSaturation="50" lSharpenIntensity="20" lYReprocIntensity="100" lUVReprocIntensity="100" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="3" Param19="3" Param20="0" 
+			    Param21="2" Param22="0" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="6400" maxiso="9599">
+		    <CameraConfigParam lIntensity="80" lLightIntensity="0" lSaturation="50" lSharpenIntensity="70" lYReprocIntensity="80" lUVReprocIntensity="60" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="3" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="4" Param19="4" Param20="0" 
+			    Param21="2" Param22="2" Param23="3"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="9600" maxiso="12799">
+		    <CameraConfigParam lIntensity="50" lLightIntensity="0" lSaturation="50" lSharpenIntensity="60" lYReprocIntensity="60" lUVReprocIntensity="50" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="3" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="4" Param19="4" Param20="0" 
+			    Param21="2" Param22="2" Param23="3"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="12800">
+		    <CameraConfigParam lIntensity="60" lLightIntensity="0" lSaturation="50" lSharpenIntensity="40" lYReprocIntensity="60" lUVReprocIntensity="50" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="4" Param19="4" Param20="0" 
+			    Param21="2" Param22="2" Param23="3"> </CameraConfigParam>
+		</IsoParam>
+	</sensor>
+	<sensor name="gc08a3_front_p615f02">
+        <IsoParam miniso="0" maxiso="99">
+            <CameraConfigParam lIntensity="20" lLightIntensity="0" lSaturation="50" lSharpenIntensity="5" lYReprocIntensity="0" lUVReprocIntensity="50" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="1" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="10" Param23="-1"> </CameraConfigParam>
+		</IsoParam>		
+		<IsoParam miniso="100" maxiso="199">
+		    <CameraConfigParam lIntensity="20" lLightIntensity="0" lSaturation="50" lSharpenIntensity="5" lYReprocIntensity="0" lUVReprocIntensity="50" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="1" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="10" Param23="-1"> </CameraConfigParam>
+		</IsoParam>		
+		<IsoParam miniso="200" maxiso="299">
+		    <CameraConfigParam lIntensity="50" lLightIntensity="0" lSaturation="50" lSharpenIntensity="15" lYReprocIntensity="50" lUVReprocIntensity="50" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="3" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="8" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="300" maxiso="399">
+		    <CameraConfigParam lIntensity="60" lLightIntensity="0" lSaturation="50" lSharpenIntensity="0" lYReprocIntensity="75" lUVReprocIntensity="50" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="3" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="3" Param19="3" Param20="0" 
+			    Param21="2" Param22="8" Param23="-1"> </CameraConfigParam>
+		</IsoParam>		
+		<IsoParam miniso="400" maxiso="599">
+		    <CameraConfigParam lIntensity="40" lLightIntensity="0" lSaturation="50" lSharpenIntensity="10" lYReprocIntensity="40" lUVReprocIntensity="100" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="3" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="4" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="6" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="600" maxiso="799">
+		    <CameraConfigParam lIntensity="40" lLightIntensity="0" lSaturation="50" lSharpenIntensity="10" lYReprocIntensity="40" lUVReprocIntensity="100" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="3" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="4" 
+			    Param16="0" Param17="0" Param18="3" Param19="3" Param20="0" 
+			    Param21="2" Param22="6" Param23="-1"> </CameraConfigParam>
+		</IsoParam>		
+		<IsoParam miniso="800" maxiso="1199">
+		    <CameraConfigParam lIntensity="50" lLightIntensity="0" lSaturation="50" lSharpenIntensity="10" lYReprocIntensity="50" lUVReprocIntensity="100" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="4" 
+			    Param16="0" Param17="0" Param18="3" Param19="3" Param20="0" 
+			    Param21="2" Param22="6" Param23="-1"> </CameraConfigParam>
+		</IsoParam>		
+		<IsoParam miniso="1200" maxiso="1599">
+		    <CameraConfigParam lIntensity="60" lLightIntensity="0" lSaturation="50" lSharpenIntensity="10" lYReprocIntensity="60" lUVReprocIntensity="100" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="4" 
+			    Param16="0" Param17="0" Param18="3" Param19="3" Param20="0" 
+			    Param21="2" Param22="6" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="1600" maxiso="3199">
+		    <CameraConfigParam lIntensity="80" lLightIntensity="0" lSaturation="50" lSharpenIntensity="10" lYReprocIntensity="60" lUVReprocIntensity="100" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="4" 
+			    Param16="0" Param17="0" Param18="3" Param19="3" Param20="0" 
+			    Param21="2" Param22="4" Param23="-1"> </CameraConfigParam>
+		</IsoParam>		
+		<IsoParam miniso="3200" maxiso="6400">
+		    <CameraConfigParam lIntensity="90" lLightIntensity="0" lSaturation="50" lSharpenIntensity="10" lYReprocIntensity="90" lUVReprocIntensity="100" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="4" 
+			    Param16="0" Param17="0" Param18="4" Param19="4" Param20="0" 
+			    Param21="2" Param22="4" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+	</sensor>
+	<sensor name="gc08a3_ly_p615f02">
+        <IsoParam miniso="0" maxiso="99">
+            <CameraConfigParam lIntensity="20" lLightIntensity="0" lSaturation="50" lSharpenIntensity="5" lYReprocIntensity="0" lUVReprocIntensity="50" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="1" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="10" Param23="-1"> </CameraConfigParam>
+		</IsoParam>		
+		<IsoParam miniso="100" maxiso="199">
+		    <CameraConfigParam lIntensity="20" lLightIntensity="0" lSaturation="50" lSharpenIntensity="5" lYReprocIntensity="0" lUVReprocIntensity="50" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="1" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="10" Param23="-1"> </CameraConfigParam>
+		</IsoParam>		
+		<IsoParam miniso="200" maxiso="299">
+		    <CameraConfigParam lIntensity="50" lLightIntensity="0" lSaturation="50" lSharpenIntensity="15" lYReprocIntensity="50" lUVReprocIntensity="50" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="3" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="8" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="300" maxiso="399">
+		    <CameraConfigParam lIntensity="60" lLightIntensity="0" lSaturation="50" lSharpenIntensity="0" lYReprocIntensity="75" lUVReprocIntensity="50" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="3" Param9="1" Param10="3" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="3" 
+			    Param16="0" Param17="0" Param18="3" Param19="3" Param20="0" 
+			    Param21="2" Param22="8" Param23="-1"> </CameraConfigParam>
+		</IsoParam>		
+		<IsoParam miniso="400" maxiso="599">
+		    <CameraConfigParam lIntensity="40" lLightIntensity="0" lSaturation="50" lSharpenIntensity="10" lYReprocIntensity="40" lUVReprocIntensity="100" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="3" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="4" 
+			    Param16="0" Param17="0" Param18="2" Param19="2" Param20="0" 
+			    Param21="2" Param22="6" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="600" maxiso="799">
+		    <CameraConfigParam lIntensity="40" lLightIntensity="0" lSaturation="50" lSharpenIntensity="10" lYReprocIntensity="40" lUVReprocIntensity="100" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="3" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="4" 
+			    Param16="0" Param17="0" Param18="3" Param19="3" Param20="0" 
+			    Param21="2" Param22="6" Param23="-1"> </CameraConfigParam>
+		</IsoParam>		
+		<IsoParam miniso="800" maxiso="1199">
+		    <CameraConfigParam lIntensity="50" lLightIntensity="0" lSaturation="50" lSharpenIntensity="10" lYReprocIntensity="50" lUVReprocIntensity="100" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="4" 
+			    Param16="0" Param17="0" Param18="3" Param19="3" Param20="0" 
+			    Param21="2" Param22="6" Param23="-1"> </CameraConfigParam>
+		</IsoParam>		
+		<IsoParam miniso="1200" maxiso="1599">
+		    <CameraConfigParam lIntensity="60" lLightIntensity="0" lSaturation="50" lSharpenIntensity="10" lYReprocIntensity="60" lUVReprocIntensity="100" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="4" 
+			    Param16="0" Param17="0" Param18="3" Param19="3" Param20="0" 
+			    Param21="2" Param22="6" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+		<IsoParam miniso="1600" maxiso="3199">
+		    <CameraConfigParam lIntensity="80" lLightIntensity="0" lSaturation="50" lSharpenIntensity="10" lYReprocIntensity="60" lUVReprocIntensity="100" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="4" 
+			    Param16="0" Param17="0" Param18="3" Param19="3" Param20="0" 
+			    Param21="2" Param22="4" Param23="-1"> </CameraConfigParam>
+		</IsoParam>		
+		<IsoParam miniso="3200" maxiso="6400">
+		    <CameraConfigParam lIntensity="90" lLightIntensity="0" lSaturation="50" lSharpenIntensity="10" lYReprocIntensity="90" lUVReprocIntensity="100" 
+			    Param1="0" Param2="1" Param3="80" Param4="1" Param5="2" 
+			    Param6="1" Param7="1" Param8="5" Param9="1" Param10="5" 
+			    Param11="0" Param12="1" Param13="0" Param14="0" Param15="4" 
+			    Param16="0" Param17="0" Param18="4" Param19="4" Param20="0" 
+			    Param21="2" Param22="4" Param23="-1"> </CameraConfigParam>
+		</IsoParam>
+	</sensor>
+</arcsoft_lls_config>
