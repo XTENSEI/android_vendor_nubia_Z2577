@@ -1,0 +1,28 @@
+post_proc_param path = /home/zte/workspace/P615F02_NEEA_GEN_W_DAILYBUILD/android/vendor/sprd/modules/libcamera/ips/lwp/framework/ParamTags.h
+_define_new_ps_param(post_proc_param,
+    float zoom_ratio;
+    float dst_aspect_ratio;
+    uint8_t is_scaling;
+    uint32_t cap_rot;
+    uint32_t fnum_numerator;
+    uint32_t fnum_denominator;
+    bool is_nozsl;
+    struct img_size snp_size;
+    struct img_data_end data_endian;
+);
+
+img_size path = /home/zte/workspace/P615F02_NEEA_GEN_W_DAILYBUILD/android/vendor/sprd/modules/libcamera/common/inc/cmr_types.h
+struct img_size {
+    cmr_u32 width;
+    cmr_u32 height;
+};
+
+img_data_end path = /home/zte/workspace/P615F02_NEEA_GEN_W_DAILYBUILD/android/vendor/sprd/modules/libcamera/oem2v7/inc/cmr_type.h
+struct img_data_end {
+    cmr_u8 y_endian;
+    cmr_u8 uv_endian;
+    cmr_u8 reserved0;
+    cmr_u8 reserved1;
+    // cmr_u32                                 padding;
+};
+

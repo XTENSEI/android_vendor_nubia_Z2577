@@ -1,0 +1,147 @@
+<?xml version="1.0" standalone="no"?>
+<adaptive_shutter_config>
+    <sensor
+        camera_id="0"
+        min_sensor_gain="1.0f"
+        max_sensor_gain="62.0f"
+        max_isp_gain="1.3871f"
+        sensor_min_shutter="0.085000"
+        max_preview_exposure_time="70"
+        max_star_mode_exposure_time="1000"
+        force_faster_shutter_time="20"
+        threshold_focus_distance="30.0"
+        threshold_bright_dark="-415"
+        threshold_control_preview="-415"
+        threshold_very_dark="160"
+        luma_target_very_dark="22"
+        hdr_detect_enable="1"
+        threshold_motion_blur_pixel_less_10ms="20"
+        threshold_motion_blur_pixel_11ms_to_30ms="30"
+        threshold_motion_blur_pixel_31ms_to_50ms="52"
+        threshold_motion_blur_pixel_51ms_to_70ms="80"
+        threshold_motion_blur_pixel_71ms_to_90ms="90"
+        max_output_ardc_gain="1.0f"
+        isp_adrc_enable="true"
+        hdr_low_exposure_reduce_ratio="32.0f"
+        sport_mode_enable="true"
+        motion_speed_threshold_zoom="1.6f"
+        threshold_gyroscope_motion_blur_pixel="30"
+        very_dark_capture_num="4" >
+        <HDRdetectParameter>
+            <level1_luxIndex_to_hdr_detect lux_index="-800" dark_value_thr="10"
+                bright_value_thr="245" dark_per_thr="0.05f" bright_per_thr="0.004f" />
+            <level2_luxIndex_to_hdr_detect lux_index="-600" dark_value_thr="10"
+                bright_value_thr="245" dark_per_thr="0.04f" bright_per_thr="0.005f" />
+            <level3_luxIndex_to_hdr_detect lux_index="-500" dark_value_thr="10"
+                bright_value_thr="245" dark_per_thr="0.04f" bright_per_thr="0.005f" />
+            <level4_luxIndex_to_hdr_detect lux_index="-415" dark_value_thr="10"
+                bright_value_thr="245" dark_per_thr="0.06f" bright_per_thr="0.002f" />
+        </HDRdetectParameter>
+        <GainRangeToCaptureNum>
+            <level1_gain_to_capture_num min_gain="0.0" max_gain="8.1" capture_num="2" />
+            <level2_gain_to_capture_num min_gain="8.1" max_gain="16.1" capture_num="4" />
+            <level3_gain_to_capture_num min_gain="16.1" max_gain="1000000.0" capture_num="4" />
+        </GainRangeToCaptureNum>
+        <GyroMaxExposureTime>
+            <tripod_stability gyro_angular_speed="0.009" max_exposure_time="1000" />
+            <level1_stability gyro_angular_speed="0.015" max_exposure_time="240" />
+            <level2_stability gyro_angular_speed="0.025" max_exposure_time="160" />
+            <level3_stability gyro_angular_speed="0.05" max_exposure_time="100" />
+        </GyroMaxExposureTime>
+        <ExposureTimeRange>
+            <et_below_10ms_range min_short_exposure_gain="0.25" max_long_exposure_gain="1.0" />
+            <et_10ms_range min_short_exposure_gain="1.0" max_long_exposure_gain="1.0" />
+            <et_20ms_range min_short_exposure_gain="0.5" max_long_exposure_gain="1.0" />
+            <et_30ms_range min_short_exposure_gain="0.66667" max_long_exposure_gain="1.0" />
+            <et_40ms_range min_short_exposure_gain="0.75" max_long_exposure_gain="1.0" />
+            <et_50ms_range min_short_exposure_gain="0.8" max_long_exposure_gain="1.0" />
+            <et_60ms_range min_short_exposure_gain="1.0" max_long_exposure_gain="1.33333333" />
+            <et_70ms_range min_short_exposure_gain="1.0" max_long_exposure_gain="1.2857" />
+            <et_80ms_range min_short_exposure_gain="1.0" max_long_exposure_gain="1.25" />
+            <et_90ms_range min_short_exposure_gain="1.0" max_long_exposure_gain="1.2" />
+            <et_dark_night_range min_short_exposure_gain="1.2" max_long_exposure_gain="1.4" />
+        </ExposureTimeRange>
+        <SprdLvTLum>
+            <level0_sensitivity Lv="0" TLum="1" />
+            <level1_sensitivity Lv="100" TLum="1" />
+            <level2_sensitivity Lv="200" TLum="1" />
+            <level3_sensitivity Lv="350" TLum="1" />
+            <level4_sensitivity Lv="800" TLum="1" />
+            <level5_sensitivity Lv="1000" TLum="1" />
+            <level6_sensitivity Lv="1200" TLum="1" />
+            <level7_sensitivity Lv="1500" TLum="1" />
+            <level8_sensitivity Lv="1600" TLum="1" />
+        </SprdLvTLum>
+    </sensor>
+    <sensor
+        camera_id="1"
+        min_sensor_gain="1.0f"
+        max_sensor_gain="16.0f"
+        max_isp_gain="4.0f"
+        sensor_min_shutter="0.052000f"
+        max_preview_exposure_time="100"
+        max_star_mode_exposure_time="1000"
+        force_faster_shutter_time="20"
+        threshold_focus_distance="30.0"
+        threshold_bright_dark="-415"
+        threshold_control_preview="-415"
+        threshold_very_dark="150"
+        luma_target_very_dark="30"
+        hdr_detect_enable="1"
+        threshold_motion_blur_pixel_less_10ms="20"
+        threshold_motion_blur_pixel_11ms_to_30ms="30"
+        threshold_motion_blur_pixel_31ms_to_50ms="42"
+        threshold_motion_blur_pixel_51ms_to_70ms="50"
+        threshold_motion_blur_pixel_71ms_to_90ms="60"
+        max_output_ardc_gain="1.0f"
+        hdr_low_exposure_reduce_ratio="32.0f"
+        motion_speed_threshold_zoom="1.6f"
+        threshold_gyroscope_motion_blur_pixel="30"
+        very_dark_capture_num="4" >
+        <HDRdetectParameter>
+            <level1_luxIndex_to_hdr_detect lux_index="-600" dark_value_thr="10"
+                bright_value_thr="245" dark_per_thr="0.05f" bright_per_thr="0.003f" />
+            <level2_luxIndex_to_hdr_detect lux_index="-550" dark_value_thr="10"
+                bright_value_thr="245" dark_per_thr="0.04f" bright_per_thr="0.004f" />
+            <level3_luxIndex_to_hdr_detect lux_index="-480" dark_value_thr="10"
+                bright_value_thr="245" dark_per_thr="0.04f" bright_per_thr="0.004f" />
+            <level4_luxIndex_to_hdr_detect lux_index="-415" dark_value_thr="10"
+                bright_value_thr="245" dark_per_thr="0.06f" bright_per_thr="0.001f" />
+        </HDRdetectParameter>
+        <GainRangeToCaptureNum>
+            <level1_gain_to_capture_num min_gain="0.0" max_gain="8.1" capture_num="2" />
+            <level2_gain_to_capture_num min_gain="8.1" max_gain="16.1" capture_num="4" />
+            <level3_gain_to_capture_num min_gain="16.1" max_gain="1000000.0" capture_num="4" />
+        </GainRangeToCaptureNum>
+        <GyroMaxExposureTime>
+            <tripod_stability gyro_angular_speed="0.009" max_exposure_time="1000" />
+            <level1_stability gyro_angular_speed="0.015" max_exposure_time="240" />
+            <level2_stability gyro_angular_speed="0.025" max_exposure_time="160" />
+            <level3_stability gyro_angular_speed="0.05" max_exposure_time="100" />
+        </GyroMaxExposureTime>
+        <ExposureTimeRange>
+            <et_below_10ms_range min_short_exposure_gain="0.25" max_long_exposure_gain="1.0" />
+            <et_10ms_range min_short_exposure_gain="0.4" max_long_exposure_gain="1.0" />
+            <et_20ms_range min_short_exposure_gain="0.5" max_long_exposure_gain="1.0" />
+            <et_30ms_range min_short_exposure_gain="0.66667" max_long_exposure_gain="1.0" />
+            <et_40ms_range min_short_exposure_gain="0.75" max_long_exposure_gain="1.0" />
+            <et_50ms_range min_short_exposure_gain="0.8" max_long_exposure_gain="1.0" />
+            <et_60ms_range min_short_exposure_gain="1.0" max_long_exposure_gain="1.33333333" />
+            <et_70ms_range min_short_exposure_gain="1.0" max_long_exposure_gain="1.2857" />
+            <et_80ms_range min_short_exposure_gain="1.0" max_long_exposure_gain="1.25" />
+            <et_90ms_range min_short_exposure_gain="1.0" max_long_exposure_gain="1.2" />
+            <et_dark_night_range min_short_exposure_gain="1.2" max_long_exposure_gain="1.4" />
+        </ExposureTimeRange>
+        <SprdLvTLum>
+            <level0_sensitivity Lv="0" TLum="1" />
+            <level1_sensitivity Lv="100" TLum="1" />
+            <level2_sensitivity Lv="200" TLum="1" />
+            <level3_sensitivity Lv="350" TLum="1" />
+            <level4_sensitivity Lv="800" TLum="1" />
+            <level5_sensitivity Lv="1000" TLum="1" />
+            <level6_sensitivity Lv="1200" TLum="1" />
+            <level7_sensitivity Lv="1500" TLum="1" />
+            <level8_sensitivity Lv="1600" TLum="1" />
+        </SprdLvTLum>
+    </sensor>
+</adaptive_shutter_config>

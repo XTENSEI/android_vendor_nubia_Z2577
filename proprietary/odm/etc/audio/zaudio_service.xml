@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<zaudio_service>
+<features>
+    <feature name="MirrorMode" enable="true" mute_type="SW"/>
+</features>
+
+</zaudio_service>

@@ -1,0 +1,5 @@
+on post-fs-data
+    copy /odm/etc/camera/sky_cls_cache_13385098423185631972.bin /data/vendor/cameraserver/sky_cls_cache_13385098423185631972.bin
+	copy /odm/etc/camera/sky_seg_cache_14920201638346831786.bin   /data/vendor/cameraserver/sky_seg_cache_14920201638346831786.bin
+	chown cameraserver audio /data/vendor/cameraserver/sky_cls_cache_13385098423185631972.bin
+	chown cameraserver audio /data/vendor/cameraserver/sky_seg_cache_14920201638346831786.bin
