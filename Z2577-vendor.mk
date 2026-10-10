@@ -4394,7 +4394,7 @@ PRODUCT_PACKAGES += \
     libsensorndkbridge \
     libshmemcompat \
     libshmemutil \
-    libskia \
+    libskia_vendor \
     libskia_watermark \
     libsky_seg_toning_320 \
     libsky_toning_realize \
