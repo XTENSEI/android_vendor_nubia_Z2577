@@ -4112,12 +4112,9 @@ PRODUCT_PACKAGES += \
     android.frameworks.cameraservice.service@2.1 \
     android.frameworks.cameraservice.service@2.2 \
     android.frameworks.sensorservice@1.0 \
-    android.hardware.audio.common-util \
     android.hardware.audio.common@5.0 \
-    android.hardware.audio.common@7.0-enums \
     android.hardware.audio.common@7.0-util \
     android.hardware.audio.common@7.0 \
-    android.hardware.audio.common@7.1-enums \
     android.hardware.audio.common@7.1-util \
     android.hardware.audio.effect@7.0-util \
     android.hardware.audio.effect@7.0 \
@@ -4200,7 +4197,6 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default \
     awinic.audio.effect \
-    bootctrl.default \
     camera.unisoc \
     dpu.unisoc \
     enhance.unisoc \
@@ -4253,7 +4249,6 @@ PRODUCT_PACKAGES += \
     lib_hsv_rgb_conv \
     libadaptive_shutter \
     libadaptive_shutter_cc \
-    libalsautils \
     libarcsoft_facialrestoration_unisoc \
     libarcsoft_high_dynamic_range_unisoc \
     libarcsoft_low_light_shot_unisoc \
@@ -4309,14 +4304,12 @@ PRODUCT_PACKAGES += \
     libcodec2_unisoc_deintl \
     libcodec2_unisoc_imaadpcm \
     libcodec2_unisoc_store \
-    libcodec2_vndk \
     libcppdrv_r6p0 \
     libdav1d \
     libdehaze_nvx \
     libdfa \
     libdrm \
     libeffects \
-    libeffectsconfig \
     libeic_trusty \
     libeng_tok \
     libengpc_adapt \
@@ -4364,9 +4357,7 @@ PRODUCT_PACKAGES += \
     liblwptrigger \
     libmapuser \
     libmediahdrtosdrtransform \
-    libmediautils_vendor \
     libmemion \
-    libmemunreachable \
     libmfnr \
     libmfnr4 \
     libmfnr5 \
@@ -4413,7 +4404,6 @@ PRODUCT_PACKAGES += \
     libsecrpmbdata_platform \
     libsecure_backup_ca \
     libsensorndkbridge \
-    libsfplugin_ccodec_utils \
     libshmemcompat \
     libshmemutil \
     libskia \
@@ -4489,7 +4479,6 @@ PRODUCT_PACKAGES += \
     libsprdynr2cnr4 \
     libss-base \
     libss-sprd \
-    libstagefright_bufferpool@2.0.1 \
     libstagefright_hdcp \
     libsupl \
     libswresample-4 \
@@ -4682,7 +4671,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.7-legacy-sprd \
     android.hardware.camera.provider@2.7 \
     android.hardware.gatekeeper@1.0 \
-    android.hardware.graphics.composer@2.1-resources \
     android.hardware.graphics.composer@2.1 \
     android.hardware.graphics.composer@2.2-resources \
     android.hardware.graphics.composer@2.2 \
@@ -4715,7 +4703,6 @@ PRODUCT_PACKAGES += \
     lib_android_keymaster_keymint_utils \
     libaacvibrator \
     libapp-framework \
-    libbinderdebug \
     libcplog \
     libcppbor_external \
     libcppcose_rkp \
@@ -4731,7 +4718,6 @@ PRODUCT_PACKAGES += \
     libliom \
     liblwpSimulationAdapter \
     libopenshort \
-    libpuresoftkeymasterdevice \
     libsoft_attestation_cert \
     libss-plugin \
     libtensorflowlite_aiengine \
