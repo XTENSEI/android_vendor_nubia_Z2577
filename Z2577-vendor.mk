@@ -524,7 +524,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/network-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/network-default.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/nfc-service-tms.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nfc-service-tms.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/phasecheckserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/phasecheckserver.rc \
-    vendor/nubia/Z2577/proprietary/vendor/etc/init/power.stats-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/power.stats-default.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/rebootescrow-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rebootescrow-default.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/refnotify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/refnotify.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/rpmbserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rpmbserver.rc \
@@ -4138,8 +4137,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.2 \
     android.hardware.drm@1.3 \
     android.hardware.drm@1.4 \
-    android.hardware.graphics.allocator-V1-ndk \
-    android.hardware.graphics.common-V3-ndk \
     android.hardware.nfc@1.0 \
     android.hardware.nfc@1.1 \
     android.hardware.nfc@1.2 \
@@ -4639,8 +4636,6 @@ PRODUCT_PACKAGES += \
     libunisocuserdump \
     libvpx \
     libunisocvoiceprocessing \
-    android.hardware.biometrics.common-V2-ndk \
-    android.hardware.biometrics.fingerprint-V2-ndk \
     android.hardware.bluetooth@1.0 \
     android.hardware.bluetooth@1.1 \
     android.hardware.broadcastradio@2.0 \
@@ -4661,8 +4656,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.2 \
     android.hardware.graphics.composer@2.3 \
     android.hardware.graphics.composer@2.4 \
-    android.hardware.neuralnetworks-V1-ndk \
-    android.hardware.neuralnetworks-V4-ndk \
     android.hardware.neuralnetworks@1.0 \
     android.hardware.neuralnetworks@1.1 \
     android.hardware.neuralnetworks@1.2 \
@@ -4786,7 +4779,6 @@ PRODUCT_PACKAGES += \
     memtrack.xml \
     network-default.xml \
     nfc-service-tms.xml \
-    power.stats-default.xml \
     rebootescrow-default.xml \
     trusty-default.xml \
     unionpnp_service-default.xml \
@@ -4832,7 +4824,6 @@ PRODUCT_PACKAGES += \
     android.hardware.media.omx@1.0-service \
     android.hardware.neuralnetworks@aidl-service-armnn-gpu \
     android.hardware.nfc-service-tms \
-    android.hardware.power.stats-service.example \
     android.hardware.rebootescrow-service.default \
     android.hardware.security.keymint@2.0-unisoc.service.trusty \
     android.hardware.sensors-service.multihal \
