@@ -4111,10 +4111,6 @@ PRODUCT_PACKAGES += \
     android.frameworks.cameraservice.service@2.1 \
     android.frameworks.cameraservice.service@2.2 \
     android.frameworks.sensorservice@1.0 \
-    android.hardware.audio.common@5.0 \
-    android.hardware.audio.common@7.0-util \
-    android.hardware.audio.common@7.0 \
-    android.hardware.audio.common@7.1-util \
     android.hardware.audio.effect@7.0-util \
     android.hardware.audio.effect@7.0 \
     android.hardware.audio@7.0-util \
@@ -4619,8 +4615,6 @@ PRODUCT_PACKAGES += \
     libvtswidevine \
     audio.primary.ums9230 \
     libavservices_minijail \
-    libcodec2_hidl@1.0 \
-    libcodec2_hidl@1.1 \
     libcodec2_hidl_plugin \
     libcodec2_unisoc_av1dec \
     libcodec2_unisoc_avcdec \
@@ -4700,20 +4694,15 @@ PRODUCT_PACKAGES += \
     libapp-framework \
     libcplog \
     libcppbor_external \
-    libcppcose_rkp \
     libengbt \
     libhwc2onfbadapter \
     libimageClassify \
     libkernelbootcp.trusty \
-    libkeymaster_messages \
-    libkeymaster_portable \
-    libkeymint \
     libkeystore-engine-wifi-hidl \
     libkeystore-wifi-hidl \
     libliom \
     liblwpSimulationAdapter \
     libopenshort \
-    libsoft_attestation_cert \
     libss-plugin \
     libtensorflowlite_aiengine \
     libtextclassifier_hash \
