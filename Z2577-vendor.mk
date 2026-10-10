@@ -4155,6 +4155,7 @@ PRODUCT_PACKAGES += \
     arm.graphics-V2-ndk_platform \
     arm.graphics-V3-ndk \
     arm.graphics-V5-ndk \
+    audioclient-types-aidl-cpp_vendor \
     av-types-aidl-cpp \
     btaudio_offload_if \
     camera.device@1.0-impl \
@@ -4674,6 +4675,7 @@ PRODUCT_PACKAGES += \
     camera.device@3.6-impl-sprd \
     camera.device@3.7-impl-sprd \
     cplog_common \
+    lib_android_keymaster_keymint_utils_vendor \
     libaacvibrator \
     libapp-framework \
     libcplog \
@@ -4682,6 +4684,7 @@ PRODUCT_PACKAGES += \
     libhwc2onfbadapter \
     libimageClassify \
     libkernelbootcp.trusty \
+    libkeymint_vendor \
     libkeystore-engine-wifi-hidl \
     libkeystore-wifi-hidl \
     libliom \

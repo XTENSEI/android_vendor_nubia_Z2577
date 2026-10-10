@@ -2643,6 +2643,49 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "audioclient-types-aidl-cpp_vendor",
+    stem: "audioclient-types-aidl-cpp",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/audioclient-types-aidl-cpp.so",
+            ],
+            shared_libs: [
+                "libbinder",
+                "libutils",
+                "android.media.audio.common.types-V1-cpp",
+                "framework-permission-aidl-cpp",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/audioclient-types-aidl-cpp.so",
+            ],
+            shared_libs: [
+                "libbinder",
+                "libutils",
+                "android.media.audio.common.types-V1-cpp",
+                "framework-permission-aidl-cpp",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "av-types-aidl-cpp",
     owner: "nubia",
     strip: {
@@ -6735,7 +6778,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "android.media.audio.common.types-V1-cpp",
-                "audioclient-types-aidl-cpp",
+                "audioclient-types-aidl-cpp_vendor",
                 "libbase",
                 "libbinder",
                 "liblog",
@@ -6756,7 +6799,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "android.media.audio.common.types-V1-cpp",
-                "audioclient-types-aidl-cpp",
+                "audioclient-types-aidl-cpp_vendor",
                 "libbase",
                 "libbinder",
                 "liblog",
@@ -6789,7 +6832,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "android.media.audio.common.types-V1-cpp",
-                "audioclient-types-aidl-cpp",
+                "audioclient-types-aidl-cpp_vendor",
                 "libaudioclient_aidl_conversion",
                 "libaudioutils",
                 "libbase",
@@ -6809,7 +6852,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "android.media.audio.common.types-V1-cpp",
-                "audioclient-types-aidl-cpp",
+                "audioclient-types-aidl-cpp_vendor",
                 "libaudioclient_aidl_conversion",
                 "libaudioutils",
                 "libbase",
@@ -25611,6 +25654,33 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "lib_android_keymaster_keymint_utils_vendor",
+    stem: "lib_android_keymaster_keymint_utils",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/lib_android_keymaster_keymint_utils.so",
+            ],
+            shared_libs: [
+                "android.hardware.security.keymint-V2-ndk",
+                "libbase",
+                "libhardware",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libaacvibrator",
     owner: "nubia",
     strip: {
@@ -25814,6 +25884,45 @@ cc_prebuilt_library_shared {
                 "libtrusty",
                 "liblog",
                 "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libkeymint_vendor",
+    stem: "libkeymint",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libkeymint.so",
+            ],
+            shared_libs: [
+                "android.hardware.security.keymint-V2-ndk",
+                "libhidlbase",
+                "android.hardware.security.secureclock-V1-ndk",
+                "android.hardware.security.sharedsecret-V1-ndk",
+                "lib_android_keymaster_keymint_utils_vendor",
+                "libbase",
+                "libbinder_ndk",
+                "libcppbor_external",
+                "libcrypto",
+                "libcutils",
+                "libkeymaster_messages",
+                "libkeymaster_portable",
+                "liblog",
+                "libpuresoftkeymasterdevice",
+                "libutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -29394,12 +29503,12 @@ cc_prebuilt_binary {
                 "android.hardware.security.keymint-V2-ndk",
                 "android.hardware.security.secureclock-V1-ndk",
                 "android.hardware.security.sharedsecret-V1-ndk",
-                "lib_android_keymaster_keymint_utils",
+                "lib_android_keymaster_keymint_utils_vendor",
                 "libbase",
                 "libbinder_ndk",
                 "libhardware",
                 "libkeymaster_messages",
-                "libkeymint",
+                "libkeymint_vendor",
                 "liblog",
                 "libtrusty",
                 "libutils",
