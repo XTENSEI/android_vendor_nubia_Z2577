@@ -5863,7 +5863,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libdl",
-                "libskia",
+                "libskia_vendor",
                 "libc",
                 "libm",
                 "libz",
@@ -5878,7 +5878,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libNubiaImageAlgorithmVD.so",
             ],
             shared_libs: [
-                "libskia",
+                "libskia_vendor",
                 "libc",
                 "libm",
                 "libdl",
@@ -9138,7 +9138,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libdav1d",
+    name: "libdav1d_vendor",
+    stem: "libdav1d",
     owner: "nubia",
     strip: {
         none: true,
@@ -12822,7 +12823,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "liblog",
                 "libcutils",
-                "libdav1d",
+                "libdav1d_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -12837,7 +12838,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "liblog",
                 "libcutils",
-                "libdav1d",
+                "libdav1d_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -14400,7 +14401,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libskia",
+    name: "libskia_vendor",
+    stem: "libskia",
     owner: "nubia",
     strip: {
         none: true,

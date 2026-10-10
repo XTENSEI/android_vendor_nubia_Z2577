@@ -4295,7 +4295,7 @@ PRODUCT_PACKAGES += \
     libcodec2_unisoc_imaadpcm \
     libcodec2_unisoc_store \
     libcppdrv_r6p0 \
-    libdav1d \
+    libdav1d_vendor \
     libdehaze_nvx \
     libdfa \
     libdrm \
@@ -4394,7 +4394,7 @@ PRODUCT_PACKAGES += \
     libsensorndkbridge \
     libshmemcompat \
     libshmemutil \
-    libskia \
+    libskia_vendor \
     libskia_watermark \
     libsky_seg_toning_320 \
     libsky_toning_realize \
