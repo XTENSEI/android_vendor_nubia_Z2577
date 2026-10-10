@@ -353,7 +353,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/odm/overlay/WifiOnlyOverlay.apk:$(TARGET_COPY_OUT_ODM)/overlay/WifiOnlyOverlay.apk \
     vendor/nubia/Z2577/proprietary/odm/overlay/WifiOnlySettingsOverlay.apk:$(TARGET_COPY_OUT_ODM)/overlay/WifiOnlySettingsOverlay.apk \
     vendor/nubia/Z2577/proprietary/odm/overlay/unisoc_overlay_core_max_cached_processed_28.apk:$(TARGET_COPY_OUT_ODM)/overlay/unisoc_overlay_core_max_cached_processed_28.apk \
-    vendor/nubia/Z2577/proprietary/system/bin/ztecharger:$(TARGET_COPY_OUT_SYSTEM)/bin/ztecharger \
     vendor/nubia/Z2577/proprietary/vendor/bin/power/backlight/readme:$(TARGET_COPY_OUT_VENDOR)/bin/power/backlight/readme \
     vendor/nubia/Z2577/proprietary/vendor/bin/power/cpu/dvfs/readme:$(TARGET_COPY_OUT_VENDOR)/bin/power/cpu/dvfs/readme \
     vendor/nubia/Z2577/proprietary/vendor/bin/power/cpu/fix_freq/readme:$(TARGET_COPY_OUT_VENDOR)/bin/power/cpu/fix_freq/readme \
@@ -4816,6 +4815,7 @@ PRODUCT_PACKAGES += \
     vendor.sprd.hardware.boot@1.2.xml \
     vendor.sprd.hardware.thermal@2.0-service.xml \
     vibrator.xml \
+    ztecharger \
     awk \
     battery_record_daemon \
     boringssl_self_test32 \
