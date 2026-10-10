@@ -1757,82 +1757,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.allocator-V1-ndk",
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.graphics.allocator-V1-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.graphics.allocator-V1-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.common-V3-ndk",
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.graphics.common-V3-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.graphics.common-V3-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.nfc@1.0",
     owner: "nubia",
     strip: {
@@ -24326,56 +24250,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.biometrics.common-V2-ndk",
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.biometrics.common-V2-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.biometrics.fingerprint-V2-ndk",
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.biometrics.fingerprint-V2-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.biometrics.common-V2-ndk",
-                "android.hardware.keymaster-V3-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.bluetooth@1.0",
     owner: "nubia",
     strip: {
@@ -25036,58 +24910,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.neuralnetworks-V1-ndk",
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.neuralnetworks-V1-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk",
-                "android.hardware.graphics.common-V3-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.neuralnetworks-V4-ndk",
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.neuralnetworks-V4-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk",
-                "android.hardware.graphics.common-V3-ndk",
                 "libc++",
                 "libc",
                 "libm",
