@@ -463,17 +463,14 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service.unisoc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service.unisoc.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.7-service_64.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.cas@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service.rc \
-    vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.drm-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.clearkey.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.trusty.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.trusty.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.4-service.rc \
-    vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.health-service.example.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health-service.example.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.media.c2@1.1-unisoc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.1-unisoc-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.neuralnetworks@aidl-service-armnn-gpu.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@aidl-service-armnn-gpu.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.security.keymint@2.0-unisoc.service.trusty.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint@2.0-unisoc.service.trusty.rc \
-    vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.sensors-service-multihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors-service-multihal.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.usb-service.unisoc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb-service.unisoc.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.wifi.hostapd-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.hostapd-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
@@ -4756,11 +4753,8 @@ PRODUCT_PACKAGES += \
     ai_engine-default.xml \
     android.hardware.camera.provider@2.7-service.xml \
     android.hardware.cas@1.2-service.xml \
-    android.hardware.drm-service.clearkey.xml \
     android.hardware.gatekeeper@1.0-service.trusty.xml \
-    android.hardware.health-service.example.xml \
     android.hardware.security.keymint@2.0-unisoc.service.trusty.xml \
-    android.hardware.sensors-multihal.xml \
     android.hardware.thermal@2.0-service.xml \
     android.hardware.usb-service.unisoc.xml \
     android.hardware.wifi.hostapd.xml \
@@ -4813,12 +4807,10 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1-service.unisoc \
     android.hardware.camera.provider@2.7-service_64 \
     android.hardware.cas@1.2-service \
-    android.hardware.drm-service.clearkey \
     android.hardware.drm-service.widevine \
     android.hardware.gatekeeper@1.0-service.trusty \
     android.hardware.graphics.allocator@4.0-service \
     android.hardware.graphics.composer@2.4-service \
-    android.hardware.health-service.example \
     android.hardware.identity-service.trusty \
     android.hardware.media.c2@1.1-unisoc-service \
     android.hardware.media.omx@1.0-service \
@@ -4826,7 +4818,6 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc-service-tms \
     android.hardware.rebootescrow-service.default \
     android.hardware.security.keymint@2.0-unisoc.service.trusty \
-    android.hardware.sensors-service.multihal \
     android.hardware.usb-service.unisoc \
     android.hardware.wifi@1.0-service \
     hostapd \
@@ -4880,7 +4871,6 @@ PRODUCT_PACKAGES += \
     total \
     quit_lpm \
     refnotify \
-    rkp_factory_extraction_tool \
     rpmbserver \
     sensor_cali_test \
     set_persist_vendor_stc \
