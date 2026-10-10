@@ -4161,7 +4161,6 @@ PRODUCT_PACKAGES += \
     arm.graphics-V2-ndk_platform \
     arm.graphics-V3-ndk \
     arm.graphics-V5-ndk \
-    audioclient-types-aidl-cpp \
     av-types-aidl-cpp \
     btaudio_offload_if \
     camera.device@1.0-impl \

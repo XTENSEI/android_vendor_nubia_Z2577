@@ -2778,49 +2778,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "audioclient-types-aidl-cpp",
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/audioclient-types-aidl-cpp.so",
-            ],
-            shared_libs: [
-                "libbinder",
-                "libutils",
-                "android.media.audio.common.types-V1-cpp",
-                "framework-permission-aidl-cpp",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/audioclient-types-aidl-cpp.so",
-            ],
-            shared_libs: [
-                "libbinder",
-                "libutils",
-                "android.media.audio.common.types-V1-cpp",
-                "framework-permission-aidl-cpp",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "av-types-aidl-cpp",
     owner: "nubia",
     strip: {
