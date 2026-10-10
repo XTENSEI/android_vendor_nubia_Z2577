@@ -4111,11 +4111,8 @@ PRODUCT_PACKAGES += \
     android.frameworks.cameraservice.service@2.1 \
     android.frameworks.cameraservice.service@2.2 \
     android.frameworks.sensorservice@1.0 \
-    android.hardware.audio.effect@7.0-util \
     android.hardware.audio.effect@7.0 \
-    android.hardware.audio@7.0-util \
     android.hardware.audio@7.0 \
-    android.hardware.audio@7.1-util \
     android.hardware.audio@7.1 \
     android.hardware.bluetooth.audio-impl \
     android.hardware.bluetooth.audio@2.0 \
@@ -4321,7 +4318,6 @@ PRODUCT_PACKAGES += \
     libgyrostab \
     libhdr \
     libhidparser_sensor \
-    libhwbinder \
     libhwc2on1adapter \
     libidispatch \
     libidispatchsm \
@@ -4672,7 +4668,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.1 \
     android.hardware.neuralnetworks@1.2 \
     android.hardware.neuralnetworks@1.3 \
-    android.hardware.security.keymint-V1-ndk \
     android.hardware.wifi@1.0 \
     android.hardware.wifi@1.1 \
     android.hardware.wifi@1.2 \
