@@ -4157,7 +4157,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
     android.hardware.secure_element@1.0 \
     android.hardware.sensors@1.0 \
-    android.hardware.sensors@2.0-ScopedWakelock \
     android.hardware.sensors@2.0 \
     android.hardware.sensors@2.1 \
     android.hardware.sensors@2.X-sprd_subhal \
@@ -4326,7 +4325,6 @@ PRODUCT_PACKAGES += \
     libgpudataproducer \
     libgyrostab \
     libhdr \
-    libhidltransport \
     libhidparser_sensor \
     libhwbinder \
     libhwc2on1adapter \
@@ -4672,7 +4670,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.7 \
     android.hardware.gatekeeper@1.0 \
     android.hardware.graphics.composer@2.1 \
-    android.hardware.graphics.composer@2.2-resources \
     android.hardware.graphics.composer@2.2 \
     android.hardware.graphics.composer@2.3 \
     android.hardware.graphics.composer@2.4 \
@@ -4700,7 +4697,6 @@ PRODUCT_PACKAGES += \
     camera.device@3.6-impl-sprd \
     camera.device@3.7-impl-sprd \
     cplog_common \
-    lib_android_keymaster_keymint_utils \
     libaacvibrator \
     libapp-framework \
     libcplog \
