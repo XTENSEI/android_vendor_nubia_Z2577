@@ -4295,7 +4295,7 @@ PRODUCT_PACKAGES += \
     libcodec2_unisoc_imaadpcm \
     libcodec2_unisoc_store \
     libcppdrv_r6p0 \
-    libdav1d \
+    libdav1d_vendor \
     libdehaze_nvx \
     libdfa \
     libdrm \
