@@ -4968,7 +4968,6 @@ PRODUCT_PACKAGES += \
     vendor_bin_setprop \
     vendor_bin_start \
     vendor_bin_stop \
-    vendor_bin_[ \
     vendor_bin_acpi \
     vendor_bin_base64 \
     vendor_bin_basename \

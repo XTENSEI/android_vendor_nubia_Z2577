@@ -34106,13 +34106,6 @@ install_symlink {
 }
 
 install_symlink {
-    name: "vendor_bin_[",
-    soc_specific: true,
-    installed_location: "bin/[",
-    symlink_target: "/vendor/bin/toybox_vendor",
-}
-
-install_symlink {
     name: "vendor_bin_acpi",
     soc_specific: true,
     installed_location: "bin/acpi",
