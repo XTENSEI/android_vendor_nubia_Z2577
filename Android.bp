@@ -30042,6 +30042,23 @@ prebuilt_etc_xml {
 }
 
 cc_prebuilt_binary {
+    name: "ztecharger",
+    owner: "nubia",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system/bin/ztecharger",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+}
+
+cc_prebuilt_binary {
     name: "awk",
     owner: "nubia",
     target: {
