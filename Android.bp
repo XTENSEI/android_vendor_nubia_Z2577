@@ -571,7 +571,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.bluetooth.audio-impl",
+    name: "android.hardware.bluetooth.audio-impl_vendor",
+    stem: "android.hardware.bluetooth.audio-impl",
     owner: "nubia",
     strip: {
         none: true,
@@ -588,7 +589,7 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "liblog",
                 "android.hardware.bluetooth.audio-V2-ndk",
-                "libbluetooth_audio_session_aidl",
+                "libbluetooth_audio_session_aidl_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -606,7 +607,7 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "liblog",
                 "android.hardware.bluetooth.audio-V2-ndk",
-                "libbluetooth_audio_session_aidl",
+                "libbluetooth_audio_session_aidl_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -2745,7 +2746,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "android.hardware.audio.common@5.0",
-                "libbluetooth_audio_session_aidl",
+                "libbluetooth_audio_session_aidl_vendor",
                 "android.hardware.bluetooth.audio-V2-ndk",
                 "libc++",
                 "libc",
@@ -2768,7 +2769,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "android.hardware.audio.common@5.0",
-                "libbluetooth_audio_session_aidl",
+                "libbluetooth_audio_session_aidl_vendor",
                 "android.hardware.bluetooth.audio-V2-ndk",
                 "libc++",
                 "libc",
@@ -3980,14 +3981,14 @@ cc_prebuilt_library_shared {
                 "libaudioutils",
                 "libbase",
                 "libbinder_ndk",
-                "libbluetooth_audio_session_aidl",
+                "libbluetooth_audio_session_aidl_vendor",
                 "libcutils",
                 "libfmq",
                 "liblog",
                 "libutils",
                 "android.hardware.bluetooth.audio@2.0",
                 "android.hardware.bluetooth.audio@2.1",
-                "libbluetooth_audio_session",
+                "libbluetooth_audio_session_vendor",
                 "libhidlbase",
                 "libc++",
                 "libc",
@@ -4004,14 +4005,14 @@ cc_prebuilt_library_shared {
                 "libaudioutils",
                 "libbase",
                 "libbinder_ndk",
-                "libbluetooth_audio_session_aidl",
+                "libbluetooth_audio_session_aidl_vendor",
                 "libcutils",
                 "libfmq",
                 "liblog",
                 "libutils",
                 "android.hardware.bluetooth.audio@2.0",
                 "android.hardware.bluetooth.audio@2.1",
-                "libbluetooth_audio_session",
+                "libbluetooth_audio_session_vendor",
                 "libhidlbase",
                 "libc++",
                 "libc",
@@ -6946,7 +6947,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libbluetooth_audio_session",
+    name: "libbluetooth_audio_session_vendor",
+    stem: "libbluetooth_audio_session",
     owner: "nubia",
     strip: {
         none: true,
@@ -6966,7 +6968,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "liblog",
                 "libutils",
-                "libbluetooth_audio_session_aidl",
+                "libbluetooth_audio_session_aidl_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -6987,7 +6989,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "liblog",
                 "libutils",
-                "libbluetooth_audio_session_aidl",
+                "libbluetooth_audio_session_aidl_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -7000,7 +7002,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libbluetooth_audio_session_aidl",
+    name: "libbluetooth_audio_session_aidl_vendor",
+    stem: "libbluetooth_audio_session_aidl",
     owner: "nubia",
     strip: {
         none: true,
@@ -29598,7 +29601,8 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "hostapd",
+    name: "hostapd_vendor",
+    stem: "hostapd",
     owner: "nubia",
     target: {
         android_arm64: {
@@ -30298,7 +30302,8 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "wpa_supplicant",
+    name: "wpa_supplicant_vendor",
+    stem: "wpa_supplicant",
     owner: "nubia",
     target: {
         android_arm64: {

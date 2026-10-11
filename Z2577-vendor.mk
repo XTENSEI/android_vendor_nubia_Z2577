@@ -4110,7 +4110,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@7.0 \
     android.hardware.audio@7.0 \
     android.hardware.audio@7.1 \
-    android.hardware.bluetooth.audio-impl \
+    android.hardware.bluetooth.audio-impl_vendor \
     android.hardware.bluetooth.audio@2.0 \
     android.hardware.bluetooth.audio@2.1 \
     android.hardware.boot@1.0 \
@@ -4243,8 +4243,8 @@ PRODUCT_PACKAGES += \
     libaudiofoundation \
     libavcodec-59 \
     libavutil-57 \
-    libbluetooth_audio_session \
-    libbluetooth_audio_session_aidl \
+    libbluetooth_audio_session_vendor \
+    libbluetooth_audio_session_aidl_vendor \
     libbokeh_depth \
     libbokeh_gaussian \
     libbokeh_gaussian_adapter \
@@ -4823,7 +4823,7 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint@2.0-unisoc.service.trusty \
     android.hardware.usb-service.unisoc \
     android.hardware.wifi@1.0-service \
-    hostapd \
+    hostapd_vendor \
     unionpnp_service \
     urild \
     vendor.sprd.hardware.boot@1.2-service \
@@ -4845,7 +4845,7 @@ PRODUCT_PACKAGES += \
     vendor.unisoc.hardware.power-service \
     vendor.zte.hardware.biometrics.fingerprint-service \
     vendor.zte.ldd.cmd-service \
-    wpa_supplicant \
+    wpa_supplicant_vendor \
     init.insmod \
     init.ssdaemon_vendor \
     logwrapper \
