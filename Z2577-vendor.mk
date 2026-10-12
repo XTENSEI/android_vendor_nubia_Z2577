@@ -4134,6 +4134,8 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.2 \
     android.hardware.drm@1.3 \
     android.hardware.drm@1.4 \
+    android.hardware.graphics.allocator-V1-ndk_vendor \
+    android.hardware.graphics.common-V3-ndk_vendor \
     android.hardware.nfc@1.0 \
     android.hardware.nfc@1.1 \
     android.hardware.nfc@1.2 \
@@ -4176,7 +4178,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@4.0-impl-arm \
     android.hardware.graphics.mapper@4.0-impl-arm \
     android.hardware.renderscript@1.0-impl \
-    audio.bluetooth.default \
+    audio.bluetooth.default_vendor \
     audio.bluetooth.ums9230 \
     audio.primary.default \
     audio.r_submix.default \
