@@ -4149,7 +4149,7 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0 \
     android.hardware.thermal@2.0 \
     android.hidl.allocator@1.0 \
-    android.media.audio.common.types-V1-cpp \
+    android.media.audio.common.types-V1-cpp_vendor \
     arm.graphics-V1-ndk_platform \
     arm.graphics-V2-ndk \
     arm.graphics-V2-ndk_platform \
