@@ -28506,28 +28506,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "awk",
-    owner: "nubia",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/awk",
-            ],
-            shared_libs: [
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "battery_record_daemon",
     owner: "nubia",
     target: {
@@ -28770,34 +28748,6 @@ cc_prebuilt_binary {
             ],
             shared_libs: [
                 "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "dumpsys",
-    owner: "nubia",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/dumpsys",
-            ],
-            shared_libs: [
-                "libbase",
-                "libutils",
-                "liblog",
-                "libbinder",
-                "libbinderdebug",
                 "libc++",
                 "libc",
                 "libm",
@@ -30246,31 +30196,6 @@ sh_binary {
 }
 
 cc_prebuilt_binary {
-    name: "logwrapper",
-    owner: "nubia",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/logwrapper",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "modem_control",
     owner: "nubia",
     target: {
@@ -30836,26 +30761,6 @@ sh_binary {
     owner: "nubia",
     src: "proprietary/vendor/bin/set_persist_vendor_stc.sh",
     filename: "set_persist_vendor_stc.sh",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "sh",
-    owner: "nubia",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/sh",
-            ],
-            shared_libs: [
-                "libc",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
     soc_specific: true,
 }
 

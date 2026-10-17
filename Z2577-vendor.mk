@@ -4786,7 +4786,6 @@ PRODUCT_PACKAGES += \
     vendor.sprd.hardware.thermal@2.0-service.xml \
     vibrator.xml \
     ztecharger \
-    awk \
     battery_record_daemon \
     boringssl_self_test32 \
     boringssl_self_test64 \
@@ -4799,7 +4798,6 @@ PRODUCT_PACKAGES += \
     cplogctl \
     create_splloader_dual_slot_byname_path \
     dcxsrv \
-    dumpsys \
     engpc \
     engpcctl \
     enter_lpm \
@@ -4846,7 +4844,6 @@ PRODUCT_PACKAGES += \
     wpa_supplicant_vendor \
     init.insmod \
     init.ssdaemon_vendor \
-    logwrapper \
     modem_control \
     nvmerge \
     phasecheckserver \
@@ -4875,7 +4872,6 @@ PRODUCT_PACKAGES += \
     rpmbserver \
     sensor_cali_test \
     set_persist_vendor_stc \
-    sh \
     slogmodem_vendor \
     speedrestrictor \
     sprdstorageproxyd \
