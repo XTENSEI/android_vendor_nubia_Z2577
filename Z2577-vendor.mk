@@ -4493,7 +4493,7 @@ PRODUCT_PACKAGES += \
     libvideonr \
     libvsp_ca \
     libwcn-vendor \
-    libwifi-hal \
+    libwifi-hal_vendor \
     libwpa_client \
     libwvaidl \
     libwvhidl \

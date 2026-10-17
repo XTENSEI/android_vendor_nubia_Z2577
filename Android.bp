@@ -18502,7 +18502,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libwifi-hal",
+    name: "libwifi-hal_vendor",
+    stem: "libwifi-hal",
     owner: "nubia",
     strip: {
         none: true,
@@ -26185,7 +26186,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libcutils",
-                "libwifi-hal",
+                "libwifi-hal_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -29419,7 +29420,7 @@ cc_prebuilt_binary {
                 "liblog",
                 "libnl",
                 "libutils",
-                "libwifi-hal",
+                "libwifi-hal_vendor",
                 "libwifi-system-iface",
                 "libxml2",
                 "android.hardware.wifi@1.0",
