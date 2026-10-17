@@ -18303,7 +18303,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libvibrator",
+    name: "libvibrator_vendor",
+    stem: "libvibrator",
     owner: "nubia",
     strip: {
         none: true,
@@ -21803,7 +21804,7 @@ cc_prebuilt_library_shared {
                 "libbinder",
                 "liblog",
                 "libutils",
-                "libvibrator",
+                "libvibrator_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -21820,7 +21821,7 @@ cc_prebuilt_library_shared {
                 "libbinder",
                 "liblog",
                 "libutils",
-                "libvibrator",
+                "libvibrator_vendor",
                 "libc++",
                 "libc",
                 "libm",

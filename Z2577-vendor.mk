@@ -4488,7 +4488,7 @@ PRODUCT_PACKAGES += \
     libvendorcfg_vendor \
     libvendorutils \
     libverify \
-    libvibrator \
+    libvibrator_vendor \
     libvideo_share_memory \
     libvideonr \
     libvsp_ca \
