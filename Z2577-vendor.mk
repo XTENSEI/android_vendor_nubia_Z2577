@@ -4157,7 +4157,6 @@ PRODUCT_PACKAGES += \
     arm.graphics-V2-ndk_platform \
     arm.graphics-V3-ndk \
     arm.graphics-V5-ndk \
-    audioclient-types-aidl-cpp_vendor \
     av-types-aidl-cpp \
     btaudio_offload_if \
     camera.device@1.0-impl \
@@ -4172,7 +4171,6 @@ PRODUCT_PACKAGES += \
     framework-permission-aidl-cpp \
     android.hardware.audio.effect@7.0-impl \
     android.hardware.audio@7.1-impl \
-    android.hardware.boot@1.0-impl-1.2 \
     android.hardware.broadcastradio@1.0-impl \
     android.hardware.camera.provider@2.4-impl-sprd \
     android.hardware.graphics.allocator@4.0-impl-arm \
@@ -4377,8 +4375,6 @@ PRODUCT_PACKAGES += \
     libportrait_scene_cap \
     libportrait_scene_prev \
     libpowerhal_cli \
-    libprotobuf-cpp-full-3.9.1 \
-    libprotobuf-cpp-lite-3.9.1 \
     libpss_isp2.7 \
     libril-lite \
     libril-private \
@@ -4895,7 +4891,6 @@ PRODUCT_PACKAGES += \
     test_ufs_swp_config \
     thermald \
     toolbox \
-    toybox_vendor \
     tp_fw_upgrade \
     trafficshow \
     tsupplicant \
@@ -4919,180 +4914,6 @@ PRODUCT_PACKAGES += \
     vendor_bin_setprop \
     vendor_bin_start \
     vendor_bin_stop \
-    vendor_bin_acpi \
-    vendor_bin_base64 \
-    vendor_bin_basename \
-    vendor_bin_blockdev \
-    vendor_bin_cal \
-    vendor_bin_cat \
-    vendor_bin_chattr \
-    vendor_bin_chcon \
-    vendor_bin_chgrp \
-    vendor_bin_chmod \
-    vendor_bin_chown \
-    vendor_bin_chroot \
-    vendor_bin_chrt \
-    vendor_bin_cksum \
-    vendor_bin_clear \
-    vendor_bin_cmp \
-    vendor_bin_comm \
-    vendor_bin_cp \
-    vendor_bin_cpio \
-    vendor_bin_cut \
-    vendor_bin_date \
-    vendor_bin_dd \
-    vendor_bin_devmem \
-    vendor_bin_df \
-    vendor_bin_diff \
-    vendor_bin_dirname \
-    vendor_bin_dmesg \
-    vendor_bin_dos2unix \
-    vendor_bin_du \
-    vendor_bin_echo \
-    vendor_bin_egrep \
-    vendor_bin_env \
-    vendor_bin_expand \
-    vendor_bin_expr \
-    vendor_bin_fallocate \
-    vendor_bin_false \
-    vendor_bin_fgrep \
-    vendor_bin_file \
-    vendor_bin_find \
-    vendor_bin_flock \
-    vendor_bin_fmt \
-    vendor_bin_free \
-    vendor_bin_fsync \
-    vendor_bin_getconf \
-    vendor_bin_getenforce \
-    vendor_bin_grep \
-    vendor_bin_groups \
-    vendor_bin_gunzip \
-    vendor_bin_gzip \
-    vendor_bin_head \
-    vendor_bin_hostname \
-    vendor_bin_hwclock \
-    vendor_bin_i2cdetect \
-    vendor_bin_i2cdump \
-    vendor_bin_i2cget \
-    vendor_bin_i2cset \
-    vendor_bin_iconv \
-    vendor_bin_id \
-    vendor_bin_ifconfig \
-    vendor_bin_inotifyd \
-    vendor_bin_insmod \
-    vendor_bin_install \
-    vendor_bin_ionice \
-    vendor_bin_iorenice \
-    vendor_bin_kill \
-    vendor_bin_killall \
-    vendor_bin_ln \
-    vendor_bin_load_policy \
-    vendor_bin_log \
-    vendor_bin_logname \
-    vendor_bin_losetup \
-    vendor_bin_ls \
-    vendor_bin_lsattr \
-    vendor_bin_lsmod \
-    vendor_bin_lsof \
-    vendor_bin_lspci \
-    vendor_bin_lsusb \
-    vendor_bin_md5sum \
-    vendor_bin_microcom \
-    vendor_bin_mkdir \
-    vendor_bin_mkfifo \
-    vendor_bin_mknod \
-    vendor_bin_mkswap \
-    vendor_bin_mktemp \
-    vendor_bin_modinfo \
-    vendor_bin_more \
-    vendor_bin_mount \
-    vendor_bin_mountpoint \
-    vendor_bin_mv \
-    vendor_bin_nc \
-    vendor_bin_netcat \
-    vendor_bin_netstat \
-    vendor_bin_nice \
-    vendor_bin_nl \
-    vendor_bin_nohup \
-    vendor_bin_nproc \
-    vendor_bin_nsenter \
-    vendor_bin_od \
-    vendor_bin_paste \
-    vendor_bin_patch \
-    vendor_bin_pgrep \
-    vendor_bin_pidof \
-    vendor_bin_pkill \
-    vendor_bin_pmap \
-    vendor_bin_printenv \
-    vendor_bin_printf \
-    vendor_bin_ps \
-    vendor_bin_pwd \
-    vendor_bin_readelf \
-    vendor_bin_readlink \
-    vendor_bin_realpath \
-    vendor_bin_renice \
-    vendor_bin_restorecon \
-    vendor_bin_rm \
-    vendor_bin_rmdir \
-    vendor_bin_rmmod \
-    vendor_bin_rtcwake \
-    vendor_bin_runcon \
-    vendor_bin_sed \
-    vendor_bin_sendevent \
-    vendor_bin_seq \
-    vendor_bin_setenforce \
-    vendor_bin_setsid \
-    vendor_bin_sha1sum \
-    vendor_bin_sha224sum \
-    vendor_bin_sha256sum \
-    vendor_bin_sha384sum \
-    vendor_bin_sha512sum \
-    vendor_bin_sleep \
-    vendor_bin_sort \
-    vendor_bin_split \
-    vendor_bin_stat \
-    vendor_bin_strings \
-    vendor_bin_stty \
-    vendor_bin_swapoff \
-    vendor_bin_swapon \
-    vendor_bin_sync \
-    vendor_bin_sysctl \
-    vendor_bin_tac \
-    vendor_bin_tail \
-    vendor_bin_tar \
-    vendor_bin_taskset \
-    vendor_bin_tee \
-    vendor_bin_test \
-    vendor_bin_time \
-    vendor_bin_timeout \
-    vendor_bin_top \
-    vendor_bin_touch \
-    vendor_bin_tr \
-    vendor_bin_true \
-    vendor_bin_truncate \
-    vendor_bin_tty \
-    vendor_bin_uclampset \
-    vendor_bin_ulimit \
-    vendor_bin_umount \
-    vendor_bin_uname \
-    vendor_bin_uniq \
-    vendor_bin_unix2dos \
-    vendor_bin_unlink \
-    vendor_bin_unshare \
-    vendor_bin_uptime \
-    vendor_bin_usleep \
-    vendor_bin_uudecode \
-    vendor_bin_uuencode \
-    vendor_bin_uuidgen \
-    vendor_bin_vmstat \
-    vendor_bin_watch \
-    vendor_bin_wc \
-    vendor_bin_which \
-    vendor_bin_whoami \
-    vendor_bin_xargs \
-    vendor_bin_xxd \
-    vendor_bin_yes \
-    vendor_bin_zcat \
     vendor_lib_hw_vulkan_ums9230_so \
     vendor_lib_libGLES_mali_so \
     vendor_lib_libOpenCL_so \
