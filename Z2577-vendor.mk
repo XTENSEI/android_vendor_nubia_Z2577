@@ -4472,7 +4472,7 @@ PRODUCT_PACKAGES += \
     libteeproduction \
     libtensorflowlite_c \
     libtensorflowlite_gpu_jni \
-    libtensorflowlite_jni \
+    libtensorflowlite_jni_vendor \
     libtinyalsa \
     libtinycompress \
     libtinycompress_unisoc \

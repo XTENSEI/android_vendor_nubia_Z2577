@@ -14406,7 +14406,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "liblog",
-                "libtensorflowlite_jni",
+                "libtensorflowlite_jni_vendor",
                 "libtensorflowlite_gpu_jni",
                 "libm",
                 "libdl",
@@ -14419,7 +14419,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "liblog",
-                "libtensorflowlite_jni",
+                "libtensorflowlite_jni_vendor",
                 "libtensorflowlite_gpu_jni",
                 "libm",
                 "libdl",
@@ -17676,7 +17676,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libtensorflowlite_jni",
+    name: "libtensorflowlite_jni_vendor",
+    stem: "libtensorflowlite_jni",
     owner: "nubia",
     strip: {
         none: true,
@@ -28002,7 +28003,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libz",
                 "liblog",
-                "libtensorflowlite_jni",
+                "libtensorflowlite_jni_odm",
                 "libtensorflowlite_gpu_jni",
                 "libm",
                 "libdl",
