@@ -1669,84 +1669,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.allocator-V1-ndk",
-    prefer: true,
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.graphics.allocator-V1-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.graphics.allocator-V1-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.common-V3-ndk",
-    prefer: true,
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.graphics.common-V3-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.graphics.common-V3-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.nfc@1.0",
     owner: "nubia",
     strip: {
@@ -2403,45 +2325,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.media.audio.common.types-V1-cpp",
-    prefer: true,
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.media.audio.common.types-V1-cpp.so",
-            ],
-            shared_libs: [
-                "libbinder",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.media.audio.common.types-V1-cpp.so",
-            ],
-            shared_libs: [
-                "libbinder",
-                "libutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -25208,33 +25091,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "lib_android_keymaster_keymint_utils",
-    prefer: true,
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/lib_android_keymaster_keymint_utils.so",
-            ],
-            shared_libs: [
-                "android.hardware.security.keymint-V2-ndk",
-                "libbase",
-                "libhardware",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libaacvibrator",
     owner: "nubia",
     strip: {
@@ -25438,45 +25294,6 @@ cc_prebuilt_library_shared {
                 "libtrusty",
                 "liblog",
                 "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libkeymint",
-    prefer: true,
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libkeymint.so",
-            ],
-            shared_libs: [
-                "android.hardware.security.keymint-V2-ndk",
-                "libhidlbase",
-                "android.hardware.security.secureclock-V1-ndk",
-                "android.hardware.security.sharedsecret-V1-ndk",
-                "lib_android_keymaster_keymint_utils",
-                "libbase",
-                "libbinder_ndk",
-                "libcppbor_external",
-                "libcrypto",
-                "libcutils",
-                "libkeymaster_messages",
-                "libkeymaster_portable",
-                "liblog",
-                "libpuresoftkeymasterdevice",
-                "libutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -27861,15 +27678,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "android.hardware.security.keymint@2.0-unisoc.service.trusty.xml",
-    owner: "nubia",
-    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint@2.0-unisoc.service.trusty.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "android.hardware.usb-service.unisoc.xml",
     owner: "nubia",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.usb-service.unisoc.xml",
@@ -28861,42 +28669,6 @@ cc_prebuilt_binary {
                 "libbase",
                 "libbinder_ndk",
                 "android.hardware.rebootescrow-V1-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.security.keymint@2.0-unisoc.service.trusty",
-    owner: "nubia",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.security.keymint@2.0-unisoc.service.trusty",
-            ],
-            shared_libs: [
-                "android.hardware.security.keymint-V2-ndk",
-                "android.hardware.security.secureclock-V1-ndk",
-                "android.hardware.security.sharedsecret-V1-ndk",
-                "lib_android_keymaster_keymint_utils",
-                "libbase",
-                "libbinder_ndk",
-                "libhardware",
-                "libkeymaster_messages",
-                "libkeymint",
-                "liblog",
-                "libtrusty",
-                "libutils",
                 "libc++",
                 "libc",
                 "libm",

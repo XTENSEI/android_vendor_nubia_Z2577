@@ -466,7 +466,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.media.c2@1.1-unisoc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.1-unisoc-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.neuralnetworks@aidl-service-armnn-gpu.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@aidl-service-armnn-gpu.rc \
-    vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.security.keymint@2.0-unisoc.service.trusty.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint@2.0-unisoc.service.trusty.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.usb-service.unisoc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb-service.unisoc.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.wifi.hostapd-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.hostapd-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
@@ -4128,8 +4127,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.2 \
     android.hardware.drm@1.3 \
     android.hardware.drm@1.4 \
-    android.hardware.graphics.allocator-V1-ndk \
-    android.hardware.graphics.common-V3-ndk \
     android.hardware.nfc@1.0 \
     android.hardware.nfc@1.1 \
     android.hardware.nfc@1.2 \
@@ -4145,7 +4142,6 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0 \
     android.hardware.thermal@2.0 \
     android.hidl.allocator@1.0 \
-    android.media.audio.common.types-V1-cpp \
     arm.graphics-V1-ndk_platform \
     arm.graphics-V2-ndk \
     arm.graphics-V2-ndk_platform \
@@ -4662,7 +4658,6 @@ PRODUCT_PACKAGES += \
     camera.device@3.6-impl-sprd \
     camera.device@3.7-impl-sprd \
     cplog_common \
-    lib_android_keymaster_keymint_utils \
     libaacvibrator \
     libapp-framework \
     libcplog \
@@ -4671,7 +4666,6 @@ PRODUCT_PACKAGES += \
     libhwc2onfbadapter \
     libimageClassify \
     libkernelbootcp.trusty \
-    libkeymint \
     libkeystore-engine-wifi-hidl \
     libkeystore-wifi-hidl \
     libliom \
@@ -4742,7 +4736,6 @@ PRODUCT_PACKAGES += \
     ai_engine-default.xml \
     android.hardware.camera.provider@2.7-service.xml \
     android.hardware.gatekeeper@1.0-service.trusty.xml \
-    android.hardware.security.keymint@2.0-unisoc.service.trusty.xml \
     android.hardware.usb-service.unisoc.xml \
     android.hardware.wifi@1.0-service.xml \
     cplog_svc-default.xml \
@@ -4795,7 +4788,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@aidl-service-armnn-gpu \
     android.hardware.nfc-service-tms \
     android.hardware.rebootescrow-service.default_vendor \
-    android.hardware.security.keymint@2.0-unisoc.service.trusty \
     android.hardware.usb-service.unisoc \
     android.hardware.wifi@1.0-service \
     hostapd \
