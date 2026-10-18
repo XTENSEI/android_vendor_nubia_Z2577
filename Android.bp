@@ -28649,41 +28649,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "hostapd",
-    prefer: true,
-    owner: "nubia",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/hostapd",
-            ],
-            shared_libs: [
-                "android.hardware.wifi.hostapd-V1-ndk",
-                "libbase",
-                "libutils",
-                "libbinder_ndk",
-                "libc",
-                "libcutils",
-                "liblog",
-                "libcrypto",
-                "libssl",
-                "libnl",
-                "libkeystore-wifi-hidl",
-                "libc++",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "unionpnp_service",
     owner: "nubia",
     target: {
@@ -29336,42 +29301,6 @@ cc_prebuilt_binary {
                 "vendor.zte.ldd.cmd-V2-ndk",
                 "libc++",
                 "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "wpa_supplicant",
-    prefer: true,
-    owner: "nubia",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/wpa_supplicant",
-            ],
-            shared_libs: [
-                "android.hardware.wifi.supplicant-V1-ndk",
-                "libbase",
-                "libbinder_ndk",
-                "libc",
-                "libcrypto",
-                "libcutils",
-                "libkeystore-engine-wifi-hidl",
-                "libkeystore-wifi-hidl",
-                "liblog",
-                "libnl",
-                "libssl",
-                "libutils",
-                "libc++",
                 "libm",
                 "libdl",
             ],

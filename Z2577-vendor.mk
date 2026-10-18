@@ -467,7 +467,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.neuralnetworks@aidl-service-armnn-gpu.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@aidl-service-armnn-gpu.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.usb-service.unisoc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb-service.unisoc.rc \
-    vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.wifi.hostapd-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.hostapd-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/autotest.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/autotest.rc \
@@ -4788,7 +4787,6 @@ PRODUCT_PACKAGES += \
     android.hardware.rebootescrow-service.default_vendor \
     android.hardware.usb-service.unisoc \
     android.hardware.wifi@1.0-service \
-    hostapd \
     unionpnp_service \
     urild \
     vendor.sprd.hardware.boot@1.2-service \
@@ -4810,7 +4808,6 @@ PRODUCT_PACKAGES += \
     vendor.unisoc.hardware.power-service \
     vendor.zte.hardware.biometrics.fingerprint-service \
     vendor.zte.ldd.cmd-service \
-    wpa_supplicant \
     init.insmod \
     init.ssdaemon_vendor \
     modem_control \
