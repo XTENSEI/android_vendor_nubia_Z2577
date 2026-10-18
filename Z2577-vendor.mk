@@ -349,10 +349,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/odm/logo/timewatermark/time_vert_152x76_bth.rgba:$(TARGET_COPY_OUT_ODM)/logo/timewatermark/time_vert_152x76_bth.rgba \
     vendor/nubia/Z2577/proprietary/odm/logo/timewatermark/time_vert_152x76_cth.rgba:$(TARGET_COPY_OUT_ODM)/logo/timewatermark/time_vert_152x76_cth.rgba \
     vendor/nubia/Z2577/proprietary/odm/logo/timewatermark/time_vert_152x76_dth.rgba:$(TARGET_COPY_OUT_ODM)/logo/timewatermark/time_vert_152x76_dth.rgba \
-    vendor/nubia/Z2577/proprietary/odm/overlay/DualSimOverlay.apk:$(TARGET_COPY_OUT_ODM)/overlay/DualSimOverlay.apk \
-    vendor/nubia/Z2577/proprietary/odm/overlay/WifiOnlyOverlay.apk:$(TARGET_COPY_OUT_ODM)/overlay/WifiOnlyOverlay.apk \
-    vendor/nubia/Z2577/proprietary/odm/overlay/WifiOnlySettingsOverlay.apk:$(TARGET_COPY_OUT_ODM)/overlay/WifiOnlySettingsOverlay.apk \
-    vendor/nubia/Z2577/proprietary/odm/overlay/unisoc_overlay_core_max_cached_processed_28.apk:$(TARGET_COPY_OUT_ODM)/overlay/unisoc_overlay_core_max_cached_processed_28.apk \
     vendor/nubia/Z2577/proprietary/vendor/bin/power/backlight/readme:$(TARGET_COPY_OUT_VENDOR)/bin/power/backlight/readme \
     vendor/nubia/Z2577/proprietary/vendor/bin/power/cpu/dvfs/readme:$(TARGET_COPY_OUT_VENDOR)/bin/power/cpu/dvfs/readme \
     vendor/nubia/Z2577/proprietary/vendor/bin/power/cpu/fix_freq/readme:$(TARGET_COPY_OUT_VENDOR)/bin/power/cpu/fix_freq/readme \
