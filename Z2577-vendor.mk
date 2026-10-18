@@ -4226,8 +4226,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_low_light_shot_unisoc \
     libarcsoft_mf_superresolution_unisoc \
     libatci \
-    libaudioclient_aidl_conversion \
-    libaudiofoundation \
     libavcodec-59 \
     libavutil-57 \
     libbokeh_depth \
