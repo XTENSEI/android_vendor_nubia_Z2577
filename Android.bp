@@ -29304,7 +29304,8 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.rebootescrow-service.default",
+    name: "android.hardware.rebootescrow-service.default_vendor",
+    stem: "android.hardware.rebootescrow-service.default",
     owner: "nubia",
     target: {
         android_arm64: {

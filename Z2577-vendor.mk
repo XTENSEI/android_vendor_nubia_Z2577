@@ -4815,7 +4815,7 @@ PRODUCT_PACKAGES += \
     android.hardware.media.omx@1.0-service \
     android.hardware.neuralnetworks@aidl-service-armnn-gpu \
     android.hardware.nfc-service-tms \
-    android.hardware.rebootescrow-service.default \
+    android.hardware.rebootescrow-service.default_vendor \
     android.hardware.security.keymint@2.0-unisoc.service.trusty \
     android.hardware.usb-service.unisoc \
     android.hardware.wifi@1.0-service \
