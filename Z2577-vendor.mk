@@ -4128,8 +4128,8 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.2 \
     android.hardware.drm@1.3 \
     android.hardware.drm@1.4 \
-    android.hardware.graphics.allocator-V1-ndk_vendor \
-    android.hardware.graphics.common-V3-ndk_vendor \
+    android.hardware.graphics.allocator-V1-ndk \
+    android.hardware.graphics.common-V3-ndk \
     android.hardware.nfc@1.0 \
     android.hardware.nfc@1.1 \
     android.hardware.nfc@1.2 \
@@ -4145,7 +4145,7 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0 \
     android.hardware.thermal@2.0 \
     android.hidl.allocator@1.0 \
-    android.media.audio.common.types-V1-cpp_vendor \
+    android.media.audio.common.types-V1-cpp \
     arm.graphics-V1-ndk_platform \
     arm.graphics-V2-ndk \
     arm.graphics-V2-ndk_platform \
@@ -4480,7 +4480,7 @@ PRODUCT_PACKAGES += \
     libvideonr \
     libvsp_ca \
     libwcn-vendor \
-    libwifi-hal_vendor \
+    libwifi-hal \
     libwpa_client \
     libwvaidl \
     libwvhidl \
@@ -4662,7 +4662,7 @@ PRODUCT_PACKAGES += \
     camera.device@3.6-impl-sprd \
     camera.device@3.7-impl-sprd \
     cplog_common \
-    lib_android_keymaster_keymint_utils_vendor \
+    lib_android_keymaster_keymint_utils \
     libaacvibrator \
     libapp-framework \
     libcplog \
@@ -4671,7 +4671,7 @@ PRODUCT_PACKAGES += \
     libhwc2onfbadapter \
     libimageClassify \
     libkernelbootcp.trusty \
-    libkeymint_vendor \
+    libkeymint \
     libkeystore-engine-wifi-hidl \
     libkeystore-wifi-hidl \
     libliom \
@@ -4741,7 +4741,6 @@ PRODUCT_PACKAGES += \
     manifest.xml \
     ai_engine-default.xml \
     android.hardware.camera.provider@2.7-service.xml \
-    android.hardware.cas@1.2-service.xml \
     android.hardware.gatekeeper@1.0-service.trusty.xml \
     android.hardware.security.keymint@2.0-unisoc.service.trusty.xml \
     android.hardware.usb-service.unisoc.xml \
@@ -4750,7 +4749,6 @@ PRODUCT_PACKAGES += \
     enhance-default.xml \
     fingerprint-default-zte.xml \
     hdcp-default.xml \
-    identity-default.xml_vendor \
     lights.xml \
     manifest_android.hardware.drm-service.widevine.xml \
     manifest_dualsim.xml \
@@ -4800,7 +4798,7 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint@2.0-unisoc.service.trusty \
     android.hardware.usb-service.unisoc \
     android.hardware.wifi@1.0-service \
-    hostapd_vendor \
+    hostapd \
     unionpnp_service \
     urild \
     vendor.sprd.hardware.boot@1.2-service \
@@ -4822,7 +4820,7 @@ PRODUCT_PACKAGES += \
     vendor.unisoc.hardware.power-service \
     vendor.zte.hardware.biometrics.fingerprint-service \
     vendor.zte.ldd.cmd-service \
-    wpa_supplicant_vendor \
+    wpa_supplicant \
     init.insmod \
     init.ssdaemon_vendor \
     modem_control \

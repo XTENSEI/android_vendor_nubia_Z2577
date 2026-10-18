@@ -1669,9 +1669,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.allocator-V1-ndk_vendor",
-    overrides: ["android.hardware.graphics.allocator-V1-ndk"],
-    stem: "android.hardware.graphics.allocator-V1-ndk",
+    name: "android.hardware.graphics.allocator-V1-ndk",
+    prefer: true,
     owner: "nubia",
     strip: {
         none: true,
@@ -1709,9 +1708,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.common-V3-ndk_vendor",
-    overrides: ["android.hardware.graphics.common-V3-ndk"],
-    stem: "android.hardware.graphics.common-V3-ndk",
+    name: "android.hardware.graphics.common-V3-ndk",
+    prefer: true,
     owner: "nubia",
     strip: {
         none: true,
@@ -2417,9 +2415,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.media.audio.common.types-V1-cpp_vendor",
-    overrides: ["android.media.audio.common.types-V1-cpp"],
-    stem: "android.media.audio.common.types-V1-cpp",
+    name: "android.media.audio.common.types-V1-cpp",
+    prefer: true,
     owner: "nubia",
     strip: {
         none: true,
@@ -3264,7 +3261,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/egl/libGLES_mali.so",
             ],
             shared_libs: [
-                "android.hardware.graphics.allocator-V1-ndk_vendor",
+                "android.hardware.graphics.allocator-V1-ndk",
                 "libbinder_ndk",
                 "liblog",
                 "libbase",
@@ -3276,7 +3273,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libcutils",
                 "libhardware",
-                "android.hardware.graphics.common-V3-ndk_vendor",
+                "android.hardware.graphics.common-V3-ndk",
                 "libdmabufheap",
                 "libz",
                 "libc++",
@@ -3290,7 +3287,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/egl/libGLES_mali.so",
             ],
             shared_libs: [
-                "android.hardware.graphics.allocator-V1-ndk_vendor",
+                "android.hardware.graphics.allocator-V1-ndk",
                 "libbinder_ndk",
                 "liblog",
                 "libbase",
@@ -3302,7 +3299,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libcutils",
                 "libhardware",
-                "android.hardware.graphics.common-V3-ndk_vendor",
+                "android.hardware.graphics.common-V3-ndk",
                 "libdmabufheap",
                 "libz",
                 "libc++",
@@ -3642,7 +3639,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libdmabufheap",
-                "android.hardware.graphics.common-V3-ndk_vendor",
+                "android.hardware.graphics.common-V3-ndk",
                 "arm.graphics-V5-ndk",
                 "android.hardware.graphics.common@1.2",
                 "libbase",
@@ -3669,7 +3666,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libdmabufheap",
-                "android.hardware.graphics.common-V3-ndk_vendor",
+                "android.hardware.graphics.common-V3-ndk",
                 "arm.graphics-V5-ndk",
                 "android.hardware.graphics.common@1.2",
                 "libbase",
@@ -3709,7 +3706,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libdmabufheap",
-                "android.hardware.graphics.common-V3-ndk_vendor",
+                "android.hardware.graphics.common-V3-ndk",
                 "arm.graphics-V5-ndk",
                 "android.hardware.graphics.common@1.2",
                 "libbase",
@@ -3735,7 +3732,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libdmabufheap",
-                "android.hardware.graphics.common-V3-ndk_vendor",
+                "android.hardware.graphics.common-V3-ndk",
                 "arm.graphics-V5-ndk",
                 "android.hardware.graphics.common@1.2",
                 "libbase",
@@ -6511,7 +6508,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libaudioclient_aidl_conversion.so",
             ],
             shared_libs: [
-                "android.media.audio.common.types-V1-cpp_vendor",
+                "android.media.audio.common.types-V1-cpp",
                 "audioclient-types-aidl-cpp",
                 "libbase",
                 "libbinder",
@@ -6532,7 +6529,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libaudioclient_aidl_conversion.so",
             ],
             shared_libs: [
-                "android.media.audio.common.types-V1-cpp_vendor",
+                "android.media.audio.common.types-V1-cpp",
                 "audioclient-types-aidl-cpp",
                 "libbase",
                 "libbinder",
@@ -6565,7 +6562,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libaudiofoundation.so",
             ],
             shared_libs: [
-                "android.media.audio.common.types-V1-cpp_vendor",
+                "android.media.audio.common.types-V1-cpp",
                 "audioclient-types-aidl-cpp",
                 "libaudioclient_aidl_conversion",
                 "libaudioutils",
@@ -6585,7 +6582,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libaudiofoundation.so",
             ],
             shared_libs: [
-                "android.media.audio.common.types-V1-cpp_vendor",
+                "android.media.audio.common.types-V1-cpp",
                 "audioclient-types-aidl-cpp",
                 "libaudioclient_aidl_conversion",
                 "libaudioutils",
@@ -18143,9 +18140,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libwifi-hal_vendor",
-    overrides: ["libwifi-hal"],
-    stem: "libwifi-hal",
+    name: "libwifi-hal",
+    prefer: true,
     owner: "nubia",
     strip: {
         none: true,
@@ -25212,9 +25208,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "lib_android_keymaster_keymint_utils_vendor",
-    overrides: ["lib_android_keymaster_keymint_utils"],
-    stem: "lib_android_keymaster_keymint_utils",
+    name: "lib_android_keymaster_keymint_utils",
+    prefer: true,
     owner: "nubia",
     strip: {
         none: true,
@@ -25455,9 +25450,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libkeymint_vendor",
-    overrides: ["libkeymint"],
-    stem: "libkeymint",
+    name: "libkeymint",
+    prefer: true,
     owner: "nubia",
     strip: {
         none: true,
@@ -25472,7 +25466,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "android.hardware.security.secureclock-V1-ndk",
                 "android.hardware.security.sharedsecret-V1-ndk",
-                "lib_android_keymaster_keymint_utils_vendor",
+                "lib_android_keymaster_keymint_utils",
                 "libbase",
                 "libbinder_ndk",
                 "libcppbor_external",
@@ -25830,7 +25824,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libcutils",
-                "libwifi-hal_vendor",
+                "libwifi-hal",
                 "libc++",
                 "libc",
                 "libm",
@@ -27858,15 +27852,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "android.hardware.cas@1.2-service.xml",
-    owner: "nubia",
-    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "android.hardware.gatekeeper@1.0-service.trusty.xml",
     owner: "nubia",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.trusty.xml",
@@ -27933,16 +27918,6 @@ prebuilt_etc_xml {
     name: "hdcp-default.xml",
     owner: "nubia",
     src: "proprietary/vendor/etc/vintf/manifest/hdcp-default.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "identity-default.xml_vendor",
-    overrides: ["identity-default.xml"],
-    owner: "nubia",
-    src: "proprietary/vendor/etc/vintf/manifest/identity-default.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
@@ -28913,12 +28888,12 @@ cc_prebuilt_binary {
                 "android.hardware.security.keymint-V2-ndk",
                 "android.hardware.security.secureclock-V1-ndk",
                 "android.hardware.security.sharedsecret-V1-ndk",
-                "lib_android_keymaster_keymint_utils_vendor",
+                "lib_android_keymaster_keymint_utils",
                 "libbase",
                 "libbinder_ndk",
                 "libhardware",
                 "libkeymaster_messages",
-                "libkeymint_vendor",
+                "libkeymint",
                 "liblog",
                 "libtrusty",
                 "libutils",
@@ -28982,7 +28957,7 @@ cc_prebuilt_binary {
                 "liblog",
                 "libnl",
                 "libutils",
-                "libwifi-hal_vendor",
+                "libwifi-hal",
                 "libwifi-system-iface",
                 "libxml2",
                 "android.hardware.wifi@1.0",
@@ -29008,9 +28983,8 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "hostapd_vendor",
-    overrides: ["hostapd"],
-    stem: "hostapd",
+    name: "hostapd",
+    prefer: true,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29710,9 +29684,8 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "wpa_supplicant_vendor",
-    overrides: ["wpa_supplicant"],
-    stem: "wpa_supplicant",
+    name: "wpa_supplicant",
+    prefer: true,
     owner: "nubia",
     target: {
         android_arm64: {
