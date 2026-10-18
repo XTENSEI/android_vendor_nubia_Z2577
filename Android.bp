@@ -67,46 +67,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "a2dpoffload",
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/a2dpoffload.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "btaudio_offload_if",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/a2dpoffload.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "btaudio_offload_if",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.frameworks.cameraservice.common@2.0",
     owner: "nubia",
     strip: {
@@ -559,55 +519,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.bluetooth.audio-impl_vendor",
-    stem: "android.hardware.bluetooth.audio-impl",
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.bluetooth.audio-impl.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libbinder_ndk",
-                "libcutils",
-                "libfmq",
-                "liblog",
-                "android.hardware.bluetooth.audio-V2-ndk",
-                "libbluetooth_audio_session_aidl_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.bluetooth.audio-impl.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libbinder_ndk",
-                "libcutils",
-                "libfmq",
-                "liblog",
-                "android.hardware.bluetooth.audio-V2-ndk",
-                "libbluetooth_audio_session_aidl_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -1758,84 +1669,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.allocator-V1-ndk_vendor",
-    stem: "android.hardware.graphics.allocator-V1-ndk",
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.graphics.allocator-V1-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.graphics.allocator-V1-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.common-V3-ndk_vendor",
-    stem: "android.hardware.graphics.common-V3-ndk",
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.graphics.common-V3-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.graphics.common-V3-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "android.hardware.common-V2-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.nfc@1.0",
     owner: "nubia",
     strip: {
@@ -2504,45 +2337,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.media.audio.common.types-V1-cpp_vendor",
-    stem: "android.media.audio.common.types-V1-cpp",
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.media.audio.common.types-V1-cpp.so",
-            ],
-            shared_libs: [
-                "libbinder",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.media.audio.common.types-V1-cpp.so",
-            ],
-            shared_libs: [
-                "libbinder",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "arm.graphics-V1-ndk_platform",
     owner: "nubia",
     strip: {
@@ -2749,64 +2543,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libbinder",
                 "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "btaudio_offload_if",
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/btaudio_offload_if.so",
-            ],
-            shared_libs: [
-                "android.hardware.bluetooth.audio@2.0",
-                "android.hardware.bluetooth.audio@2.1",
-                "libbase",
-                "libcutils",
-                "libbinder_ndk",
-                "libfmq",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "android.hardware.audio.common@5.0",
-                "libbluetooth_audio_session_aidl_vendor",
-                "android.hardware.bluetooth.audio-V2-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/btaudio_offload_if.so",
-            ],
-            shared_libs: [
-                "android.hardware.bluetooth.audio@2.0",
-                "android.hardware.bluetooth.audio@2.1",
-                "libbase",
-                "libcutils",
-                "libbinder_ndk",
-                "libfmq",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "android.hardware.audio.common@5.0",
-                "libbluetooth_audio_session_aidl_vendor",
-                "android.hardware.bluetooth.audio-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -3408,7 +3144,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/egl/libGLES_mali.so",
             ],
             shared_libs: [
-                "android.hardware.graphics.allocator-V1-ndk_vendor",
+                "android.hardware.graphics.allocator-V1-ndk",
                 "libbinder_ndk",
                 "liblog",
                 "libbase",
@@ -3420,7 +3156,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libcutils",
                 "libhardware",
-                "android.hardware.graphics.common-V3-ndk_vendor",
+                "android.hardware.graphics.common-V3-ndk",
                 "libdmabufheap",
                 "libz",
                 "libc++",
@@ -3434,7 +3170,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/egl/libGLES_mali.so",
             ],
             shared_libs: [
-                "android.hardware.graphics.allocator-V1-ndk_vendor",
+                "android.hardware.graphics.allocator-V1-ndk",
                 "libbinder_ndk",
                 "liblog",
                 "libbase",
@@ -3446,7 +3182,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libcutils",
                 "libhardware",
-                "android.hardware.graphics.common-V3-ndk_vendor",
+                "android.hardware.graphics.common-V3-ndk",
                 "libdmabufheap",
                 "libz",
                 "libc++",
@@ -3786,7 +3522,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libdmabufheap",
-                "android.hardware.graphics.common-V3-ndk_vendor",
+                "android.hardware.graphics.common-V3-ndk",
                 "arm.graphics-V5-ndk",
                 "android.hardware.graphics.common@1.2",
                 "libbase",
@@ -3813,7 +3549,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libdmabufheap",
-                "android.hardware.graphics.common-V3-ndk_vendor",
+                "android.hardware.graphics.common-V3-ndk",
                 "arm.graphics-V5-ndk",
                 "android.hardware.graphics.common@1.2",
                 "libbase",
@@ -3853,7 +3589,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libdmabufheap",
-                "android.hardware.graphics.common-V3-ndk_vendor",
+                "android.hardware.graphics.common-V3-ndk",
                 "arm.graphics-V5-ndk",
                 "android.hardware.graphics.common@1.2",
                 "libbase",
@@ -3879,7 +3615,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libdmabufheap",
-                "android.hardware.graphics.common-V3-ndk_vendor",
+                "android.hardware.graphics.common-V3-ndk",
                 "arm.graphics-V5-ndk",
                 "android.hardware.graphics.common@1.2",
                 "libbase",
@@ -3936,113 +3672,6 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libutils",
                 "android.hardware.renderscript@1.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio.bluetooth.default_vendor",
-    stem: "audio.bluetooth.default",
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/audio.bluetooth.default.so",
-            ],
-            shared_libs: [
-                "android.hardware.bluetooth.audio-V2-ndk",
-                "libaudioutils",
-                "libbase",
-                "libbinder_ndk",
-                "libbluetooth_audio_session_aidl_vendor",
-                "libcutils",
-                "libfmq",
-                "liblog",
-                "libutils",
-                "android.hardware.bluetooth.audio@2.0",
-                "android.hardware.bluetooth.audio@2.1",
-                "libbluetooth_audio_session_vendor",
-                "libhidlbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/audio.bluetooth.default.so",
-            ],
-            shared_libs: [
-                "android.hardware.bluetooth.audio-V2-ndk",
-                "libaudioutils",
-                "libbase",
-                "libbinder_ndk",
-                "libbluetooth_audio_session_aidl_vendor",
-                "libcutils",
-                "libfmq",
-                "liblog",
-                "libutils",
-                "android.hardware.bluetooth.audio@2.0",
-                "android.hardware.bluetooth.audio@2.1",
-                "libbluetooth_audio_session_vendor",
-                "libhidlbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "audio.bluetooth.ums9230",
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/audio.bluetooth.ums9230.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsysoffloadstream",
-                "libprocessgroup",
-                "a2dpoffload",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/audio.bluetooth.ums9230.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libsysoffloadstream",
-                "libprocessgroup",
-                "a2dpoffload",
                 "libc++",
                 "libc",
                 "libm",
@@ -6762,7 +6391,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libaudioclient_aidl_conversion.so",
             ],
             shared_libs: [
-                "android.media.audio.common.types-V1-cpp_vendor",
+                "android.media.audio.common.types-V1-cpp",
                 "audioclient-types-aidl-cpp",
                 "libbase",
                 "libbinder",
@@ -6783,7 +6412,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libaudioclient_aidl_conversion.so",
             ],
             shared_libs: [
-                "android.media.audio.common.types-V1-cpp_vendor",
+                "android.media.audio.common.types-V1-cpp",
                 "audioclient-types-aidl-cpp",
                 "libbase",
                 "libbinder",
@@ -6816,7 +6445,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libaudiofoundation.so",
             ],
             shared_libs: [
-                "android.media.audio.common.types-V1-cpp_vendor",
+                "android.media.audio.common.types-V1-cpp",
                 "audioclient-types-aidl-cpp",
                 "libaudioclient_aidl_conversion",
                 "libaudioutils",
@@ -6836,7 +6465,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libaudiofoundation.so",
             ],
             shared_libs: [
-                "android.media.audio.common.types-V1-cpp_vendor",
+                "android.media.audio.common.types-V1-cpp",
                 "audioclient-types-aidl-cpp",
                 "libaudioclient_aidl_conversion",
                 "libaudioutils",
@@ -6923,114 +6552,6 @@ cc_prebuilt_library_shared {
                 "libm",
                 "libdl",
                 "liblog",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libbluetooth_audio_session_vendor",
-    stem: "libbluetooth_audio_session",
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libbluetooth_audio_session.so",
-            ],
-            shared_libs: [
-                "android.hardware.audio.common@5.0",
-                "android.hardware.bluetooth.audio@2.0",
-                "android.hardware.bluetooth.audio@2.1",
-                "libbase",
-                "libcutils",
-                "libfmq",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libbluetooth_audio_session_aidl_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libbluetooth_audio_session.so",
-            ],
-            shared_libs: [
-                "android.hardware.audio.common@5.0",
-                "android.hardware.bluetooth.audio@2.0",
-                "android.hardware.bluetooth.audio@2.1",
-                "libbase",
-                "libcutils",
-                "libfmq",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libbluetooth_audio_session_aidl_vendor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libbluetooth_audio_session_aidl_vendor",
-    stem: "libbluetooth_audio_session_aidl",
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libbluetooth_audio_session_aidl.so",
-            ],
-            shared_libs: [
-                "android.hardware.bluetooth.audio@2.0",
-                "android.hardware.bluetooth.audio@2.1",
-                "libbase",
-                "libcutils",
-                "libbinder_ndk",
-                "libfmq",
-                "liblog",
-                "android.hardware.bluetooth.audio-V2-ndk",
-                "libhidlbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libbluetooth_audio_session_aidl.so",
-            ],
-            shared_libs: [
-                "android.hardware.bluetooth.audio@2.0",
-                "android.hardware.bluetooth.audio@2.1",
-                "libbase",
-                "libcutils",
-                "libbinder_ndk",
-                "libfmq",
-                "liblog",
-                "android.hardware.bluetooth.audio-V2-ndk",
-                "libhidlbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
             ],
         },
     },
@@ -18503,6 +18024,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwifi-hal_vendor",
+    overrides: ["libwifi-hal"],
     stem: "libwifi-hal",
     owner: "nubia",
     strip: {
@@ -25571,6 +25093,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib_android_keymaster_keymint_utils_vendor",
+    overrides: ["lib_android_keymaster_keymint_utils"],
     stem: "lib_android_keymaster_keymint_utils",
     owner: "nubia",
     strip: {
@@ -25813,6 +25336,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkeymint_vendor",
+    overrides: ["libkeymint"],
     stem: "libkeymint",
     owner: "nubia",
     strip: {
@@ -28187,15 +27711,6 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-    name: "compatibility_matrix.xml",
-    owner: "nubia",
-    src: "proprietary/vendor/etc/vintf/compatibility_matrix.xml",
-    filename_from_src: true,
-    sub_dir: "vintf",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "manifest.xml",
     owner: "nubia",
     src: "proprietary/vendor/etc/vintf/manifest.xml",
@@ -28250,15 +27765,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "android.hardware.thermal@2.0-service.xml",
-    owner: "nubia",
-    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "android.hardware.usb-service.unisoc.xml",
     owner: "nubia",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.usb-service.unisoc.xml",
@@ -28271,15 +27777,6 @@ prebuilt_etc_xml {
     name: "android.hardware.wifi@1.0-service.xml",
     owner: "nubia",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "bluetooth_audio.xml",
-    owner: "nubia",
-    src: "proprietary/vendor/etc/vintf/manifest/bluetooth_audio.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
@@ -28322,7 +27819,8 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "identity-default.xml",
+    name: "identity-default.xml_vendor",
+    overrides: ["identity-default.xml"],
     owner: "nubia",
     src: "proprietary/vendor/etc/vintf/manifest/identity-default.xml",
     filename_from_src: true,
@@ -28510,54 +28008,6 @@ cc_prebuilt_binary {
             shared_libs: [
                 "liblog",
                 "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "boringssl_self_test32",
-    owner: "nubia",
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/bin/boringssl_self_test32",
-            ],
-            shared_libs: [
-                "libcrypto",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    strip: {
-        none: true,
-    },
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "boringssl_self_test64",
-    owner: "nubia",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/boringssl_self_test64",
-            ],
-            shared_libs: [
-                "libcrypto",
                 "libc++",
                 "libc",
                 "libm",
@@ -29439,6 +28889,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "hostapd_vendor",
+    overrides: ["hostapd"],
     stem: "hostapd",
     owner: "nubia",
     target: {
@@ -30140,6 +29591,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "wpa_supplicant_vendor",
+    overrides: ["wpa_supplicant"],
     stem: "wpa_supplicant",
     owner: "nubia",
     target: {

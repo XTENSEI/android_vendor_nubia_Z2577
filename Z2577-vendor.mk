@@ -4095,7 +4095,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     7816-3-T1 \
-    a2dpoffload \
     android.frameworks.cameraservice.common@2.0 \
     android.frameworks.cameraservice.device@2.0 \
     android.frameworks.cameraservice.device@2.1 \
@@ -4106,7 +4105,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@7.0 \
     android.hardware.audio@7.0 \
     android.hardware.audio@7.1 \
-    android.hardware.bluetooth.audio-impl_vendor \
     android.hardware.bluetooth.audio@2.0 \
     android.hardware.bluetooth.audio@2.1 \
     android.hardware.boot@1.0 \
@@ -4130,8 +4128,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.2 \
     android.hardware.drm@1.3 \
     android.hardware.drm@1.4 \
-    android.hardware.graphics.allocator-V1-ndk_vendor \
-    android.hardware.graphics.common-V3-ndk_vendor \
     android.hardware.nfc@1.0 \
     android.hardware.nfc@1.1 \
     android.hardware.nfc@1.2 \
@@ -4147,14 +4143,12 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0 \
     android.hardware.thermal@2.0 \
     android.hidl.allocator@1.0 \
-    android.media.audio.common.types-V1-cpp_vendor \
     arm.graphics-V1-ndk_platform \
     arm.graphics-V2-ndk \
     arm.graphics-V2-ndk_platform \
     arm.graphics-V3-ndk \
     arm.graphics-V5-ndk \
     av-types-aidl-cpp \
-    btaudio_offload_if \
     camera.device@1.0-impl \
     camera.device@3.2-impl-sprd \
     camera.device@3.3-impl-sprd \
@@ -4172,8 +4166,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@4.0-impl-arm \
     android.hardware.graphics.mapper@4.0-impl-arm \
     android.hardware.renderscript@1.0-impl \
-    audio.bluetooth.default_vendor \
-    audio.bluetooth.ums9230 \
     audio.primary.default \
     audio.r_submix.default \
     audio.usb.default \
@@ -4239,8 +4231,6 @@ PRODUCT_PACKAGES += \
     libaudiofoundation \
     libavcodec-59 \
     libavutil-57 \
-    libbluetooth_audio_session_vendor \
-    libbluetooth_audio_session_aidl_vendor \
     libbokeh_depth \
     libbokeh_gaussian \
     libbokeh_gaussian_adapter \
@@ -4745,22 +4735,19 @@ PRODUCT_PACKAGES += \
     libtflite_model_denoised_528_528 \
     libtflite_model_denoised_528_528_half \
     androidx.camera.extensions.impl \
-    compatibility_matrix.xml \
     manifest.xml \
     ai_engine-default.xml \
     android.hardware.camera.provider@2.7-service.xml \
     android.hardware.cas@1.2-service.xml \
     android.hardware.gatekeeper@1.0-service.trusty.xml \
     android.hardware.security.keymint@2.0-unisoc.service.trusty.xml \
-    android.hardware.thermal@2.0-service.xml \
     android.hardware.usb-service.unisoc.xml \
     android.hardware.wifi@1.0-service.xml \
-    bluetooth_audio.xml \
     cplog_svc-default.xml \
     enhance-default.xml \
     fingerprint-default-zte.xml \
     hdcp-default.xml \
-    identity-default.xml \
+    identity-default.xml_vendor \
     lights.xml \
     manifest_android.hardware.drm-service.widevine.xml \
     manifest_dualsim.xml \
@@ -4780,8 +4767,6 @@ PRODUCT_PACKAGES += \
     vibrator.xml \
     ztecharger \
     battery_record_daemon \
-    boringssl_self_test32 \
-    boringssl_self_test64 \
     charge \
     charge_disable \
     charged \
