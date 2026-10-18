@@ -4128,6 +4128,8 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.2 \
     android.hardware.drm@1.3 \
     android.hardware.drm@1.4 \
+    android.hardware.graphics.allocator-V1-ndk_vendor \
+    android.hardware.graphics.common-V3-ndk_vendor \
     android.hardware.nfc@1.0 \
     android.hardware.nfc@1.1 \
     android.hardware.nfc@1.2 \
@@ -4143,6 +4145,7 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0 \
     android.hardware.thermal@2.0 \
     android.hidl.allocator@1.0 \
+    android.media.audio.common.types-V1-cpp_vendor \
     arm.graphics-V1-ndk_platform \
     arm.graphics-V2-ndk \
     arm.graphics-V2-ndk_platform \

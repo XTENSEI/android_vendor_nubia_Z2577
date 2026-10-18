@@ -1669,6 +1669,86 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "android.hardware.graphics.allocator-V1-ndk_vendor",
+    overrides: ["android.hardware.graphics.allocator-V1-ndk"],
+    stem: "android.hardware.graphics.allocator-V1-ndk",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/android.hardware.graphics.allocator-V1-ndk.so",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "android.hardware.common-V2-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/android.hardware.graphics.allocator-V1-ndk.so",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "android.hardware.common-V2-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.graphics.common-V3-ndk_vendor",
+    overrides: ["android.hardware.graphics.common-V3-ndk"],
+    stem: "android.hardware.graphics.common-V3-ndk",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/android.hardware.graphics.common-V3-ndk.so",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "android.hardware.common-V2-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/android.hardware.graphics.common-V3-ndk.so",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "android.hardware.common-V2-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "android.hardware.nfc@1.0",
     owner: "nubia",
     strip: {
@@ -2325,6 +2405,46 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.media.audio.common.types-V1-cpp_vendor",
+    overrides: ["android.media.audio.common.types-V1-cpp"],
+    stem: "android.media.audio.common.types-V1-cpp",
+    owner: "nubia",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/android.media.audio.common.types-V1-cpp.so",
+            ],
+            shared_libs: [
+                "libbinder",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/android.media.audio.common.types-V1-cpp.so",
+            ],
+            shared_libs: [
+                "libbinder",
+                "libutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -3144,7 +3264,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/egl/libGLES_mali.so",
             ],
             shared_libs: [
-                "android.hardware.graphics.allocator-V1-ndk",
+                "android.hardware.graphics.allocator-V1-ndk_vendor",
                 "libbinder_ndk",
                 "liblog",
                 "libbase",
@@ -3156,7 +3276,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libcutils",
                 "libhardware",
-                "android.hardware.graphics.common-V3-ndk",
+                "android.hardware.graphics.common-V3-ndk_vendor",
                 "libdmabufheap",
                 "libz",
                 "libc++",
@@ -3170,7 +3290,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/egl/libGLES_mali.so",
             ],
             shared_libs: [
-                "android.hardware.graphics.allocator-V1-ndk",
+                "android.hardware.graphics.allocator-V1-ndk_vendor",
                 "libbinder_ndk",
                 "liblog",
                 "libbase",
@@ -3182,7 +3302,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libcutils",
                 "libhardware",
-                "android.hardware.graphics.common-V3-ndk",
+                "android.hardware.graphics.common-V3-ndk_vendor",
                 "libdmabufheap",
                 "libz",
                 "libc++",
@@ -3522,7 +3642,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libdmabufheap",
-                "android.hardware.graphics.common-V3-ndk",
+                "android.hardware.graphics.common-V3-ndk_vendor",
                 "arm.graphics-V5-ndk",
                 "android.hardware.graphics.common@1.2",
                 "libbase",
@@ -3549,7 +3669,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libdmabufheap",
-                "android.hardware.graphics.common-V3-ndk",
+                "android.hardware.graphics.common-V3-ndk_vendor",
                 "arm.graphics-V5-ndk",
                 "android.hardware.graphics.common@1.2",
                 "libbase",
@@ -3589,7 +3709,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libdmabufheap",
-                "android.hardware.graphics.common-V3-ndk",
+                "android.hardware.graphics.common-V3-ndk_vendor",
                 "arm.graphics-V5-ndk",
                 "android.hardware.graphics.common@1.2",
                 "libbase",
@@ -3615,7 +3735,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libdmabufheap",
-                "android.hardware.graphics.common-V3-ndk",
+                "android.hardware.graphics.common-V3-ndk_vendor",
                 "arm.graphics-V5-ndk",
                 "android.hardware.graphics.common@1.2",
                 "libbase",
@@ -6391,7 +6511,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libaudioclient_aidl_conversion.so",
             ],
             shared_libs: [
-                "android.media.audio.common.types-V1-cpp",
+                "android.media.audio.common.types-V1-cpp_vendor",
                 "audioclient-types-aidl-cpp",
                 "libbase",
                 "libbinder",
@@ -6412,7 +6532,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libaudioclient_aidl_conversion.so",
             ],
             shared_libs: [
-                "android.media.audio.common.types-V1-cpp",
+                "android.media.audio.common.types-V1-cpp_vendor",
                 "audioclient-types-aidl-cpp",
                 "libbase",
                 "libbinder",
@@ -6445,7 +6565,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libaudiofoundation.so",
             ],
             shared_libs: [
-                "android.media.audio.common.types-V1-cpp",
+                "android.media.audio.common.types-V1-cpp_vendor",
                 "audioclient-types-aidl-cpp",
                 "libaudioclient_aidl_conversion",
                 "libaudioutils",
@@ -6465,7 +6585,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libaudiofoundation.so",
             ],
             shared_libs: [
-                "android.media.audio.common.types-V1-cpp",
+                "android.media.audio.common.types-V1-cpp_vendor",
                 "audioclient-types-aidl-cpp",
                 "libaudioclient_aidl_conversion",
                 "libaudioutils",
