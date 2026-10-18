@@ -28394,15 +28394,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "rebootescrow-default.xml",
-    owner: "nubia",
-    src: "proprietary/vendor/etc/vintf/manifest/rebootescrow-default.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "trusty-default.xml",
     owner: "nubia",
     src: "proprietary/vendor/etc/vintf/manifest/trusty-default.xml",
@@ -31070,30 +31061,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "toolbox",
-    owner: "nubia",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/toolbox",
-            ],
-            shared_libs: [
-                "libbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "tp_fw_upgrade",
     owner: "nubia",
     target: {
@@ -31435,48 +31402,6 @@ cc_prebuilt_binary {
         none: true,
     },
     soc_specific: true,
-}
-
-install_symlink {
-    name: "vendor_bin_getevent",
-    soc_specific: true,
-    installed_location: "bin/getevent",
-    symlink_target: "/vendor/bin/toolbox",
-}
-
-install_symlink {
-    name: "vendor_bin_getprop",
-    soc_specific: true,
-    installed_location: "bin/getprop",
-    symlink_target: "/vendor/bin/toolbox",
-}
-
-install_symlink {
-    name: "vendor_bin_modprobe",
-    soc_specific: true,
-    installed_location: "bin/modprobe",
-    symlink_target: "/vendor/bin/toolbox",
-}
-
-install_symlink {
-    name: "vendor_bin_setprop",
-    soc_specific: true,
-    installed_location: "bin/setprop",
-    symlink_target: "/vendor/bin/toolbox",
-}
-
-install_symlink {
-    name: "vendor_bin_start",
-    soc_specific: true,
-    installed_location: "bin/start",
-    symlink_target: "/vendor/bin/toolbox",
-}
-
-install_symlink {
-    name: "vendor_bin_stop",
-    soc_specific: true,
-    installed_location: "bin/stop",
-    symlink_target: "/vendor/bin/toolbox",
 }
 
 install_symlink {

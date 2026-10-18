@@ -891,6 +891,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/nubia/Z2577/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
     vendor/nubia/Z2577/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.supplicant.xml \
+    vendor/nubia/Z2577/proprietary/vendor/etc/vintf/manifest/rebootescrow-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/rebootescrow-default.xml \
     vendor/nubia/Z2577/proprietary/vendor/etc/wcn_chr.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wcn_chr.ini \
     vendor/nubia/Z2577/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/nubia/Z2577/proprietary/vendor/etc/wifi/vendor_hals/unisoc_wifi_hal_arm64.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/vendor_hals/unisoc_wifi_hal_arm64.xml \
@@ -4774,7 +4775,6 @@ PRODUCT_PACKAGES += \
     memtrack.xml \
     network-default.xml \
     nfc-service-tms.xml \
-    rebootescrow-default.xml \
     trusty-default.xml \
     unionpnp_service-default.xml \
     vendor-ldd-zte.xml \
@@ -4886,7 +4886,6 @@ PRODUCT_PACKAGES += \
     tee_rpc \
     test_ufs_swp_config \
     thermald \
-    toolbox \
     tp_fw_upgrade \
     trafficshow \
     tsupplicant \
@@ -4904,12 +4903,6 @@ PRODUCT_PACKAGES += \
     ztekeys_client
 
 PRODUCT_PACKAGES += \
-    vendor_bin_getevent \
-    vendor_bin_getprop \
-    vendor_bin_modprobe \
-    vendor_bin_setprop \
-    vendor_bin_start \
-    vendor_bin_stop \
     vendor_lib_hw_vulkan_ums9230_so \
     vendor_lib_libGLES_mali_so \
     vendor_lib_libOpenCL_so \
