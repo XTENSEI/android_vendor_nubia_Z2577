@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/nubia/Z2577
 
 PRODUCT_COPY_FILES += \
-    vendor/nubia/Z2577/proprietary/odm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_ODM)/etc/NOTICE.xml.gz \
     vendor/nubia/Z2577/proprietary/odm/etc/ScanStruct/SPRD_TAG_AE_RESULT_INFO.txt:$(TARGET_COPY_OUT_ODM)/etc/ScanStruct/SPRD_TAG_AE_RESULT_INFO.txt \
     vendor/nubia/Z2577/proprietary/odm/etc/ScanStruct/SPRD_TAG_AWB_CALC_INFO.txt:$(TARGET_COPY_OUT_ODM)/etc/ScanStruct/SPRD_TAG_AWB_CALC_INFO.txt \
     vendor/nubia/Z2577/proprietary/odm/etc/ScanStruct/SPRD_TAG_CAP_AE_PARAMS.txt:$(TARGET_COPY_OUT_ODM)/etc/ScanStruct/SPRD_TAG_CAP_AE_PARAMS.txt \
@@ -375,7 +374,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/etc/BBAT.conf:$(TARGET_COPY_OUT_VENDOR)/etc/BBAT.conf \
     vendor/nubia/Z2577/proprietary/vendor/etc/FD_tunning_param.xml:$(TARGET_COPY_OUT_VENDOR)/etc/FD_tunning_param.xml \
     vendor/nubia/Z2577/proprietary/vendor/etc/FaceID.xml:$(TARGET_COPY_OUT_VENDOR)/etc/FaceID.xml \
-    vendor/nubia/Z2577/proprietary/vendor/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/etc/NOTICE.xml.gz \
     vendor/nubia/Z2577/proprietary/vendor/etc/SEC_THN31_FW_VTP.txt.bin:$(TARGET_COPY_OUT_VENDOR)/etc/SEC_THN31_FW_VTP.txt.bin \
     vendor/nubia/Z2577/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
     vendor/nubia/Z2577/proprietary/vendor/etc/analyzer.py:$(TARGET_COPY_OUT_VENDOR)/etc/analyzer.py \
