@@ -176,9 +176,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/odm/etc/camera/profiles/cameraSettingProfiles.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/profiles/cameraSettingProfiles.xml \
     vendor/nubia/Z2577/proprietary/odm/etc/camera/sky_cls_cache_13385098423185631972.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/sky_cls_cache_13385098423185631972.bin \
     vendor/nubia/Z2577/proprietary/odm/etc/camera/sky_seg_cache_14920201638346831786.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/sky_seg_cache_14920201638346831786.bin \
-    vendor/nubia/Z2577/proprietary/odm/etc/fs_config_dirs:$(TARGET_COPY_OUT_ODM)/etc/fs_config_dirs \
-    vendor/nubia/Z2577/proprietary/odm/etc/fs_config_files:$(TARGET_COPY_OUT_ODM)/etc/fs_config_files \
-    vendor/nubia/Z2577/proprietary/odm/etc/group:$(TARGET_COPY_OUT_ODM)/etc/group \
     vendor/nubia/Z2577/proprietary/odm/etc/init/init.md.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.md.rc \
     vendor/nubia/Z2577/proprietary/odm/etc/init/init.stdata.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.stdata.rc \
     vendor/nubia/Z2577/proprietary/odm/etc/init/wcn.rc:$(TARGET_COPY_OUT_ODM)/etc/init/wcn.rc \
@@ -285,7 +282,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/odm/etc/otpdata/sell_aft_cali.txt:$(TARGET_COPY_OUT_ODM)/etc/otpdata/sell_aft_cali.txt \
     vendor/nubia/Z2577/proprietary/odm/etc/otpdata/spw_input_parameters_values.txt:$(TARGET_COPY_OUT_ODM)/etc/otpdata/spw_input_parameters_values.txt \
     vendor/nubia/Z2577/proprietary/odm/etc/otpdata/spw_input_parameters_values_planar.txt:$(TARGET_COPY_OUT_ODM)/etc/otpdata/spw_input_parameters_values_planar.txt \
-    vendor/nubia/Z2577/proprietary/odm/etc/passwd:$(TARGET_COPY_OUT_ODM)/etc/passwd \
     vendor/nubia/Z2577/proprietary/odm/etc/permissions/android.hardware.biometrics.face.unavailable.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.biometrics.face.unavailable.xml \
     vendor/nubia/Z2577/proprietary/odm/etc/permissions/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
     vendor/nubia/Z2577/proprietary/odm/etc/permissions/android.hardware.camera.front.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.camera.front.xml \
@@ -423,8 +419,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/etc/enhance/gamma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/enhance/gamma.xml \
     vendor/nubia/Z2577/proprietary/vendor/etc/enhance/lcd_gc7272_boe_dzx_mipi_hdp_galaxycore_cms.xml:$(TARGET_COPY_OUT_VENDOR)/etc/enhance/lcd_gc7272_boe_dzx_mipi_hdp_galaxycore_cms.xml \
     vendor/nubia/Z2577/proprietary/vendor/etc/enhance/rhythmic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/enhance/rhythmic.xml \
-    vendor/nubia/Z2577/proprietary/vendor/etc/fs_config_dirs:$(TARGET_COPY_OUT_VENDOR)/etc/fs_config_dirs \
-    vendor/nubia/Z2577/proprietary/vendor/etc/fs_config_files:$(TARGET_COPY_OUT_VENDOR)/etc/fs_config_files \
     vendor/nubia/Z2577/proprietary/vendor/etc/fstab.cali:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.cali \
     vendor/nubia/Z2577/proprietary/vendor/etc/fstab.charge_mode:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.charge_mode \
     vendor/nubia/Z2577/proprietary/vendor/etc/fstab.enableswap:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.enableswap \
@@ -443,7 +437,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/etc/fstab.ums9230_6h10:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.ums9230_6h10 \
     vendor/nubia/Z2577/proprietary/vendor/etc/fstab.ums9230_6h10_go:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.ums9230_6h10_go \
     vendor/nubia/Z2577/proprietary/vendor/etc/gralloc/gralloc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/gralloc.xml \
-    vendor/nubia/Z2577/proprietary/vendor/etc/group:$(TARGET_COPY_OUT_VENDOR)/etc/group \
     vendor/nubia/Z2577/proprietary/vendor/etc/icap/control/IcapSwitchs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/icap/control/IcapSwitchs.xml \
     vendor/nubia/Z2577/proprietary/vendor/etc/icap/control/scenes/Type_Bokeh.xml:$(TARGET_COPY_OUT_VENDOR)/etc/icap/control/scenes/Type_Bokeh.xml \
     vendor/nubia/Z2577/proprietary/vendor/etc/icap/control/scenes/Type_DFX.xml:$(TARGET_COPY_OUT_VENDOR)/etc/icap/control/scenes/Type_DFX.xml \
@@ -584,7 +577,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/etc/parameter-framework/Structure/Policy/audio_PolicyClass.xml:$(TARGET_COPY_OUT_VENDOR)/etc/parameter-framework/Structure/Policy/audio_PolicyClass.xml \
     vendor/nubia/Z2577/proprietary/vendor/etc/parameter-framework/Structure/Policy/audio_PolicySubsystem-CommonTypes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/parameter-framework/Structure/Policy/audio_PolicySubsystem-CommonTypes.xml \
     vendor/nubia/Z2577/proprietary/vendor/etc/parameter-framework/Structure/Policy/audio_PolicySubsystem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/parameter-framework/Structure/Policy/audio_PolicySubsystem.xml \
-    vendor/nubia/Z2577/proprietary/vendor/etc/passwd:$(TARGET_COPY_OUT_VENDOR)/etc/passwd \
     vendor/nubia/Z2577/proprietary/vendor/etc/permissions/android.hardware.bluetooth_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.xml \
     vendor/nubia/Z2577/proprietary/vendor/etc/permissions/android.hardware.broadcastradio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.broadcastradio.xml \
     vendor/nubia/Z2577/proprietary/vendor/etc/permissions/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml \
