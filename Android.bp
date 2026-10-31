@@ -28389,6 +28389,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.media.omx@1.0-service",
+    prefer: true,
     owner: "nubia",
     target: {
         android_arm: {
