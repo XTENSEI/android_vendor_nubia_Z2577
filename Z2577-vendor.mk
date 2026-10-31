@@ -457,7 +457,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/autotest.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/autotest.rc \
-    vendor/nubia/Z2577/proprietary/vendor/etc/init/boringssl_self_test.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/boringssl_self_test.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/charge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/charge.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/charged.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/charged.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/connmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connmgr.rc \
