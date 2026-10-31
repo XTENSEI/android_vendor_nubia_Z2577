@@ -28075,7 +28075,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-
 cc_prebuilt_binary {
     name: "android.hardware.bluetooth@1.1-service.unisoc",
     owner: "nubia",
@@ -28247,7 +28246,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-
 cc_prebuilt_binary {
     name: "android.hardware.identity-service.trusty",
     owner: "nubia",
@@ -28314,7 +28312,6 @@ cc_prebuilt_binary {
     relative_install_path: "hw",
     soc_specific: true,
 }
-
 
 cc_prebuilt_binary {
     name: "android.hardware.neuralnetworks@aidl-service-armnn-gpu",
