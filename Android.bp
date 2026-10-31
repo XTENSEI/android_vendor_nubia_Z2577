@@ -28076,8 +28076,8 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.audio.service",
-    prefer: true,
+    name: "android.hardware.audio.service_vendor",
+    stem: "android.hardware.audio.service",
     owner: "nubia",
     target: {
         android_arm: {
@@ -28279,8 +28279,8 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.graphics.composer@2.4-service",
-    prefer: true,
+    name: "android.hardware.graphics.composer@2.4-service_vendor",
+    stem: "android.hardware.graphics.composer@2.4-service",
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28388,8 +28388,8 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.media.omx@1.0-service",
-    prefer: true,
+    name: "android.hardware.media.omx@1.0-service_vendor",
+    stem: "android.hardware.media.omx@1.0-service",
     owner: "nubia",
     target: {
         android_arm: {

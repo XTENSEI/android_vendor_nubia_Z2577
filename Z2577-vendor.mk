@@ -4760,16 +4760,16 @@ PRODUCT_PACKAGES += \
     engpcctl \
     enter_lpm \
     gpsd \
-    android.hardware.audio.service \
+    android.hardware.audio.service_vendor \
     android.hardware.bluetooth@1.1-service.unisoc \
     android.hardware.camera.provider@2.7-service_64 \
     android.hardware.drm-service.widevine \
     android.hardware.gatekeeper@1.0-service.trusty \
     android.hardware.graphics.allocator@4.0-service \
-    android.hardware.graphics.composer@2.4-service \
+    android.hardware.graphics.composer@2.4-service_vendor \
     android.hardware.identity-service.trusty \
     android.hardware.media.c2@1.1-unisoc-service \
-    android.hardware.media.omx@1.0-service \
+    android.hardware.media.omx@1.0-service_vendor \
     android.hardware.neuralnetworks@aidl-service-armnn-gpu \
     android.hardware.nfc-service-tms \
     android.hardware.rebootescrow-service.default_vendor \
