@@ -28247,47 +28247,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-cc_prebuilt_binary {
-    name: "android.hardware.graphics.composer@2.4-service_vendor",
-    stem: "android.hardware.graphics.composer@2.4-service",
-    owner: "nubia",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.4-service",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.composer@2.1",
-                "android.hardware.graphics.composer@2.2",
-                "android.hardware.graphics.composer@2.3",
-                "android.hardware.graphics.composer@2.4",
-                "android.hardware.graphics.composer@2.1-resources",
-                "android.hardware.graphics.composer@2.2-resources",
-                "libbase",
-                "libbinder",
-                "libcutils",
-                "libfmq",
-                "libhardware",
-                "libhidlbase",
-                "libhwc2on1adapter",
-                "libhwc2onfbadapter",
-                "liblog",
-                "libsync",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    relative_install_path: "hw",
-    soc_specific: true,
-}
 
 cc_prebuilt_binary {
     name: "android.hardware.identity-service.trusty",
@@ -28356,41 +28315,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-cc_prebuilt_binary {
-    name: "android.hardware.media.omx@1.0-service_vendor",
-    stem: "android.hardware.media.omx@1.0-service",
-    owner: "nubia",
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.media.omx@1.0-service",
-            ],
-            shared_libs: [
-                "libbinder",
-                "libutils",
-                "liblog",
-                "libbase",
-                "libavservices_minijail",
-                "libcutils",
-                "libhidlbase",
-                "libstagefright_omx",
-                "libstagefright_xmlparser",
-                "android.hardware.media.omx@1.0",
-                "android.hidl.memory@1.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    strip: {
-        none: true,
-    },
-    relative_install_path: "hw",
-    soc_specific: true,
-}
 
 cc_prebuilt_binary {
     name: "android.hardware.neuralnetworks@aidl-service-armnn-gpu",

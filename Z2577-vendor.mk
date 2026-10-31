@@ -451,9 +451,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.trusty.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.trusty.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service.rc \
-    vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.4-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.media.c2@1.1-unisoc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.1-unisoc-service.rc \
-    vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.neuralnetworks@aidl-service-armnn-gpu.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@aidl-service-armnn-gpu.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.usb-service.unisoc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb-service.unisoc.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
@@ -4764,10 +4762,8 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.widevine \
     android.hardware.gatekeeper@1.0-service.trusty \
     android.hardware.graphics.allocator@4.0-service \
-    android.hardware.graphics.composer@2.4-service_vendor \
     android.hardware.identity-service.trusty \
     android.hardware.media.c2@1.1-unisoc-service \
-    android.hardware.media.omx@1.0-service_vendor \
     android.hardware.neuralnetworks@aidl-service-armnn-gpu \
     android.hardware.nfc-service-tms \
     android.hardware.rebootescrow-service.default_vendor \
