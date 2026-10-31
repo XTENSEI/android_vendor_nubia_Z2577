@@ -552,7 +552,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/nubia/Z2577/proprietary/vendor/etc/media_profiles_turnkey.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_turnkey.xml \
     vendor/nubia/Z2577/proprietary/vendor/etc/media_profiles_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_v1.xml \
-    vendor/nubia/Z2577/proprietary/vendor/etc/mkshrc:$(TARGET_COPY_OUT_VENDOR)/etc/mkshrc \
     vendor/nubia/Z2577/proprietary/vendor/etc/models/noahark/imageClassify/README.md:$(TARGET_COPY_OUT_VENDOR)/etc/models/noahark/imageClassify/README.md \
     vendor/nubia/Z2577/proprietary/vendor/etc/models/noahark/imageClassify/cv_imageClassify.tflite:$(TARGET_COPY_OUT_VENDOR)/etc/models/noahark/imageClassify/cv_imageClassify.tflite \
     vendor/nubia/Z2577/proprietary/vendor/etc/models/noahark/imageClassify/imageclassify_labels.txt:$(TARGET_COPY_OUT_VENDOR)/etc/models/noahark/imageClassify/imageclassify_labels.txt \
