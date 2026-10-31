@@ -28075,37 +28075,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-cc_prebuilt_binary {
-    name: "android.hardware.audio.service_vendor",
-    stem: "android.hardware.audio.service",
-    owner: "nubia",
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.audio.service",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libbinder",
-                "libbinder_ndk",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libhardware",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    strip: {
-        none: true,
-    },
-    relative_install_path: "hw",
-    soc_specific: true,
-}
 
 cc_prebuilt_binary {
     name: "android.hardware.bluetooth@1.1-service.unisoc",

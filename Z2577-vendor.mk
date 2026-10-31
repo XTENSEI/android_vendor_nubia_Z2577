@@ -446,7 +446,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/etc/icap/control/scenes/Type_Video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/icap/control/scenes/Type_Video.xml \
     vendor/nubia/Z2577/proprietary/vendor/etc/imsUserAgent.xml:$(TARGET_COPY_OUT_VENDOR)/etc/imsUserAgent.xml \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/ai_engine-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ai_engine-default.rc \
-    vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.audio.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service.unisoc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service.unisoc.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.7-service_64.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
@@ -4760,7 +4759,6 @@ PRODUCT_PACKAGES += \
     engpcctl \
     enter_lpm \
     gpsd \
-    android.hardware.audio.service_vendor \
     android.hardware.bluetooth@1.1-service.unisoc \
     android.hardware.camera.provider@2.7-service_64 \
     android.hardware.drm-service.widevine \
