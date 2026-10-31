@@ -483,7 +483,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/hw/init.vendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.vendor.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/hw/init.vendor.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.vendor.usb.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/hw/init.zramwb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.zramwb.rc \
-    vendor/nubia/Z2577/proprietary/vendor/etc/init/identity-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/identity-default.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/init.cc_connect.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cc_connect.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/init.fingerprint.focaltech_FT9399SD.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fingerprint.focaltech_FT9399SD.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/init.fingerprint.silead_gsl6195.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fingerprint.silead_gsl6195.rc \
