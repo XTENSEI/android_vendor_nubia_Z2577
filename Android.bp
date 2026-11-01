@@ -2556,6 +2556,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.device@1.0-impl",
+    prefer: true,
     owner: "nubia",
     strip: {
         none: true,
