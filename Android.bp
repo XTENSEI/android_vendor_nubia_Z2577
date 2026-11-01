@@ -3135,6 +3135,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGLES_mali",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -3506,6 +3507,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.graphics.allocator@4.0-impl-arm",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -3569,6 +3571,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.graphics.mapper@4.0-impl-arm",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -28316,6 +28319,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.neuralnetworks@aidl-service-armnn-gpu",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
