@@ -4710,6 +4710,7 @@ PRODUCT_PACKAGES += \
     libtflite_model_denoised_528_528 \
     libtflite_model_denoised_528_528_half \
     androidx.camera.extensions.impl \
+    compatibility_matrix.xml \
     manifest.xml \
     ai_engine-default.xml \
     android.hardware.camera.provider@2.7-service.xml \
