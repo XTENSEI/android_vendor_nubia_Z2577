@@ -27522,15 +27522,6 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-    name: "compatibility_matrix.xml",
-    owner: "nubia",
-    src: "proprietary/vendor/etc/vintf/compatibility_matrix.xml",
-    filename_from_src: true,
-    sub_dir: "vintf",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "manifest.xml",
     owner: "nubia",
     src: "proprietary/vendor/etc/vintf/manifest.xml",
