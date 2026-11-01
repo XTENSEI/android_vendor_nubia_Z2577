@@ -3803,6 +3803,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "awinic.audio.effect",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4130,6 +4131,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "fingerprint.focaltech.default",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23450,6 +23452,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libunisocisc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23523,6 +23526,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libunisocrtp",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
