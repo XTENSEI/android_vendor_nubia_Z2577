@@ -10,6 +10,7 @@ soong_namespace {
 
 cc_prebuilt_library_shared {
     name: "7816-3-T1",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -68,6 +69,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.frameworks.cameraservice.common@2.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -110,6 +112,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.frameworks.cameraservice.device@2.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -154,6 +157,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.frameworks.cameraservice.device@2.1",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -200,6 +204,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.frameworks.cameraservice.service@2.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -246,6 +251,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.frameworks.cameraservice.service@2.1",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -294,6 +300,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.frameworks.cameraservice.service@2.2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -346,6 +353,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.frameworks.sensorservice@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -390,6 +398,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.audio.effect@7.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -436,6 +445,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.audio@7.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -484,6 +494,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.audio@7.1",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -532,6 +543,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.bluetooth.audio@2.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -578,6 +590,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.bluetooth.audio@2.1",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -626,6 +639,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.boot@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -668,6 +682,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.boot@1.1",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -712,6 +727,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.boot@1.2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -758,6 +774,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.broadcastradio@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -800,6 +817,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.common@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -842,6 +860,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.device@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -888,6 +907,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.device@3.2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -934,6 +954,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.device@3.3",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -982,6 +1003,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.device@3.4",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1032,6 +1054,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.device@3.5",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1084,6 +1107,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.device@3.6",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1138,6 +1162,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.provider@2.4-external-sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1224,6 +1249,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.provider@2.4-legacy-sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1306,6 +1332,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.provider@2.4",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1354,6 +1381,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.cas.native@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1398,6 +1426,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.cas@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1440,6 +1469,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.drm@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1482,6 +1512,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.drm@1.1",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1526,6 +1557,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.drm@1.2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1572,6 +1604,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.drm@1.3",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1620,6 +1653,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.drm@1.4",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1670,6 +1704,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.nfc@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1712,6 +1747,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.nfc@1.1",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1756,6 +1792,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.nfc@1.2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1802,6 +1839,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.radio.deprecated@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1846,6 +1884,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.radio@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1888,6 +1927,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.radio@1.1",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1932,6 +1972,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.radio@1.2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -1978,6 +2019,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.secure_element@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2020,6 +2062,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.sensors@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2062,6 +2105,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.sensors@2.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2106,6 +2150,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.sensors@2.1",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2152,6 +2197,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.sensors@2.X-sprd_subhal",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2210,6 +2256,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.thermal@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2252,6 +2299,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.thermal@2.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2296,6 +2344,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hidl.allocator@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2338,6 +2387,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "arm.graphics-V1-ndk_platform",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2374,6 +2424,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "arm.graphics-V2-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2410,6 +2461,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "arm.graphics-V2-ndk_platform",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2446,6 +2498,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "arm.graphics-V3-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2482,6 +2535,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "arm.graphics-V5-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2518,6 +2572,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "av-types-aidl-cpp",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2556,6 +2611,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.device@1.0-impl",
+    check_elf_files: false,
     prefer: true,
     owner: "nubia",
     strip: {
@@ -2625,6 +2681,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.device@3.2-impl-sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2687,6 +2744,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.device@3.3-impl-sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2751,6 +2809,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.device@3.4-external-impl-sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2829,6 +2888,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.device@3.4-impl-sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2897,6 +2957,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.device@3.5-external-impl-sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -2979,6 +3040,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.device@3.5-impl-sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -3049,6 +3111,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.device@3.6-external-impl-sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -3195,6 +3258,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "framework-permission-aidl-cpp",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -3233,6 +3297,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.audio.effect@7.0-impl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -3298,6 +3363,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.audio@7.1-impl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -3367,6 +3433,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.broadcastradio@1.0-impl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -3414,6 +3481,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.provider@2.4-impl-sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -3633,6 +3701,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.renderscript@1.0-impl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -3676,6 +3745,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "audio.primary.default",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -3713,6 +3783,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "audio.r_submix.default",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -3758,6 +3829,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "audio.usb.default",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -3839,7 +3911,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.unisoc",
-    allow_undefined_symbols: true,
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4023,6 +4095,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "dpu.unisoc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4074,6 +4147,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "enhance.unisoc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4185,6 +4259,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "fingerprint.silead.default",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4230,6 +4305,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gps.default",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4279,6 +4355,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gralloc.default",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4318,6 +4395,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "gsp.unisoc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4371,7 +4449,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "hwcomposer.unisoc",
-    allow_undefined_symbols: true,
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4449,6 +4527,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblowi_wifihal",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4490,6 +4569,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwifi-hal-unisoc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4531,6 +4611,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "local_time.default",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4570,6 +4651,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "power.default",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4607,6 +4689,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "thermal.default",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4648,6 +4731,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "unisoc.bootctrl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4697,6 +4781,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.sprd.hardware.connmgr@1.0-impl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4742,6 +4827,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.sprd.hardware.thermal@2.0-impl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4799,6 +4885,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.sprd.hardware.trusty-impl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4852,6 +4939,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vibrator.default",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4889,6 +4977,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "zte.ldd.light.longchg",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4940,6 +5029,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "zte.ldd.night.charge",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -4991,6 +5081,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib-framework",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5027,6 +5118,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib3axmltobin",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5061,6 +5153,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libAlgoServiceAdapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5105,6 +5198,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libBokeh2Frames",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5139,6 +5233,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libDefog",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5173,7 +5268,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libDispatchAdap",
-    allow_undefined_symbols: true,
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5248,6 +5343,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libDualCam_OnliCalib",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5286,6 +5382,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libFaceDetectV3_SDK",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5322,6 +5419,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMFNR_OCL",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5358,6 +5456,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMNN",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5392,6 +5491,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libMNN_CL",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5428,6 +5528,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libNubiaImageAlgorithmVD",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5472,6 +5573,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libRawOrb",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5510,6 +5612,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSegLite",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5548,6 +5651,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSkinSegment",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5582,6 +5686,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSprdGpuFilter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5620,6 +5725,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSprdImageFilter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5654,6 +5760,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSprdImageFilterAdapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5696,6 +5803,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSprdMfnrAdapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5746,6 +5854,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSprdVideoHDR",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5784,6 +5893,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTfliteWrapper",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5822,6 +5932,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libWT",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5856,6 +5967,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libWhite_point_shift",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5888,6 +6000,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libXMPCore",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5920,6 +6033,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libXMPFiles",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5954,6 +6068,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib_camera_frc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -5998,6 +6113,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib_crypto",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6036,6 +6152,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib_hdr_tm",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6070,6 +6187,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "lib_hsv_rgb_conv",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6104,6 +6222,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadaptive_shutter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6138,6 +6257,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libadaptive_shutter_cc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6182,6 +6302,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_facialrestoration_unisoc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6218,6 +6339,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_high_dynamic_range_unisoc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6254,6 +6376,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_low_light_shot_unisoc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6290,6 +6413,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libarcsoft_mf_superresolution_unisoc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6326,6 +6450,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libatci",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6376,6 +6501,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libavcodec-59",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6416,6 +6542,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libavutil-57",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6450,6 +6577,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbokeh_depth",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6488,6 +6616,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbokeh_gaussian",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6522,6 +6651,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbokeh_gaussian_adapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6564,6 +6694,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbokeh_gaussian_cap",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6602,6 +6733,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbqbbt",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6640,6 +6772,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbt-sprd_suite",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6680,6 +6813,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbt-ssp_bt",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6718,6 +6852,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libc++_shared",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6749,6 +6884,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcalcsharpness",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6785,6 +6921,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamAE5.x",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6827,6 +6964,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamAF5.x",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6861,6 +6999,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamAIPD5.x",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6895,6 +7034,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamALSC5.x",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6929,6 +7069,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamAWB5.x",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6963,6 +7104,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamAe4.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -6997,6 +7139,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamAf4.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7031,6 +7174,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamAlsc4.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7065,6 +7209,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamAwb4.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7099,6 +7244,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamPD5.x",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7133,6 +7279,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamPcc4.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7167,6 +7314,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamPd4.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7201,6 +7349,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamafl4.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7235,6 +7384,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcambr_isp2.7",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7277,6 +7427,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamcalitestcore",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7443,6 +7594,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamcommon",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7485,6 +7637,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamdfa",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7525,6 +7678,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamera2ndk_vendor",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7591,6 +7745,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamevent",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7635,6 +7790,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamfacebeauty",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7685,6 +7841,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamfaceskinseg",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7727,6 +7884,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamfb",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7769,6 +7927,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamlpt",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7809,6 +7968,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcammem",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7851,6 +8011,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamoem",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7935,6 +8096,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcampm_isp2.7",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -7987,6 +8149,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcampmloader",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8037,6 +8200,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamppm",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8091,6 +8255,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamps",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8137,6 +8302,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamwatermark",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8179,6 +8345,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libceres_online",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8213,7 +8380,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_common",
-    allow_undefined_symbols: true,
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8302,6 +8469,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_deintl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8356,6 +8524,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_imaadpcm",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8412,6 +8581,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_store",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8462,6 +8632,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcppdrv_r6p0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8504,6 +8675,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdav1d_vendor",
+    check_elf_files: false,
     stem: "libdav1d",
     owner: "nubia",
     strip: {
@@ -8533,6 +8705,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdehaze_nvx",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8567,6 +8740,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdfa",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8609,6 +8783,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdrm",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8643,6 +8818,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libeffects",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8683,6 +8859,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libeic_trusty",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8725,6 +8902,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libeng_tok",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8761,6 +8939,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libengpc_adapt",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8809,6 +8988,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libengpcctl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8847,6 +9027,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libeyeanalyze_for_fb2_2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8883,6 +9064,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfacealgapi",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8931,6 +9113,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfaceanalyze_SDK",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -8965,6 +9148,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfaceanalyze_for_fb2_2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -9001,6 +9185,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfacelandmark",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -9041,6 +9226,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfaceskinseg",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -9075,6 +9261,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfrc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -9109,6 +9296,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgesture_mnn",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -9143,6 +9331,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgnssmgt",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -9195,6 +9384,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgpudataproducer",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -9235,6 +9425,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgyrostab",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -9269,6 +9460,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhdr",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -9303,6 +9495,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhidparser_sensor",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -9339,6 +9532,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhwc2on1adapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -9381,6 +9575,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libidispatch",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -9631,6 +9826,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libidispatchsm",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -9871,6 +10067,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimpl-ril",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -9923,6 +10120,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libinfo",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -9961,6 +10159,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libinterface",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -10001,6 +10200,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libispalg",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -10061,6 +10261,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libiss",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -10131,6 +10332,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libiwnpi",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -10171,6 +10373,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libjpeg_hw_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -10209,6 +10412,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libjpegenc_sw_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -10247,6 +10451,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkey",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -10281,6 +10486,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblcsagent",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -10319,6 +10525,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblcscp",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -10357,6 +10564,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblcsmgt",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -10397,6 +10605,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblightportrait",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -10431,6 +10640,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblightweightpipeline",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -10495,6 +10705,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblte",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -10541,6 +10752,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblwpAdapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -10597,7 +10809,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblwpcommon",
-    allow_undefined_symbols: true,
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -10666,6 +10878,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblwphwnodes",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -10902,6 +11115,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblwpparser",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -10954,6 +11168,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblwppipelinesim",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -11012,6 +11227,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblwpswnodes.dummy",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -11246,6 +11462,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblwpswnodes",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -11496,6 +11713,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblwptrigger",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -11546,6 +11764,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmapuser",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -11586,6 +11805,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmediahdrtosdrtransform",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -11620,6 +11840,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmemion",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -11662,6 +11883,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmfnr",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -11700,6 +11922,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmfnr4",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -11738,6 +11961,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmfnr5",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -11772,6 +11996,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmfnr6",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -11806,6 +12031,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmfnr6_2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -11842,6 +12068,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmfnr_SD",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -11876,6 +12103,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmotiondetect",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -11918,6 +12146,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmpbase",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -11946,6 +12175,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmulticam",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12100,6 +12330,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnbaio_mono",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12142,6 +12373,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_MF2SF_sw_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12176,6 +12408,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_av1dec_sw_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12218,6 +12451,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_avcdec_hw_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12258,6 +12492,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_avcdec_sw_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12306,6 +12541,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_avcdec_vt_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12346,6 +12582,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_avcenc_hw_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12386,6 +12623,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_cabc_sw_sprd_1",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12420,6 +12658,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_deintl_hw_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12462,6 +12701,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_hevcdec_hw_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12502,6 +12742,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_hevcdec_sw_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12550,6 +12791,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_hevcdec_vt_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12590,6 +12832,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_hevcenc_hw_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12630,6 +12873,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_m4vh263dec_hw_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12670,6 +12914,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_m4vh263dec_sw_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12710,6 +12955,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_m4vh263enc_sw_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12750,6 +12996,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_mp3enc_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12788,6 +13035,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_vp9dec_hw_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12830,6 +13078,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_vpxdec_hw_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12870,6 +13119,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_vpxdec_sw_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12918,6 +13168,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_vpxenc_hw_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -12958,6 +13209,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpipelinelog",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13000,6 +13252,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libportrait_scene_cap",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13034,6 +13287,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libportrait_scene_prev",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13068,6 +13322,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpowerhal_cli",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13116,6 +13371,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpss_isp2.7",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13184,6 +13440,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril-lite",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13238,6 +13495,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libril-private",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13280,6 +13538,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librilcore",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13378,6 +13637,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librilutils",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13412,6 +13672,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librpmbclient",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13450,6 +13711,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsecrpmbdata",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13488,6 +13750,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsecrpmbdata_platform",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13530,6 +13793,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsecure_backup_ca",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13572,6 +13836,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensorndkbridge",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13616,6 +13881,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libshmemcompat",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13658,6 +13924,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libshmemutil",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13694,6 +13961,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libskia_vendor",
+    check_elf_files: false,
     stem: "libskia",
     owner: "nubia",
     strip: {
@@ -13733,6 +14001,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libskia_watermark",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13773,6 +14042,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsky_seg_toning_320",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13807,6 +14077,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsky_toning_realize",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13845,6 +14116,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsl_fp_impl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13887,6 +14159,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdNorb",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13925,6 +14198,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprd_ai_mfnr",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -13965,6 +14239,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprd_aidepth_bokeh",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14005,6 +14280,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprd_gesture_adapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14045,6 +14321,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprd_portrait_cap",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14085,6 +14362,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprd_portrait_seg",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14121,6 +14399,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprd_ps_switcher",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14185,6 +14464,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprd_raw_ai_mfnr",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14219,6 +14499,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprd_raw_mfnr",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14253,6 +14534,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprd_raw_mfnr_adapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14297,6 +14579,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprd_register_ps",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14361,6 +14644,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprd_scene_seg",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14401,6 +14685,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprd_xdr_1_2_adapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14445,6 +14730,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprd_xdr_adapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14489,6 +14775,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdaic",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14525,6 +14812,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdaidepthadapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14569,6 +14857,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdaifacebeauty",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14603,6 +14892,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdaifacebeauty2.2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14643,6 +14933,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdaisfnr",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14677,6 +14968,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdaisfnradapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14721,6 +15013,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdaudiohal@7.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14797,6 +15090,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdaudiohal_deathhandlerv7",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14837,6 +15131,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdaudiohalv7",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14877,6 +15172,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdbokeh",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14911,6 +15207,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdbokeh8",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14949,6 +15246,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdcamalgassist",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -14995,6 +15293,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdchdr",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15043,6 +15342,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdcnr",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15077,6 +15377,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdcnradapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15121,6 +15422,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprddepth",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15161,6 +15463,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprddpf",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15195,6 +15498,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprddre",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15229,6 +15533,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprddreadapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15271,6 +15576,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprddrepro",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15305,6 +15611,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprddreproadapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15347,6 +15654,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdee",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15381,6 +15689,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdee_adapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15423,6 +15732,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdeisadapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15469,6 +15779,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdfacebeauty",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15503,6 +15814,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdfacebeauty12",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15541,6 +15853,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdfacebeauty_vdsp",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15575,6 +15888,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdfar",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15609,6 +15923,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdfarcnn_SDK",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15645,6 +15960,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdfd_SDK",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15681,6 +15997,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdhdr",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15715,6 +16032,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdhdr3",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15749,6 +16067,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdhdr4",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15783,6 +16102,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdhdr5",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15827,6 +16147,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdhdr5_2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15873,6 +16194,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdhdradapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15939,6 +16261,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdlldr",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -15989,6 +16312,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdmd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16023,6 +16347,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdmfsr",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16061,6 +16386,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdmfsr3",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16095,6 +16421,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdmfsradapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16139,6 +16466,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdorb",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16177,6 +16505,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdportraitsceneadapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16221,6 +16550,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdscenedetect",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16263,6 +16593,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdwarp",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16301,6 +16632,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdwarpadapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16349,6 +16681,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdwarppro",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16387,6 +16720,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdwtadapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16429,6 +16763,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdxdr",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16463,6 +16798,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdxdr2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16497,6 +16833,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdxdr_1_2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16531,6 +16868,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsprdynr2cnr4",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16565,6 +16903,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libss-base",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16617,6 +16956,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libss-sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16667,6 +17007,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libstagefright_hdcp",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16711,6 +17052,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsupl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16753,6 +17095,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libswresample-4",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16789,6 +17132,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libswscale-6",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16825,6 +17169,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsysoffloadstream",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16875,6 +17220,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libteec",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16917,6 +17263,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libteecPlatform",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -16969,6 +17316,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libteeproduction",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17013,6 +17361,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtensorflowlite_c",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17051,6 +17400,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtensorflowlite_gpu_jni",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17089,6 +17439,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtensorflowlite_jni_vendor",
+    check_elf_files: false,
     stem: "libtensorflowlite_jni",
     owner: "nubia",
     strip: {
@@ -17124,6 +17475,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtinyalsa",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17156,6 +17508,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtinycompress",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17194,6 +17547,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtinycompress_unisoc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17234,6 +17588,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtinyxml",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17268,6 +17623,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtms_log_record",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17310,6 +17666,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtrusty",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17346,6 +17703,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtrustyHalHelper",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17400,6 +17758,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libufsprotect",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17440,6 +17799,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libumnn",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17474,6 +17834,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libunievent",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17514,6 +17875,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libunnengine",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17560,6 +17922,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libutilsparser",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17596,6 +17959,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvendorcfg_vendor",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17636,6 +18000,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvendorutils",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17678,6 +18043,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libverify",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17716,6 +18082,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvibrator_vendor",
+    check_elf_files: false,
     stem: "libvibrator",
     owner: "nubia",
     strip: {
@@ -17757,6 +18124,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvideo_share_memory",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17801,6 +18169,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvideonr",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17835,6 +18204,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvsp_ca",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17877,6 +18247,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwcn-vendor",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17915,6 +18286,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwifi-hal",
+    check_elf_files: false,
     prefer: true,
     owner: "nubia",
     strip: {
@@ -17960,6 +18332,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwpa_client",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -17998,6 +18371,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwvaidl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -18048,6 +18422,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwvhidl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -18110,6 +18485,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libxml2bin",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -18152,6 +18528,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libxtm1.5",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -18186,6 +18563,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libxtm2.5",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -18220,6 +18598,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libyuv420_scaler",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -18254,6 +18633,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libztekeys_ca_vendor",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -18294,6 +18674,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libzteprodkeyauth",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -18334,6 +18715,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libztesensor",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -18382,6 +18764,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamHFP",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -18447,6 +18830,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamMRPP",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -18512,6 +18896,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamMXPP",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -18577,6 +18962,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamNZ",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -18640,6 +19026,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamPP",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -18705,6 +19092,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamPTC",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -18770,6 +19158,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamSFBSP",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -18835,6 +19224,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamSRSP",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -18900,6 +19290,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamVMRPP",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -18965,6 +19356,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libclearkeycasplugin",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19012,6 +19404,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdrmclearkeyplugin",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19055,6 +19448,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "PQTune.unisoc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19100,6 +19494,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "autotestsim",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19141,6 +19536,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "autotesttcard",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19180,6 +19576,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSensorsMMI",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19225,6 +19622,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libTPrawdata",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19264,6 +19662,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libap_opt",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19303,6 +19702,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapcomm",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19342,6 +19742,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapdeepsleep",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19381,6 +19782,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudionpi",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19420,6 +19822,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbt-sprd_eut",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19461,6 +19864,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcalinv",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19502,6 +19906,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcharge",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19541,6 +19946,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcheckkeybox",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19582,6 +19988,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libchipid",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19621,6 +20028,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcomcontrol",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19660,6 +20068,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdcxcali",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19699,6 +20108,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdynamicproduction",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19740,6 +20150,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libftmode",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19779,6 +20190,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgetcalispd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19818,6 +20230,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgetswpac",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19857,6 +20270,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgetuid",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19896,6 +20310,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgpio",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19935,6 +20350,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libgpspc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -19978,6 +20394,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkeypadnpi",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20019,6 +20436,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblcdnpi",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20060,6 +20478,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblkvnpi",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20103,6 +20522,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmiscdata",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20142,6 +20562,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnefuse",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20181,6 +20602,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnpi_rtc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20224,6 +20646,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libnpipropsrv",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20269,6 +20692,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libpartinfo",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20308,6 +20732,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libreadfixednv",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20349,6 +20774,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "librebootcmd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20392,6 +20818,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensornpi",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20451,6 +20878,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtsensor",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20490,6 +20918,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtsxrawdata",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20529,6 +20958,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libucpubench",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20568,6 +20998,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libufspwm",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20607,6 +21038,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libusbtypec",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20646,6 +21078,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwifieut",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20685,6 +21118,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libylogtopc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20724,6 +21158,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libzteatcmd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20779,6 +21214,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libztephoneatcmd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20828,6 +21264,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "oemlock_ca",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20868,6 +21305,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sensors.dynamic_sensor_subhal",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20920,6 +21358,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "shared-file-region-aidl-cpp",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20958,6 +21397,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaudiopreprocessing",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -20997,6 +21437,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbundlewrapper",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21038,6 +21479,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbundlewrapper2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21079,6 +21521,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdownmix",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21120,6 +21563,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdynproc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21159,6 +21603,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libeffectproxy",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21202,6 +21647,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhapticgenerator",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21249,6 +21695,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libldnhncr",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21288,6 +21735,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libreverbwrapper",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21329,6 +21777,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsr",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21368,6 +21817,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libunisocspatialaudio",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21409,6 +21859,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvisualizer",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21446,6 +21897,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "tms-cos-dl-common",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21502,6 +21954,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "tms-cos-dl-ree",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21564,6 +22017,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "tms-utils",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21608,6 +22062,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.sprd.algoservice@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21650,6 +22105,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.sprd.hardware.boot@1.2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21698,6 +22154,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.sprd.hardware.connmgr@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21740,6 +22197,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.sprd.hardware.cplog_svc-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21776,6 +22234,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.sprd.hardware.enhance-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21812,6 +22271,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.sprd.hardware.network-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21848,6 +22308,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.sprd.hardware.thermal@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21894,6 +22355,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.sprd.hardware.thermal@2.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21942,6 +22404,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.sprd.hardware.trusty-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -21980,6 +22443,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.sprd.hardware.trusty@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22022,6 +22486,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.tms.tmsnfc_aidl-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22058,6 +22523,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.unisoc.hardware.power-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22094,6 +22560,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.unisoc.hardware.radio-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22130,6 +22597,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.unisoc.hardware.radio.data-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22168,6 +22636,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.unisoc.hardware.radio.ims-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22204,6 +22673,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.unisoc.hardware.radio.lite-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22240,6 +22710,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.unisoc.hardware.radio.messaging-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22278,6 +22749,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.unisoc.hardware.radio.modem-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22316,6 +22788,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.unisoc.hardware.radio.network-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22354,6 +22827,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.unisoc.hardware.radio.sim-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22392,6 +22866,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.unisoc.hardware.radio.voice-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22430,6 +22905,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.zte.subsys-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22466,6 +22942,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.cas@1.1",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22494,6 +22971,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.cas@1.2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22523,6 +23001,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.media.c2@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22559,6 +23038,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.media.c2@1.1",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22596,6 +23076,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvtswidevine",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22627,6 +23108,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "audio.primary.ums9230",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22661,6 +23143,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libavservices_minijail",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22686,6 +23169,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_hidl_plugin",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22714,7 +23198,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_av1dec",
-    allow_undefined_symbols: true,
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22753,6 +23237,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_avcdec",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22792,6 +23277,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_avcenc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22830,6 +23316,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_h263dec",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22868,6 +23355,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_h263enc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22906,6 +23394,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_hevcdec",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22944,6 +23433,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_hevcenc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -22982,6 +23472,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_jpegdec",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23020,6 +23511,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_jpegenc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23058,6 +23550,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_mp3dec",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23092,6 +23585,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_mp3dec_L1",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23126,6 +23620,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_mp3dec_L2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23160,6 +23655,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_mp3enc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23194,6 +23690,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_mpeg4dec",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23232,6 +23729,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_mpeg4enc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23270,6 +23768,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_vp8dec",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23309,6 +23808,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_vp9dec",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23348,6 +23848,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_mp3dec_sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23371,6 +23872,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libunisocaudiodiagnose",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23398,6 +23900,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libunisocaudiomiscctl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23425,6 +23928,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libunisocaudioparam",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23476,6 +23980,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libunisocrecordcvs",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23501,6 +24006,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libunisocrecordnr",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23552,6 +24058,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libunisocuserdump",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23576,6 +24083,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvpx",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23599,6 +24107,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libunisocvoiceprocessing",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23625,6 +24134,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.bluetooth@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23652,6 +24162,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.bluetooth@1.1",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23680,6 +24191,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.broadcastradio@2.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23707,6 +24219,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.device@3.7",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23746,6 +24259,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.metadata@3.2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23773,6 +24287,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.metadata@3.3",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23801,6 +24316,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.metadata@3.4",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23830,6 +24346,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.metadata@3.5",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23860,6 +24377,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.metadata@3.6",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23891,6 +24409,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.provider@2.5-legacy-sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23937,6 +24456,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.provider@2.5",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -23968,6 +24488,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.provider@2.6-legacy-sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24016,6 +24537,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.provider@2.6",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24051,6 +24573,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.provider@2.7-legacy-sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24108,6 +24631,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.camera.provider@2.7",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24147,6 +24671,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.gatekeeper@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24174,6 +24699,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.graphics.composer@2.1",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24202,6 +24728,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.graphics.composer@2.2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24232,6 +24759,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.graphics.composer@2.3",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24264,6 +24792,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.graphics.composer@2.4",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24297,6 +24826,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.neuralnetworks@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24324,6 +24854,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.neuralnetworks@1.1",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24352,6 +24883,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.neuralnetworks@1.2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24382,6 +24914,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.neuralnetworks@1.3",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24413,6 +24946,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.wifi@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24440,6 +24974,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.wifi@1.1",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24468,6 +25003,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.wifi@1.2",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24497,6 +25033,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.wifi@1.3",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24527,6 +25064,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.wifi@1.4",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24558,6 +25096,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.wifi@1.5",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24590,6 +25129,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.wifi@1.6",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24623,6 +25163,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.system.keystore2-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24648,6 +25189,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.system.wifi.keystore@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24675,6 +25217,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "arm.graphics-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24699,6 +25242,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.device@3.2-impl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24735,6 +25279,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.device@3.3-impl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24773,6 +25318,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.device@3.4-impl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24813,6 +25359,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.device@3.5-impl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24854,6 +25401,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.device@3.6-impl-sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24906,6 +25454,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.device@3.7-impl-sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24960,6 +25509,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "cplog_common",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -24986,6 +25536,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libaacvibrator",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25009,6 +25560,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libapp-framework",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25033,6 +25585,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcplog",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25065,6 +25618,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcppbor_external",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25090,6 +25644,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libengbt",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25119,6 +25674,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libhwc2onfbadapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25144,6 +25700,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libimageClassify",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25175,6 +25732,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkernelbootcp.trusty",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25201,6 +25759,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkeystore-engine-wifi-hidl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25231,6 +25790,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libkeystore-wifi-hidl",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25259,6 +25819,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libliom",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25283,6 +25844,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblwpSimulationAdapter",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25317,6 +25879,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libopenshort",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25340,6 +25903,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libss-plugin",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25366,6 +25930,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtensorflowlite_aiengine",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25389,6 +25954,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtextclassifier_hash",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25412,6 +25978,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtpdlibrary",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25437,6 +26004,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libuniai",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25462,6 +26030,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libylog",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25489,6 +26058,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "nfc_nci.thn31nfc.tms",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25523,6 +26093,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "autotestwifi",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25550,6 +26121,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "power.sprd",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25577,6 +26149,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.aac.hardware.richtap.vibrator-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25601,6 +26174,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.sprd.hardware.cplog_svc@1.0",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25628,6 +26202,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.sprd.hardware.gnss-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25652,6 +26227,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.sprd.hardware.hdcp-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25676,6 +26252,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.sprd.hardware.tool-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25700,6 +26277,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.sprd.hardware.unipnp-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25724,6 +26302,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.unisoc.hardware.ai_engine-V2-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25748,6 +26327,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.zte.hardware.fingerprint-V1-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25772,6 +26352,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.zte.ldd.cmd-V2-ndk",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25796,6 +26377,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "sensors.unisoc",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25843,6 +26425,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libSprduniscedec",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25877,6 +26460,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libbt-vendor",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25915,6 +26499,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcam_otp_parser",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -25959,6 +26544,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcampss_ext",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26003,6 +26589,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamsensor",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26057,6 +26644,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "liblwp3rdnodes",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26127,6 +26715,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_avcdec_hw_sprd_secure",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26169,6 +26758,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_avcenc_hw_sprd_secure",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26211,6 +26801,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_hevcdec_hw_sprd_secure",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26253,6 +26844,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libomx_vp9dec_hw_sprd_secure",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26295,6 +26887,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libotp_gc08a3_front_p615f02",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26343,6 +26936,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libotp_gc08a3_ly_p615f02",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26391,6 +26985,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libotp_gc50f6_p615f02",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26439,6 +27034,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libotp_ov50d40_p615f02",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26487,6 +27083,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensor_gc02m1_hd_p615f02",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26533,6 +27130,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensor_gc02m1_p615f02",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26579,6 +27177,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensor_gc08a3_front_p615f02",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26625,6 +27224,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensor_gc08a3_ly_p615f02",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26671,6 +27271,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensor_gc50f6_p615f02",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26717,6 +27318,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensor_ipg",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26763,6 +27365,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensor_ov50d40_p615f02",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26809,6 +27412,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensor_virtual_sensor",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26861,6 +27465,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libsensorlistcfg",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26903,6 +27508,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtuneconnector",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -26973,6 +27579,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvcm_dw9800",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -27019,6 +27626,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libvtclib",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -27057,6 +27665,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "autotestfm",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -27102,6 +27711,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libfm-sprd_eut",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -27143,6 +27753,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libunisoccamcalitest",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -27188,6 +27799,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_avcdec_secure",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -27227,6 +27839,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_avcenc_secure",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -27265,6 +27878,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_hevcdec_secure",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -27303,6 +27917,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcodec2_unisoc_vp9dec_secure",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -27342,6 +27957,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmfnr_network",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -27368,6 +27984,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtensorflowlite_gpu_jni_odm",
+    check_elf_files: false,
     stem: "libtensorflowlite_gpu_jni",
     owner: "nubia",
     strip: {
@@ -27394,6 +28011,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtensorflowlite_jni_odm",
+    check_elf_files: false,
     stem: "libtensorflowlite_jni",
     owner: "nubia",
     strip: {
@@ -27418,6 +28036,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtflite_model_denoise_deblur_refine_a0p99_528_half",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -27440,6 +28059,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtflite_model_denoise_tiny_usm_deblur_refine_a0p99_544_half",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -27462,6 +28082,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtflite_model_denoise_usm_deblur_refine_a0p99_528_half",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -27484,6 +28105,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtflite_model_denoised_528_528",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -27506,6 +28128,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libtflite_model_denoised_528_528_half",
+    check_elf_files: false,
     owner: "nubia",
     strip: {
         none: true,
@@ -27780,6 +28403,7 @@ prebuilt_etc_xml {
 
 cc_prebuilt_binary {
     name: "ztecharger",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -27796,6 +28420,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "battery_record_daemon",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -27821,6 +28446,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "charge",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -27854,6 +28480,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "charged",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -27889,6 +28516,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "connmgr",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -27916,6 +28544,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "cp_diskserver",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -27944,6 +28573,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "cplogctl",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -27981,6 +28611,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "dcxsrv",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28005,6 +28636,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "engpc",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28032,6 +28664,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "engpcctl",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28066,6 +28699,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "gpsd",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28091,6 +28725,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.bluetooth@1.1-service.unisoc",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28122,6 +28757,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.camera.provider@2.7-service_64",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28172,6 +28808,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.drm-service.widevine",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm: {
@@ -28202,6 +28839,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.gatekeeper@1.0-service.trusty",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28234,6 +28872,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.graphics.allocator@4.0-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28262,6 +28901,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.identity-service.trusty",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28292,6 +28932,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.media.c2@1.1-unisoc-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm: {
@@ -28374,6 +29015,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.nfc-service-tms",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28410,6 +29052,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.rebootescrow-service.default_vendor",
+    check_elf_files: false,
     stem: "android.hardware.rebootescrow-service.default",
     owner: "nubia",
     target: {
@@ -28438,6 +29081,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.usb-service.unisoc",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28468,6 +29112,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.wifi@1.0-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28508,6 +29153,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "unionpnp_service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28541,6 +29187,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "urild",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28568,6 +29215,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.sprd.hardware.boot@1.2-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28603,6 +29251,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.sprd.hardware.broadcastradio@2.0-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28633,6 +29282,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.sprd.hardware.connmgr@1.0-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28664,6 +29314,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.sprd.hardware.cplog_svc-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28699,6 +29350,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.sprd.hardware.enhance-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28728,6 +29380,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.sprd.hardware.gnss-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28760,6 +29413,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.sprd.hardware.hdcp-service-lazy",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28793,6 +29447,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.sprd.hardware.lights-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28822,6 +29477,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.sprd.hardware.memtrack-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28850,6 +29506,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.sprd.hardware.network-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28883,6 +29540,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.sprd.hardware.oemlock-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28912,6 +29570,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.sprd.hardware.thermal@2.0-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28945,6 +29604,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.sprd.hardware.tool-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -28978,6 +29638,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.sprd.hardware.trusty-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29012,6 +29673,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.sprd.hardware.vibrator-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29043,6 +29705,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.unisoc.hardware.ai_engine-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29075,6 +29738,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.unisoc.hardware.power-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29110,6 +29774,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.zte.hardware.biometrics.fingerprint-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29143,6 +29808,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.zte.ldd.cmd-service",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29190,6 +29856,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "modem_control",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29218,6 +29885,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "nvmerge",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29244,6 +29912,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "phasecheckserver",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29288,6 +29957,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "fix_cpu_freq",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29312,6 +29982,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "lit_cpu_freq",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29336,6 +30007,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "cpu_loading",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29360,6 +30032,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "cpu_trans_table",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29384,6 +30057,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ddr_bm",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29417,6 +30091,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "fix_ddr_freq",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29441,6 +30116,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ddr_loading",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29465,6 +30141,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ddr_trans_table",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29489,6 +30166,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "fix_gpu_freq",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29513,6 +30191,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "gpu_loading",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29537,6 +30216,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "gpu_trans_table",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29561,6 +30241,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "interrupt",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29603,6 +30284,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "paras",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29627,6 +30309,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "tops",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29668,6 +30351,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "refnotify",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29696,6 +30380,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "rpmbserver",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29721,6 +30406,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "sensor_cali_test",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29759,6 +30445,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "slogmodem_vendor",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29799,6 +30486,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "sprdstorageproxyd",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29826,6 +30514,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "sqc_daemon",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29853,6 +30542,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "srtd",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29881,6 +30571,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ssdaemon_vendor",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29931,6 +30622,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "systemDebuggerd",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29957,6 +30649,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "tdt",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -29979,6 +30672,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "tee_rpc",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -30005,6 +30699,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "test_ufs_swp_config",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -30030,6 +30725,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "thermald",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -30061,6 +30757,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "tp_fw_upgrade",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -30093,6 +30790,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "tsupplicant",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -30120,6 +30818,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ufs_ffu",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -30144,6 +30843,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "uniber",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -30169,6 +30869,7 @@ sh_binary {
 
 cc_prebuilt_binary {
     name: "variantid",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -30193,6 +30894,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "wcn_chr",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -30218,6 +30920,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "yloglite",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -30245,6 +30948,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "yloglitectl",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -30270,6 +30974,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "yloglitekat",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -30295,6 +31000,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "zte_battery_life",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -30326,6 +31032,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "zte_ldd_test",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -30354,6 +31061,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "zte_thermal_daemon",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
@@ -30379,6 +31087,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "ztekeys_client",
+    check_elf_files: false,
     owner: "nubia",
     target: {
         android_arm64: {
