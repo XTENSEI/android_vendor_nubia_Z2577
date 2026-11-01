@@ -23,17 +23,20 @@ on property:ro.vendor.tee.gpapi.support=true
 
 #service name must be < 16
 service vendor.rpmbproxy /vendor/bin/sprdstorageproxyd -f rpmb -d /dev/trusty-ipc-dev0 -p /data/vendor/sprd_ss
+    user root
     class core
     group system
     oneshot
     seclabel u:r:tee:s0
 
 service vendor.nsproxy /vendor/bin/sprdstorageproxyd -f ns -d /dev/trusty-ipc-dev0 -p /data/vendor/sprd_ss
+    user root
     class core
     group system
     seclabel u:r:tee:s0
 
 service vendor.prodproxy /vendor/bin/sprdstorageproxyd -f prodnv -d /dev/trusty-ipc-dev0 -p /mnt/vendor/productinfo/sprd_ss
+    user root
     class late_start
     group system
     oneshot
@@ -50,5 +53,6 @@ service vendor.prodproxy /vendor/bin/sprdstorageproxyd -f prodnv -d /dev/trusty-
 #    seclabel u:r:tee:s0
 
 service vendor.teensproxy /vendor/bin/sprdstorageproxyd -f teens -d /dev/trusty-ipc-dev0 -p /data/vendor/sprd_tee_ss
+    user root
     group system
     seclabel u:r:tee:s0

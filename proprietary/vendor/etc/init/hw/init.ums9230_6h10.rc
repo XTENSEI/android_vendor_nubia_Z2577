@@ -18,6 +18,7 @@ on post-fs-data
 
 # Set watchdog timer to 30 seconds and pet it every 10 seconds to get a 20 second margin
 service watchdogd /system/bin/watchdogd 10 30
+    user root
     class core
     oneshot
     seclabel u:r:watchdogd:s0

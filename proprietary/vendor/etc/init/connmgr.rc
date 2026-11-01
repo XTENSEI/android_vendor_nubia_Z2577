@@ -6,6 +6,7 @@ service vendor.wcnd /vendor/bin/connmgr
 
 #wcnd eng service
 service vendor.wcnd_eng /vendor/bin/connmgr -G
+    user root
      class late_start
      group system shell wifi inet bluetooth net_bt_admin
      disabled

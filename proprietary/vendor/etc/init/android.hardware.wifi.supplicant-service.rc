@@ -1,6 +1,7 @@
 service wpa_supplicant /vendor/bin/hw/wpa_supplicant \
 	-O/data/vendor/wifi/wpa/sockets -dd \
 	-g@android:wpa_wlan0
+    user root
 	#   we will start as root and wpa_supplicant will switch to user wifi
 	#   after setting up the capabilities required for WEXT
 	#   user wifi
