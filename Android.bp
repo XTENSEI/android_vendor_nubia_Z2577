@@ -28249,15 +28249,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "lights.xml",
-    owner: "nubia",
-    src: "proprietary/vendor/etc/vintf/manifest/lights.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "manifest_android.hardware.drm-service.widevine.xml",
     owner: "nubia",
     src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml",
@@ -29430,36 +29421,6 @@ cc_prebuilt_binary {
                 "libutils",
                 "vendor.sprd.hardware.hdcp-V1-ndk",
                 "libstagefright_hdcp",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vendor.sprd.hardware.lights-service",
-    check_elf_files: false,
-    owner: "nubia",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/vendor.sprd.hardware.lights-service",
-            ],
-            shared_libs: [
-                "libbase",
-                "libbinder_ndk",
-                "android.hardware.light-V2-ndk",
-                "liblog",
-                "libcutils",
                 "libc++",
                 "libc",
                 "libm",

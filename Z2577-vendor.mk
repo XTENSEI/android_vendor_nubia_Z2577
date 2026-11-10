@@ -494,7 +494,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/init.zte.ppt.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.zte.ppt.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/init.zte_battery_life.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.zte_battery_life.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/init.zte_thermal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.zte_thermal.rc \
-    vendor/nubia/Z2577/proprietary/vendor/etc/init/lights.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/memtrack.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/memtrack.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/modem_control.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/modem_control.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/network-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/network-default.rc \
@@ -4720,7 +4719,6 @@ PRODUCT_PACKAGES += \
     enhance-default.xml \
     fingerprint-default-zte.xml \
     hdcp-default.xml \
-    lights.xml \
     manifest_android.hardware.drm-service.widevine.xml \
     manifest_dualsim.xml \
     manifest_media_c2_V1_1_unisoc.xml \
@@ -4773,7 +4771,6 @@ PRODUCT_PACKAGES += \
     vendor.sprd.hardware.enhance-service \
     vendor.sprd.hardware.gnss-service \
     vendor.sprd.hardware.hdcp-service-lazy \
-    vendor.sprd.hardware.lights-service \
     vendor.sprd.hardware.memtrack-service \
     vendor.sprd.hardware.network-service \
     vendor.sprd.hardware.oemlock-service \
