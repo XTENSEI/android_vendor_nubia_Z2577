@@ -520,7 +520,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/vendor.sprd.hardware.boot@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.boot@1.2-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/vendor.sprd.hardware.broadcastradio@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.broadcastradio@2.0-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/vendor.sprd.hardware.connmgr@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.connmgr@1.0-service.rc \
-    vendor/nubia/Z2577/proprietary/vendor/etc/init/vendor.sprd.hardware.thermal@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.thermal@2.0-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/vendor.tool-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.tool-default.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/vowifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vowifi.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/wcn_chr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wcn_chr.rc \
@@ -4162,7 +4161,6 @@ PRODUCT_PACKAGES += \
     thermal.default \
     unisoc.bootctrl \
     vendor.sprd.hardware.connmgr@1.0-impl \
-    vendor.sprd.hardware.thermal@2.0-impl \
     vendor.sprd.hardware.trusty-impl \
     vibrator.default \
     zte.ldd.light.longchg \
@@ -4730,7 +4728,6 @@ PRODUCT_PACKAGES += \
     vendor-tool-default.xml \
     vendor.sprd.gnss-default.xml \
     vendor.sprd.hardware.boot@1.2.xml \
-    vendor.sprd.hardware.thermal@2.0-service.xml \
     ztecharger \
     battery_record_daemon \
     charge \
@@ -4769,7 +4766,6 @@ PRODUCT_PACKAGES += \
     vendor.sprd.hardware.hdcp-service-lazy \
     vendor.sprd.hardware.network-service \
     vendor.sprd.hardware.oemlock-service \
-    vendor.sprd.hardware.thermal@2.0-service \
     vendor.sprd.hardware.tool-service \
     vendor.sprd.hardware.trusty-service \
     vendor.unisoc.hardware.ai_engine-service \

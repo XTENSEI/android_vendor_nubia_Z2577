@@ -4826,64 +4826,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.sprd.hardware.thermal@2.0-impl",
-    check_elf_files: false,
-    owner: "nubia",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/vendor.sprd.hardware.thermal@2.0-impl.so",
-            ],
-            shared_libs: [
-                "libtinyxml2",
-                "libhidlbase",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libbase",
-                "libhardware",
-                "vendor.sprd.hardware.thermal@1.0",
-                "vendor.sprd.hardware.thermal@2.0",
-                "android.hardware.thermal@1.0",
-                "android.hardware.thermal@2.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/vendor.sprd.hardware.thermal@2.0-impl.so",
-            ],
-            shared_libs: [
-                "libtinyxml2",
-                "libhidlbase",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libbase",
-                "libhardware",
-                "vendor.sprd.hardware.thermal@1.0",
-                "vendor.sprd.hardware.thermal@2.0",
-                "android.hardware.thermal@1.0",
-                "android.hardware.thermal@2.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.sprd.hardware.trusty-impl",
     check_elf_files: false,
     owner: "nubia",
@@ -28365,15 +28307,6 @@ prebuilt_etc_xml {
     soc_specific: true,
 }
 
-prebuilt_etc_xml {
-    name: "vendor.sprd.hardware.thermal@2.0-service.xml",
-    owner: "nubia",
-    src: "proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.thermal@2.0-service.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "ztecharger",
     check_elf_files: false,
@@ -29467,40 +29400,6 @@ cc_prebuilt_binary {
                 "libbase",
                 "libbinder_ndk",
                 "oemlock_ca",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vendor.sprd.hardware.thermal@2.0-service",
-    check_elf_files: false,
-    owner: "nubia",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/vendor.sprd.hardware.thermal@2.0-service",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libbase",
-                "libhardware",
-                "libhidlbase",
-                "android.hardware.thermal@1.0",
-                "android.hardware.thermal@2.0",
-                "vendor.sprd.hardware.thermal@1.0",
-                "vendor.sprd.hardware.thermal@2.0",
                 "libc++",
                 "libc",
                 "libm",
