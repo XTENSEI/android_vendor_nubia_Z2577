@@ -28276,15 +28276,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "memtrack.xml",
-    owner: "nubia",
-    src: "proprietary/vendor/etc/vintf/manifest/memtrack.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "network-default.xml",
     owner: "nubia",
     src: "proprietary/vendor/etc/vintf/manifest/network-default.xml",
@@ -29412,35 +29403,6 @@ cc_prebuilt_binary {
                 "libutils",
                 "vendor.sprd.hardware.hdcp-V1-ndk",
                 "libstagefright_hdcp",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vendor.sprd.hardware.memtrack-service",
-    check_elf_files: false,
-    owner: "nubia",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/vendor.sprd.hardware.memtrack-service",
-            ],
-            shared_libs: [
-                "libbase",
-                "libbinder_ndk",
-                "android.hardware.memtrack-V1-ndk",
-                "liblog",
                 "libc++",
                 "libc",
                 "libm",

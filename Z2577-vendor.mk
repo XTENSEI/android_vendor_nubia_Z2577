@@ -494,7 +494,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/init.zte.ppt.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.zte.ppt.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/init.zte_battery_life.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.zte_battery_life.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/init.zte_thermal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.zte_thermal.rc \
-    vendor/nubia/Z2577/proprietary/vendor/etc/init/memtrack.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/memtrack.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/modem_control.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/modem_control.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/network-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/network-default.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/nfc-service-tms.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nfc-service-tms.rc \
@@ -4721,7 +4720,6 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm-service.widevine.xml \
     manifest_dualsim.xml \
     manifest_media_c2_V1_1_unisoc.xml \
-    memtrack.xml \
     network-default.xml \
     nfc-service-tms.xml \
     trusty-default.xml \
@@ -4769,7 +4767,6 @@ PRODUCT_PACKAGES += \
     vendor.sprd.hardware.enhance-service \
     vendor.sprd.hardware.gnss-service \
     vendor.sprd.hardware.hdcp-service-lazy \
-    vendor.sprd.hardware.memtrack-service \
     vendor.sprd.hardware.network-service \
     vendor.sprd.hardware.oemlock-service \
     vendor.sprd.hardware.thermal@2.0-service \
