@@ -28383,15 +28383,6 @@ prebuilt_etc_xml {
     soc_specific: true,
 }
 
-prebuilt_etc_xml {
-    name: "vibrator.xml",
-    owner: "nubia",
-    src: "proprietary/vendor/etc/vintf/manifest/vibrator.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "ztecharger",
     check_elf_files: false,
@@ -29617,38 +29608,6 @@ cc_prebuilt_binary {
                 "vendor.sprd.hardware.trusty-V1-ndk",
                 "libtrusty",
                 "vendor.sprd.hardware.trusty-impl",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vendor.sprd.hardware.vibrator-service",
-    check_elf_files: false,
-    owner: "nubia",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/vendor.sprd.hardware.vibrator-service",
-            ],
-            shared_libs: [
-                "libbase",
-                "libutils",
-                "libbinder_ndk",
-                "android.hardware.vibrator-V2-ndk",
-                "liblog",
-                "vendor.aac.hardware.richtap.vibrator-V1-ndk",
-                "libaacvibrator",
                 "libc++",
                 "libc",
                 "libm",

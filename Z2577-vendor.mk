@@ -523,7 +523,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/vendor.sprd.hardware.connmgr@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.connmgr@1.0-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/vendor.sprd.hardware.thermal@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.thermal@2.0-service.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/vendor.tool-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.tool-default.rc \
-    vendor/nubia/Z2577/proprietary/vendor/etc/init/vibrator.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vibrator.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/vowifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vowifi.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/wcn_chr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wcn_chr.rc \
     vendor/nubia/Z2577/proprietary/vendor/etc/init/yloglite.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/yloglite.rc \
@@ -4734,7 +4733,6 @@ PRODUCT_PACKAGES += \
     vendor.sprd.gnss-default.xml \
     vendor.sprd.hardware.boot@1.2.xml \
     vendor.sprd.hardware.thermal@2.0-service.xml \
-    vibrator.xml \
     ztecharger \
     battery_record_daemon \
     charge \
@@ -4777,7 +4775,6 @@ PRODUCT_PACKAGES += \
     vendor.sprd.hardware.thermal@2.0-service \
     vendor.sprd.hardware.tool-service \
     vendor.sprd.hardware.trusty-service \
-    vendor.sprd.hardware.vibrator-service \
     vendor.unisoc.hardware.ai_engine-service \
     vendor.unisoc.hardware.power-service \
     vendor.zte.hardware.biometrics.fingerprint-service \
